@@ -1,0 +1,63 @@
+package Business_logics;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
+import org.springframework.stereotype.Component;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+@Component("LIC14952_PJT1005_PE_NLP4dfd4422-aea5-406b-84a0-b2fa1f030653")
+public class Random_number_between_range implements Nlp {
+	   @InputParams({@InputParam(name = "Minimum", type = "java.lang.String"),@InputParam(name = "Maximum", type = "java.lang.String")})
+	    @ReturnType(name = "value", type = "java.lang.String")
+
+	      @Override
+	      public List<String> getTestParameters() throws NlpException {
+	        List<String> params = new ArrayList<>();
+	        return params;
+	      }
+
+	      @Override
+	      public StringBuilder getTestCode() throws NlpException {
+	        StringBuilder sb = new StringBuilder();
+	        return sb;
+	      }
+	      
+	      @Override
+	      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {       
+	          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+	          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+	          String  Min=(String)attributes.get("Minimum");
+	          String Max=(String)attributes.get("Maximum");
+	          Integer randomNumber=0;
+	          String randomvalue="";		      
+	         try {       	
+	             Random random = new Random();
+	             randomNumber = random.nextInt(Integer.parseInt(Max) - Integer.parseInt(Min) + 1) + Integer.parseInt(Min);	             
+	             //System.out.println("Random number between " + Min + " and " + Max + " : " + randomNumber);
+	              randomvalue = String.valueOf(randomNumber);
+	        	 nlpResponseModel.setStatus(CommonConstants.pass);
+	        	 nlpResponseModel.setMessage("Successfully Generated Random Number"+ randomNumber);
+	         }
+	         
+	         catch(Exception e) {
+	        	 nlpResponseModel.setStatus(CommonConstants.fail);
+	        	 nlpResponseModel.setMessage("Failed to generate Random Number"+e);       	 
+	         }
+	         
+	         nlpResponseModel.getAttributes().put("value", randomvalue);
+	         return nlpResponseModel;
+	      }
+	      
+}

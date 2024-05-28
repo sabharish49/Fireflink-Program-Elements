@@ -1,0 +1,24 @@
+package Practice;
+
+import java.util.Scanner;
+
+public class Adithya_brila_select_options {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		switch (a) {
+		case 1:
+			
+			
+			String options="";
+			
+			
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+}

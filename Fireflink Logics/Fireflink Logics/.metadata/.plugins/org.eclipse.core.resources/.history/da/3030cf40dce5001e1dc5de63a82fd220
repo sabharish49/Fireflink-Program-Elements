@@ -1,0 +1,51 @@
+package Practice;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ClearRecentApps {
+
+    public static void main(String[] args) {
+        try {
+            // Execute adb shell command to get the list of recent tasks
+            Process process = Runtime.getRuntime().exec("adb shell dumpsys activity recents");
+
+            // Read the output of the command
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            String line;
+            boolean inRecentTasksSection = false;
+
+            // Iterate through the output to find recent tasks
+            while ((line = reader.readLine()) != null) {
+                // Check if the current line indicates the start of recent tasks section
+                if (line.contains("Recent tasks:")) {
+                    inRecentTasksSection = true;
+                    continue;
+                }
+
+                // If we're in the recent tasks section and the line contains package name of an app
+                if (inRecentTasksSection && line.contains("RecentTaskInfo")) {
+                    // Extract the package name from the line
+                    int startIndex = line.indexOf("baseIntent={act=android.intent.action.MAIN cmp=");
+                    int endIndex = line.indexOf(" flags=");
+                    if (startIndex != -1 && endIndex != -1) {
+                        String packageName = line.substring(startIndex + 48, endIndex);
+                        // Swipe away the app from recent apps list
+                        Runtime.getRuntime().exec("adb shell am task removeTask " + packageName);
+                    }
+                }
+            }
+
+            // Close the reader and wait for the process to finish
+            reader.close();
+            process.waitFor();
+
+            // Optionally, print a message indicating that recent apps are cleared
+            System.out.println("Recent apps cleared successfully.");
+
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}

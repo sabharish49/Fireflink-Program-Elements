@@ -1,0 +1,141 @@
+package com.tyss.optimize.programelement.LIC19046PJT1001.Business_Logics;
+import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import javax.imageio.ImageIO;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+
+
+import org.springframework.stereotype.Component;
+
+
+@Component("LIC19046_PJT1001_PE_NLPe44a5d28-0e62-4832-a261-86076aab9cf7")
+public class MOB_ValidatingColour implements Nlp {
+
+	@InputParams({@InputParam(name = "imagePath", type = "java.lang.String")})
+	@ReturnType(name = "color", type = "java.lang.String")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		String imagePath = (String) attributes.get("imagePath");
+		
+
+		// Your program element business logic goes here ...
+		String marketDown = "Red";
+        String marketUp = "Green";
+		String color="";
+
+		try {	
+			File imageFile = new File(imagePath);
+            BufferedImage image = ImageIO.read(imageFile);
+
+            int width = image.getWidth();
+            int height = image.getHeight();
+            List<String> li = new ArrayList<>();
+
+            for (int i = 0; i < width; i++) {
+                for (int j = 0; j < height; j++) {
+                    int rgb = image.getRGB(i, j);
+                    int red = (rgb >> 16) & 0xFF;
+                    int green = (rgb >> 8) & 0xFF;
+                    int blue = rgb & 0xFF;
+
+                    String hex = String.format("#%02X%02X%02X", red, green, blue);
+                  
+                    li.add(hex);
+                    
+                }
+            }
+            Set<String> uniqueColors = new HashSet<>(li);
+            Iterator<String> it = uniqueColors.iterator();
+            while (it.hasNext()) {
+                String object = it.next();
+                String ans = getColorName(nlpResponseModel, object);
+                if (ans.contains(marketDown)) {
+    				
+    				color=marketDown;
+    				break;
+    			} else if (ans.contains(marketUp)) {
+    				
+    				color=marketUp;
+    				break;
+				}else {
+					nlpResponseModel.setStatus(CommonConstants.fail);
+					nlpResponseModel.setMessage("Provided Hexacode is not valid"+" "+color);
+    			}
+            }
+			nlpResponseModel.setStatus(CommonConstants.pass);
+			nlpResponseModel.setMessage("Successfully fetch the color and the color is : "+" "+color);
+		} 
+		catch (Exception e) {
+
+			nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("Failed to fetch value due to Exception" +e);
+		}
+
+		nlpResponseModel.getAttributes().put("color", color);
+		return nlpResponseModel;
+	}
+	private static String getColorName(NlpResponseModel nlp ,String hexCode) {
+    	try {
+			URL url = new URL("https://www.crispedge.com/color/" + hexCode.substring(1));
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.setRequestMethod("GET");
+			int responseCode = connection.getResponseCode();
+			if (responseCode == HttpURLConnection.HTTP_OK) {
+				BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+				String inputLine;
+				StringBuilder response = new StringBuilder();
+				while ((inputLine = in.readLine()) != null) {
+					response.append(inputLine);
+				}
+				in.close();
+				String jsonString = response.toString();
+			    int nameStartIndex = jsonString.indexOf("hex color  - ") + 13;
+				int nameEndIndex = jsonString.indexOf("</title>", nameStartIndex);
+				return jsonString.substring(nameStartIndex, nameEndIndex);
+			} else {
+				return "Unknown";
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+			return "Error";
+		}
+} 
+}
+
+

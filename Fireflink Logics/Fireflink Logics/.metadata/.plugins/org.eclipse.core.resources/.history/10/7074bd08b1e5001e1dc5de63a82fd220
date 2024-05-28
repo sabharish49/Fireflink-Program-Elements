@@ -1,0 +1,26 @@
+package Practice;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ClearRecentApps {
+
+    public static void main(String[] args) {
+        try {
+            // Execute adb shell command to simulate opening recent apps
+            Process openRecentAppsProcess = Runtime.getRuntime().exec("adb shell input keyevent KEYCODE_APP_SWITCH");
+            openRecentAppsProcess.waitFor();
+
+            // Execute adb shell command to simulate clicking on "Clear All" button
+            Process clearRecentAppsProcess = Runtime.getRuntime().exec("adb shell input keyevent KEYCODE_HOME");
+            clearRecentAppsProcess.waitFor();
+
+            // Optionally, print a message indicating that recent apps are cleared
+            System.out.println("Recent apps cleared successfully.");
+
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}

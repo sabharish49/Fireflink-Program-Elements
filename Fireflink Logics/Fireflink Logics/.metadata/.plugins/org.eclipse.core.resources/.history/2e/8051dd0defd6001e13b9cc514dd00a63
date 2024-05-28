@@ -1,0 +1,83 @@
+package Business_logics;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+public class Get_bearer_token implements Nlp {
+
+	@InputParams({@InputParam(name = "Tokens", type = "java.lang.String")})
+    @ReturnType(name = "value", type = "java.lang.String")
+
+      @Override
+      public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+      }
+
+      @Override
+      public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+      }
+      @Override
+      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        
+          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+          String Tokens = (String) attributes.get("Tokens"); 
+          List<String> bearerTokens = extractBearerTokens(Tokens);
+          Map<String, String> bearerMap = new HashMap<>();
+          
+          String tokenWithoutBearer="";
+
+      	  try {
+      		for (int i = 0; i < bearerTokens.size(); i++) {
+                String key = "bearer" + (i + 1);
+                String value = bearerTokens.get(i);
+                bearerMap.put(key, value);
+                tokenWithoutBearer = value.replace("bearer ", "");
+            }
+      		
+            nlpResponseModel.setStatus(CommonConstants.pass);
+  			nlpResponseModel.setMessage("Successfully fetched Bearer Token");
+      	  }
+   		catch(Exception e)
+   		{
+   		    nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("Not a valid Tokens"+e);
+   		}
+      	nlpResponseModel.getAttributes().put("value",tokenWithoutBearer );
+		return nlpResponseModel;
+		
+      }
+      
+      private static List<String> extractBearerTokens(String jsonString) {
+          List<String> bearerTokens = new ArrayList<>();
+          try {
+              ObjectMapper objectMapper = new ObjectMapper();
+              JsonNode jsonNode = objectMapper.readTree(jsonString);
+              for (JsonNode tokenNode : jsonNode) {
+                  bearerTokens.add(tokenNode.asText());
+              }
+          } catch (JsonProcessingException e) {
+              e.printStackTrace();
+          }
+          return bearerTokens;
+      }
+
+ }
+
+

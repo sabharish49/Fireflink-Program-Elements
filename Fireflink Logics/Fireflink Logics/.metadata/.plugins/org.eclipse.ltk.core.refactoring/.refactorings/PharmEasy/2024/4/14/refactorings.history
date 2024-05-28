@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Activate_app.java&apos; to &apos;ProgramElementsTesting/src/main/java/Business_Logic&apos;&#x0D;&#x0A;- Original project: &apos;PharmEasy&apos;&#x0D;&#x0A;- Destination element: &apos;ProgramElementsTesting/src/main/java/Business_Logic&apos;&#x0D;&#x0A;- Original element: &apos;Business_logics.Activate_app.java&apos;" description="Copy compilation unit" destination="=ProgramElementsTesting/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_Logic" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_logics{Activate_app.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712052964421" units="1" version="1.0"/>
+</session>

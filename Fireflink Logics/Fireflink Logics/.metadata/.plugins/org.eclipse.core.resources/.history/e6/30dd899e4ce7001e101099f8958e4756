@@ -1,0 +1,72 @@
+package Business_Logics;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.springframework.stereotype.Component;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+
+import io.appium.java_client.android.AndroidDriver;
+
+@Component("LIC19046_PJT1001_PE_NLPa738fde9-34fa-466b-bf83-7e486373fba0")
+public class Enter_OTP implements Nlp {
+	    @InputParams({@InputParam(name = "OTP", type = "java.lang.String")})
+	    //@ReturnType(name = "isDisplay", type = "java.lang.Boolean")
+
+	      @Override
+	      public List<String> getTestParameters() throws NlpException {
+	        List<String> params = new ArrayList<>();
+	        return params;
+	      }
+
+	      @Override
+	      public StringBuilder getTestCode() throws NlpException {
+	        StringBuilder sb = new StringBuilder();
+	        return sb;
+	      }
+	      @Override
+	      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {        
+	          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+	          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+	         AndroidDriver driver = nlpResponseModel.getAndroidDriver();     
+	         String OTP=(String) attributes.get("OTP");
+	         boolean isDisplay=true;
+	         try {
+	        	 List<String> otpList = new ArrayList<>();
+	             for (int i = 0; i < OTP.length(); i++) {
+	                 otpList.add(String.valueOf(OTP.charAt(i)));
+	             }
+	             int j=1;
+	             for (int i = 0; i <otpList.size(); i++) {
+	             	System.out.println("entering otp");
+	                 String digit = otpList.get(i);
+	                 driver.findElement(By.xpath("(//android.widget.TextView[@text='Enter OTP :']/..//android.widget.EditText)["+j+"]")).click();
+	                 driver.findElement(By.xpath("(//android.widget.TextView[@text='Enter OTP :']/..//android.widget.EditText)["+j+"]"))
+	                       .sendKeys(digit);
+	                 j++;
+	             }
+	             
+	             nlpResponseModel.setStatus(CommonConstants.pass);
+	       nlpResponseModel.setMessage("Successfully entered "+OTP+" otp");      	
+	         }
+	         catch(Exception e) {     	
+	        	 nlpResponseModel.setStatus(CommonConstants.pass);
+	        	 nlpResponseModel.setMessage("Failed to enter OTP into OTP text field"+e);
+	        	 
+	         }
+	         // String string3 = "Return Value";
+	          //nlpResponseModel.getAttributes().put("isDisplay", isDisplay);
+	          return nlpResponseModel;
+	      }
+
+}

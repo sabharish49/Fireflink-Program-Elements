@@ -1,0 +1,31 @@
+package Practice;
+import com.google.gson.Gson;
+
+public class COnvertJson {
+    public static void main(String[] args) {
+        String sample = "Product_Purpose	Business\r\n"
+        		+ "End_Use	Purchase of stock\r\n"
+        		+ "End_Use_Remark	Remarks\r\n"
+        		+ "Affordable_EMI	300000\r\n"
+        		+ "Collateral_Type	Residential\r\n"
+        		+ "Sidbi_Classification	1201-DAIRYING\r\n"
+        		+ "Loan_Tenure	48\r\n"
+        		+ "ROI	24.5\r\n"
+        		+ "Payment Type	UIP";
+
+        String[] lines = sample.split("\n");
+        //Gson gson = new Gson();
+        StringBuilder jsonBuilder = new StringBuilder("{");
+        for (String line : lines) {
+            String[] parts = line.split("\t", 2);
+            jsonBuilder.append("\"").append(parts[0]).append("\":\"").append(parts[1]).append("\",");
+        }
+        // Remove the trailing comma and close the JSON object
+        jsonBuilder.deleteCharAt(jsonBuilder.length() - 1);
+        jsonBuilder.append("}");
+
+        String json = jsonBuilder.toString();
+        System.out.println(json);
+    }
+}
+

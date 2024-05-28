@@ -1,0 +1,120 @@
+package Practice;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Practice {
+	static WebDriver driver;
+	static String disease;
+	static String answer;
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+		driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/");
+		Scanner sc=new Scanner(System.in);
+		int key = sc.nextInt();
+		Thread.sleep(3000);
+		String parentWindow = driver.getWindowHandle();  
+		Set<String> allWindows = driver.getWindowHandles();
+		for (String windowHandle : allWindows) {
+			if (!windowHandle.equals(parentWindow)) {
+				driver.switchTo().window(windowHandle);
+				break;
+			}
+		}
+		System.out.println("switched"); 
+		switch (key) {
+		case 1:
+			System.out.println("started");  
+			Map<String, Object> questions = new LinkedHashMap<>();
+			questions.put("Do you consume alcohol or smoke or chew any tobacco products or any other substance?", "Yes");
+			questions.put("Have you ever been diagnosed with / advised / taken treatment or observation is suggested or undergone any investigation or consulted a doctor or undergone or advised surgery or hospitalized for any one or more from the following? If YES then please mention Details in the additional information section below.",new String[]
+					{"HIV/SLE/ Rheumatoid Arthiritis / Scleroderma / Sarcoidosis/ Psoriasis/ bleeding or clotting disorders or any other diseases of Blood, Bone marrow/ Immunity or Skin.", "Disease or disorder of eye, ear, nose or throat (except any sight related problems corrected by prescription lenses)?"," Has any of the Proposed to be Insured have been suffering/suffered from Covid-19 disease? If yes, confirm if any complications arise due to covid-19. "});
+			questions.put("Do you have Previous/ Current policy or proposal applied for life, health, hospital daily cash or critical illness or Cancer or personal accident insurance?", new String[]{"Do You want to consider this Health policy for Portability.","Claim in previous policy."});
+			questions.put("Was any proposal/policy declined/ deferred/ withdrawn / accepted with modified terms/ cancelled, if “Yes” please provide details in additional information", "Yes");
+
+			for (Map.Entry<String, Object> entry : questions.entrySet()) {
+				if (entry.getValue() instanceof String) {
+					WebElement question=null;
+					try {
+						question = driver.findElement(By.xpath("//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='"+(String) entry.getValue()+"']"));
+						if (question.isDisplayed()) {
+							Thread.sleep(5000);
+							JavascriptExecutor js = (JavascriptExecutor) driver;
+							js.executeScript("arguments[0].click();", question);
+							//driver.findElement(By.xpath("//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='"+(String) entry.getValue()+"']")).click();
+						}
+					} catch (Exception e) {
+						JavascriptExecutor js = (JavascriptExecutor) driver;
+						js.executeScript("arguments[0].scrollIntoView(true);", question);
+					}
+					
+				} 
+				if (entry.getValue() instanceof String[]) {			
+					driver.findElement(By.xpath("//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='Yes']")).click();
+					List<String> subQuestions = new ArrayList<>(Arrays.asList((String[]) entry.getValue()));
+					WebElement element =null;
+					for (String sub : subQuestions) {
+						try {
+							element = driver.findElement(By.xpath("//p[contains(text(),'"+sub+"')]/following-sibling::div/descendant::label[text()='Yes']"));
+							if (element.isDisplayed()) {
+								driver.findElement(By.xpath("//p[contains(text(),'"+sub+"')]/following-sibling::div/descendant::label[text()='Yes']")).click();
+								inputTextFields(driver);
+							}						
+							
+						} catch (Exception e) {
+							JavascriptExecutor js = (JavascriptExecutor) driver;
+							js.executeScript("arguments[0].scrollIntoView(true);", element);
+						}				
+					}
+				}
+			}		
+			break;
+		default:
+			break;
+		}
+		
+	}
+
+	public static void inputTextFields(WebDriver driver)
+	{
+		Map<String, String> input = new LinkedHashMap<>();
+		input.put("Disease name", "disease");
+		input.put("Date of Diagnosis", "16052024");
+		input.put("Last Consultation Date", "18052024");
+		input.put("Name of Surgery", "Surgery");
+		input.put("Details of Treatment", "Nothing");
+		input.put("Disability %", "30");
+		input.put("Period of hospitalization", "2");
+		input.put("Any Other information", "Nothing");
+		
+		WebElement element=null;
+		for (Map.Entry<String, String> entry : input.entrySet()) {		
+			element = driver.findElement(By.xpath("//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input"));
+			try {
+				if (element.isDisplayed()) {
+					driver.findElement(By.xpath("//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input")).sendKeys(entry.getValue());
+				}
+			} catch (Exception e) {
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				js.executeScript("arguments[0].scrollIntoView(true);", element);
+			}
+			
+		}
+	}
+}
+

@@ -1,0 +1,65 @@
+package Business_Logics;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import org.springframework.stereotype.Component;
+
+@Component("LIC19046_PJT1001_PE_NLPb45aa4aa-898f-4477-b006-0ddf7ff2c4f8")
+public class Switch_to_Child_browser implements Nlp {
+	   // @InputParams({@InputParam(name = "element", type = "org.openqa.selenium.WebElement")})
+	   // @ReturnType(name = "isDisplay", type = "java.lang.Boolean")
+
+	      @Override
+	      public List<String> getTestParameters() throws NlpException {
+	        List<String> params = new ArrayList<>();
+	        return params;
+	      }
+
+	      @Override
+	      public StringBuilder getTestCode() throws NlpException {
+	        StringBuilder sb = new StringBuilder();
+	        return sb;
+	      }
+	      @Override
+	      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+	        
+	          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+	          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+              WebDriver driver = nlpRequestModel.getWebDriver();
+              
+	         try {
+	        	 String alphaWindowHandle = driver.getWindowHandle();
+	             //driver.switchTo().window(alphaWindowHandle);
+	             Set<String> windowHandles = driver.getWindowHandles();
+	             System.out.println(windowHandles);
+	             for (String windowHandle : windowHandles) {
+	                 if (!windowHandle.equals(alphaWindowHandle)) {
+	                     driver.switchTo().window(windowHandle);
+	                     break;
+	                 }         
+	             }
+	             nlpResponseModel.setStatus(CommonConstants.pass);
+	 			nlpResponseModel.setMessage("Successfully switched to child browser");
+	        
+	         }
+	         catch(Exception e) {
+	        	 nlpResponseModel.setStatus(CommonConstants.fail);
+		 			nlpResponseModel.setMessage("failed to switched child browser");      	 
+	         }
+	         // String string3 = "Return Value";
+	         // nlpResponseModel.getAttributes().put("isDisplay", isDisplay);
+	          return nlpResponseModel;
+	      }
+
+}

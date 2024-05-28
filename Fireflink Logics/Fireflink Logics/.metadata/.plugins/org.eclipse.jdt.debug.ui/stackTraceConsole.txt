@@ -1,0 +1,52 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.io.File;
+
+public class CloseAllTabs {
+
+    public static void main(String[] args) {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        String filePath = "path/to/your/profile"; // Replace with your desired user data directory
+        Integer port = 9222;
+
+        try {
+            String cmdCommand = "chrome.exe -remote-debugging-port=" + port
+                    + " --no-first-run --no-default-browser-check --user-data-dir=" + filePath;
+            String chromePath = "C:\\Program Files\\Google\\Chrome\\Application";
+
+            // Launch Chrome
+            Process process = Runtime.getRuntime().exec("cmd /c start /B cmd.exe /K " + cmdCommand, null, new File(chromePath));
+            Thread.sleep(2000);
+
+            // Configure ChromeOptions with debuggerAddress
+            ChromeOptions options = new ChromeOptions();
+            options.setExperimentalOption("debuggerAddress", "localhost:" + port);
+            cap.merge(options);
+
+            // Open WebDriver connection to the existing browser
+            WebDriver driver = new ChromeDriver(cap);
+
+            // Close all open tabs (except the first one)
+            WebElement closeTabsButton = driver.findElement(By.cssSelector(".tab-strip .tab-close"));
+            while (closeTabsButton.isDisplayed()) {
+                closeTabsButton.click();
+                Thread.sleep(500); // Give some time for the tab to close
+            }
+
+            // Close the default browser
+            Runtime.getRuntime().exec("taskkill /f /im chrome.exe");
+
+            // Wait for the process to complete
+            process.waitFor();
+
+            System.out.println("All tabs are closed successfully.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

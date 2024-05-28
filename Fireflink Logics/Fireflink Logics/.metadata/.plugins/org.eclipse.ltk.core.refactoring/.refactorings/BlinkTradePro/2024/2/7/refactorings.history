@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MOB_xpathelementisdisplayed.java&apos; to &apos;Randstad_Fireflink_Demo/src/main/java/Business_Logics&apos;&#x0D;&#x0A;- Original project: &apos;BlinkTradePro&apos;&#x0D;&#x0A;- Destination element: &apos;Randstad_Fireflink_Demo/src/main/java/Business_Logics&apos;&#x0D;&#x0A;- Original element: &apos;Business_Logic.MOB_xpathelementisdisplayed.java&apos;" description="Copy compilation unit" destination="=Randstad_Fireflink_Demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_Logics" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_Logic{MOB_xpathelementisdisplayed.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707984294787" units="1" version="1.0"/>
+</session>

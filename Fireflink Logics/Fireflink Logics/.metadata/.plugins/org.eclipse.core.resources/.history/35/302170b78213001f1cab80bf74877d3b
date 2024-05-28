@@ -1,0 +1,40 @@
+package adityaBirla;
+
+import java.util.Scanner;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DisableSaveOfferNotifications {
+    public static void main(String[] args) throws InterruptedException {
+        
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-infobars");
+        options.addArguments("--disable-autofill-profiles");
+        WebDriver driver = new ChromeDriver(options);
+        driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/homepage");
+        
+        // Prompt the user for input
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your choice:");
+        int choice = sc.nextInt();
+        
+        // Handle user input
+        switch (choice) {
+            case 1:
+                Thread.sleep(3000);
+                System.out.println("Handling popup...");
+                // Additional code to handle the popup
+                break;
+            default:
+                System.out.println("Invalid choice.");
+                break;
+        }
+        
+        // Pause execution for 5 seconds (just for demonstration)
+        Thread.sleep(5000);
+        
+        // Close the browser window
+        driver.quit();
+    }
+}

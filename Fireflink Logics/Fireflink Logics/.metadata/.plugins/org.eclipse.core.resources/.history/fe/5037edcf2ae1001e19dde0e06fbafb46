@@ -1,0 +1,49 @@
+package Practice;
+import com.google.gson.Gson;
+
+public class COnvertJson {
+    public static void main(String[] args) {
+        String sample = "First_Name	Fireflink\r\n"
+        		+ "Lead_Source	Cold Calling\r\n"
+        		+ "Customer_FeedBack	Interested\r\n"
+        		+ "Employment _Type	Cash Salaried\r\n"
+        		+ "Industry_Category	Agri - Coconut Trading\r\n"
+        		+ "Document_Category	Identity\r\n"
+        		+ "Document_Type	Pan\r\n"
+        		+ "Father_Name	Sample\r\n"
+        		+ "Mother's_Maiden_name	MotherName\r\n"
+        		+ "Gender	Male\r\n"
+        		+ "Marital_Status	Single\r\n"
+        		+ "Religion	Hindu\r\n"
+        		+ "Pincode	313332\r\n"
+        		+ "Village	asan\r\n"
+        		+ "Educational_Qalification	Graduate\r\n"
+        		+ "Social_Category	General\r\n"
+        		+ "Pan_Number	ASDFG\r\n"
+        		+ "Driving_Licence	Sample\r\n"
+        		+ "Voting_Id	AGHT\r\n"
+        		+ "Address_Document Type	Passport\r\n"
+        		+ "Office_Name	HGC\r\n"
+        		+ "Village	Mad B.O\r\n"
+        		+ "Residence_Occupancy	Self Occupied\r\n"
+        		+ "Location	BUSINESS\r\n"
+        		+ "Co-applicant	Co-applicant\r\n"
+        		+ "Relation_With_Applicant	FATHER\r\n"
+        		+ "Co-applicant_firstName	CoApplicant";
+
+        String[] lines = sample.split("\n");
+        //Gson gson = new Gson();
+        StringBuilder jsonBuilder = new StringBuilder("{");
+        for (String line : lines) {
+            String[] parts = line.split("\t", 2);
+            jsonBuilder.append("\"").append(parts[0]).append("\":\"").append(parts[1]).append("\",");
+        }
+        // Remove the trailing comma and close the JSON object
+        jsonBuilder.deleteCharAt(jsonBuilder.length() - 1);
+        jsonBuilder.append("}");
+
+        String json = jsonBuilder.toString();
+        System.out.println(json);
+    }
+}
+

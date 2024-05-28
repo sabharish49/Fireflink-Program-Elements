@@ -1,0 +1,76 @@
+package fireflinktest;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class testtt {
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+   		driver.get("https://app-dev.workongrid.com/worksheets/NWOBKWB");
+		driver.manage().window().maximize();
+		//Thread.sleep(2000);
+		driver.findElement(By.xpath("//label[text()='Organization ID']/../..//input")).sendKeys("automation");
+		driver.findElement(By.xpath("//label[text()='Email ID']/../../input")).sendKeys("radhika@workongrid.com");
+		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("Radhika@12345");
+		driver.findElement(By.xpath("//button[@value=\"LOGIN\"]")).click();
+	   // Thread.sleep(2000);
+
+//	    driver.findElement(By.xpath("(//div[@class=\"icon inactive\"])[1]")).click();
+//	   driver.findElement(By.xpath("//span[text()='Api Testing Automation']")).click();
+//	   driver.findElement(By.xpath("//a[text()='Xero Pull connector']/../..//span[3]")).click();
+//	   Thread.sleep(2000);
+//	   driver.findElement(By.xpath("//small[text()='API Connector']")).click();
+//	   Thread.sleep(2000);
+//	   driver.findElement(By.xpath("//button[text()='Pull Data']")).click();
+//	   driver.findElement(By.xpath("//button[text()='Add Pull Connector']")).click();
+//	   driver.findElement(By.xpath("//p[text()='Xero Invoices']/..//img")).click();
+//	   driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("xero");
+//	   driver.findElement(By.xpath("//input[@placeholder='Add a Client ID']")).sendKeys("276FC8ADFFB245A298A39D3D39372503");
+//	   driver.findElement(By.xpath("//input[@placeholder='Add a Client Secret']")).sendKeys("GV1GsMDYKIMnBuizzjXcKwpyE-2jpQKtLVigFsdfmlB8lM4s");
+//	   driver.findElement(By.xpath("//button[text()='Authorize']")).click();
+//	   Thread.sleep(2000);
+//	   String parentWindowHandle = driver.getWindowHandle();
+//	   Set<String> windowHandles = driver.getWindowHandles();
+//	   String mainWindowHandle = driver.getWindowHandle();
+//	   
+//	   for (String handle : windowHandles) {
+//	       if (!handle.equals(mainWindowHandle)) {
+//	           driver.switchTo().window(handle); 
+//	           break;
+//	       }
+//	   }
+//	   
+//	   Thread.sleep(2000);
+//	   driver.findElement(By.xpath("//input[@placeholder='Email mailto:address']")).sendKeys("abhisammy098@gmail.com");
+//	   driver.findElement(By.xpath("//input[@placeholder='Email address']")).click();
+//	   driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Abhisam@098");
+//	   driver.findElement(By.xpath("//input[@type='password']")).click();
+//	   driver.findElement(By.xpath("//button[text()='Log in']")).click();
+//	   Thread.sleep(10000);
+//	   driver.findElement(By.xpath("//button[text()='Allow access']")).click();
+//	   driver.switchTo().window(parentWindowHandle);
+//	   Thread.sleep(10000);	   
+//	   driver.findElement(By.xpath("//button[text()='Next']")).click();
+//	   driver.findElement(By.xpath("//input[@type='search']")).click();
+//       driver.findElement(By.xpath("//div[text()='Test']")).click();
+//       driver.findElement(By.xpath("//button[text()='Test Connection']")).click();
+//       Thread.sleep(5000);
+//		driver.findElement(By.xpath("//span[contains(text(),'Invoices')]/../..//span[2]")).click();
+//		Thread.sleep(1000);		
+//		driver.findElement(By.xpath("//span[contains(text(),'{ } 0')]/../..//span[2]")).click();
+//		WebElement wrapper = driver.findElement(By.className("raw-wrapper"));
+//		Thread.sleep(5000);
+//		WebElement targetElement = wrapper.findElement(By.xpath("//span[text()='InvoiceNumber']"));
+//		
+//		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", targetElement);
+//		Thread.sleep(4000);	
+		
+		driver.quit();
+		}
+}

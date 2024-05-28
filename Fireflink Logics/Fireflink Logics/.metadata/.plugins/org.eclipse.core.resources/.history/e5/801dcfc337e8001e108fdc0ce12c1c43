@@ -1,0 +1,50 @@
+package Practice;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ExcelWriter {
+
+    public static void main(String[] args) {
+        String filePath = "C:/Users/User/Downloads/TestData123.csv"; // Replace this with your desired file path\
+        String array="1.First name:goutham\r\n"
+        		+ "2. Middle name: roy\r\n"
+        		+ "3. Last name: P\r\n"
+        		+ "4. Pincode:313332\r\n"
+        		+ "5. Village: Bagdola\r\n"
+        		+ "6. Employment type: Self employed non Profession\r\n"
+        		+ "7. Induatry category: Agri-Rice mill\r\n"
+        		+ "8. Lead source: Marketing Activity\r\n"
+        		+ "9. Customer feedback: Interested";
+        String[] stepsArray = array.split("\\n");
+
+        // Displaying the steps
+        for (int i = 0; i < stepsArray.length; i++) {
+            System.out.println(stepsArray[i]);
+        }
+
+        // Test data
+//        String[] testData = {
+//                "First name:goutham",
+//                "Middle name:roy",
+//                "Last name:P",
+//                "Pincode:313332",
+//                "Village:Bagdola",
+//                "Employment type:Self employed non Profession",
+//                "Industry category:Agri-Rice mill",
+//                "Lead source:Marketing Activity",
+//                "Customer feedback:Interested"
+//        };
+
+        try (FileWriter writer = new FileWriter(filePath)) {
+            // Write test data
+            for (String data : stepsArray) {
+                writer.append(data).append("\n");
+            }
+            writer.flush();
+            System.out.println("CSV file created successfully at: " + filePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

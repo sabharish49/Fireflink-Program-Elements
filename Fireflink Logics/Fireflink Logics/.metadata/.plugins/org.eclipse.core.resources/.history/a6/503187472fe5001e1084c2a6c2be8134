@@ -1,0 +1,54 @@
+package Business_Logics;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.WebElement;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+
+
+public class close_android_browser implements Nlp {
+	  //  @InputParams({@InputParam(name = "element", type = "org.openqa.selenium.WebElement")})
+	    //@ReturnType(name = "isDisplay", type = "java.lang.Boolean")
+
+	      @Override
+	      public List<String> getTestParameters() throws NlpException {
+	        List<String> params = new ArrayList<>();
+	        return params;
+	      }
+
+	      @Override
+	      public StringBuilder getTestCode() throws NlpException {
+	        StringBuilder sb = new StringBuilder();
+	        return sb;
+	      }
+	      @Override
+	      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+	        
+	          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+	          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+	          
+	         //WebElement element=(WebElement) attributes.get("element");
+	        // boolean isDisplay=true;
+
+	         try {       	
+	        	 Runtime.getRuntime().exec("adb shell pm clear com.android.chrome");
+	        	 nlpResponseModel.setStatus(CommonConstants.pass);
+	        	 nlpResponseModel.setMessage("Successfully closed android browser");
+	         }
+	         catch(Exception e) {
+	        	 nlpResponseModel.setStatus(CommonConstants.pass);
+	        	 nlpResponseModel.setMessage("Failed to close android browser"+e);
+	        	 
+	         }
+	         //.getAttributes().put("isDisplay", isDisplay);
+	          return nlpResponseModel;
+	      }
+}

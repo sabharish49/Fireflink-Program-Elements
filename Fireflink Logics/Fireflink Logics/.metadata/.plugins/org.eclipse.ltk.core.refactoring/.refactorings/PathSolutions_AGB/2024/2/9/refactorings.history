@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Random_Json_value.java&apos; to &apos;PharmEasy/src/main/java/Business_logics&apos;&#x0D;&#x0A;- Original project: &apos;PathSolutions_AGB&apos;&#x0D;&#x0A;- Destination element: &apos;PharmEasy/src/main/java/Business_logics&apos;&#x0D;&#x0A;- Original element: &apos;Business_Logic.Random_Json_value.java&apos;" description="Copy compilation unit" destination="=PharmEasy/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_logics" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_Logic{Random_Json_value.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1709116660136" units="1" version="1.0"/>
+</session>

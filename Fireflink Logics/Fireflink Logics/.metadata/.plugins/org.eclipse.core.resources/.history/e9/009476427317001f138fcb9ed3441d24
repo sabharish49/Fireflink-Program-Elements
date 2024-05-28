@@ -1,0 +1,21 @@
+package Practice;
+
+import org.json.*;
+
+public class json_iterator {
+    public static void main(String[] args) {
+        String jsonStr = "{\"Disease name\":\"Disease\",\"Date of Diagnosis\":\"250324\",\"Last Consultation Date\":\"250324\",\"Name of Surgery\":\"Surgery\",\"Details of Treatment\":\"Nothing\",\"Disability %\":\"30\",\"Period of hospitalization\":\"2\",\"Any Other information\":\"Nothing\"}";
+
+        try {
+            JSONObject jsonObject = new JSONObject(jsonStr);
+
+            // Iterate over the keys and fetch the corresponding values
+            for (String key : jsonObject.keySet()) {
+                String value = jsonObject.getString(key);
+                System.out.println("Key: " + key + ", Value: " + value);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+}

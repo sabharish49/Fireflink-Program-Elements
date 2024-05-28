@@ -1,0 +1,47 @@
+package Practice;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.LoggingPreferences;
+
+public class Network_logs {
+	public static void main(String[] args) throws InterruptedException {
+		ChromeOptions options = new ChromeOptions();
+		LoggingPreferences logPrefs = new LoggingPreferences();
+        logPrefs.enable(LogType.PERFORMANCE, Level.ALL);
+        options.setCapability("goog:loggingPrefs", logPrefs);
+		WebDriver driver=new ChromeDriver(options);
+		
+		List<String> filteredLogs = new ArrayList<>();
+		driver.get("https://app.fireflink.com/");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@name='emailId']")).sendKeys("gouthamsam098@outlook.com");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Abhisam@098");
+		driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+		Thread.sleep(5000);
+		
+		LogEntries logEntries = driver.manage().logs().get(LogType.SERVER);
+		for (LogEntry entry : logEntries) {
+			String message = entry.getMessage();
+	if (message.contains("")) {
+				filteredLogs.add(message);
+			}
+		}
+		System.out.println("filters is"+filteredLogs);
+	
+	}
+
+}

@@ -1,0 +1,30 @@
+package adityaBirla;
+
+import java.util.Scanner;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DisableSaveOfferNotifications {
+    public static void main(String[] args) throws InterruptedException {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-infobars");
+        WebDriver driver = new ChromeDriver(options);
+        driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/homepage");
+        Scanner sc= new Scanner(System.in);
+        int a=sc.nextInt();
+        switch (a) {
+		case 1:
+			Thread.sleep(3000);
+			System.out.println("pop up handles");
+			break;
+
+		default:
+			break;
+		}
+        
+        Thread.sleep(5000);
+        driver.quit();
+    }
+}

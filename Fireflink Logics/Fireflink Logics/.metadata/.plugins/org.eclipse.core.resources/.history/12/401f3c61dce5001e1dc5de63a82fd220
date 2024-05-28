@@ -1,0 +1,19 @@
+package Practice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class APAC {
+	
+	public static void main(String[] args) throws InterruptedException {
+		ChromeDriver driver =new ChromeDriver();	
+		driver.manage().window().maximize();
+		driver.get("https://alphapreprod.apacfin.in:8087/");
+		Thread.sleep(30000);
+		Alert alert = driver.switchTo().alert();
+        String alertText = alert.getText();
+        System.out.println("Alert text: " + alertText);
+        alert.accept();
+	}
+
+}

@@ -1,0 +1,60 @@
+package Practice;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.time.Duration;
+import java.util.Arrays;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class DatePicker {
+	public static void main(String[] args) throws InterruptedException, MalformedURLException {
+		 boolean res=false;
+		 DesiredCapabilities dc=new DesiredCapabilities();
+			dc.setCapability("noReset", "true");
+			dc.setCapability("platformName", "Android");
+			URL url = new URL("http://localhost:4723/wd/hub");	
+			AndroidDriver driver = new AndroidDriver(url, dc);
+			System.out.println("app launched");
+		 
+       Thread.sleep(1000);
+		 int Year=1998;
+		WebElement currentyear = driver.findElement(By.xpath("//android.widget.TextView[@resource-id='android:id/date_picker_header_year']"));
+		String curYear = currentyear.getText();
+		System.out.println(curYear);
+		int curyear=Integer.parseInt(curYear);
+		if(curyear!=Year){
+			currentyear.click();
+			if (curyear<=Year || curyear<=Year) {
+				Dimension screenSize = driver.manage().window().getSize();
+				int screenCenter = (int) (screenSize.getWidth()*0.5);
+				int startPoint = (int) (screenSize.getHeight()*0.5);
+				int endPoint = (int) (screenSize.getHeight()*0.2);
+				int count = 0;	
+				int maxSwipeCount = 2;
+				PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");			
+				while (driver.findElements(By.xpath("//android.widget.TextView[@resource-id='android:id/date_picker_header_year']")).isEmpty()) {
+					Sequence swipe =  new Sequence(finger, 1);
+					swipe.addAction(finger.createPointerMove(Duration.ofSeconds(0), PointerInput.Origin.viewport(), screenCenter, startPoint));
+					swipe.addAction(finger.createPointerDown(0));
+					swipe.addAction(finger.createPointerMove(Duration.ofMillis(700), PointerInput.Origin.viewport(), screenCenter, endPoint));
+					swipe.addAction(finger.createPointerUp(0));
+					driver.perform(Arrays.asList(swipe));
+					if(++count >= maxSwipeCount) {
+						break;
+					}
+				}
+				
+			}
+		}
+		 
+	}
+
+}

@@ -1,0 +1,39 @@
+package adityaBirla;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class HandleBrowserDialogs {
+    public static void main(String[] args) throws InterruptedException {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-infobars");
+        options.addArguments("--disable-autofill-profiles");
+        
+        // Initialize the WebDriver with ChromeOptions
+        WebDriver driver = new ChromeDriver(options);
+        
+        // Navigate to the webpage where the pop-up appears
+        driver.get("https://example.com");
+        
+        // Wait for the pop-up to appear
+        Thread.sleep(5000); // Adjust timing as needed
+        
+        // Check if an alert is present
+        try {
+            Alert alert = driver.switchTo().alert();
+            // If present, accept/dismiss the alert
+            // Example: Accept the alert
+            alert.accept();
+        } catch (Exception e) {
+            // No alert present
+            System.out.println("No alert found.");
+        }
+        
+        // Optionally, wait for some time to observe the effect
+        Thread.sleep(5000);
+        
+        // Close the browser window
+        driver.quit();
+    }
+}

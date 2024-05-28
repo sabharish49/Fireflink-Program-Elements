@@ -1,0 +1,23 @@
+package Practice;
+
+import java.util.*;
+
+public class StringToMap {
+
+    public static void main(String[] args) {
+        String sample = "{MaritalStatus=Married, Weight=60, HeightFT=6, AnnualIncome=5 Lakhs to 10 Lakhs, HeightIN=30}";
+        Map<String, String> map = new HashMap<>();
+        String[] pairs = sample.split(",");
+        for (String pair : pairs) {
+            String[] keyValue = pair.split("=");
+            if (keyValue.length == 2) {
+                String key = keyValue[0];       
+                String value = keyValue[1];     
+                map.put(key, value);            
+            } else {
+                System.err.println("Invalid key-value pair: " + pair);
+            }
+        }
+        System.out.println("Map: " + map);
+    }
+}

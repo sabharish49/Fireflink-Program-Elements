@@ -1,0 +1,184 @@
+package Practice;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.json.JSONArray;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class map {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().window().maximize();
+		driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/");
+		Scanner sc=new Scanner(System.in);
+		int key = sc.nextInt();
+		Thread.sleep(3000);
+		String parentWindow = driver.getWindowHandle();  
+		Set<String> allWindows = driver.getWindowHandles();
+		for (String windowHandle : allWindows) {
+			if (!windowHandle.equals(parentWindow)) {
+				driver.switchTo().window(windowHandle);
+				break;
+			}
+		}	
+		System.out.println("switched"); 
+		switch (key) {
+		case 1:
+			String sam = "Pradeep,Abc,Xyz,Pqr";
+			List<String> list = new ArrayList<>(Arrays.asList(sam.split(",")));
+			System.out.println("started");  
+			String jsonStr = "{\r\n"
+					+ " \"Do you consume alcohol or smoke or chew any tobacco products or any other substance?\":\"Yes\",\r\n"
+					+ " \"Have you ever been diagnosed with / advised / taken treatment or observation is suggested or undergone any investigation or consulted a doctor or undergone or advised surgery or hospitalized for any one or more from the following? If YES then please mention Details in the additional information section below.\":[\"HIV/SLE/ Rheumatoid Arthiritis / Scleroderma / Sarcoidosis/ Psoriasis/ bleeding or clotting disorders or any other diseases of Blood, Bone marrow/ Immunity or Skin.\",\"Disease or disorder of eye, ear, nose or throat (except any sight related problems corrected by prescription lenses)?\",\"Disease of the musculoskeletal system / Or thopedic disorders/Degeneration, Fracture or dislocation of bones or joints/ avascular necrosis of joints or any other disorder related to it?\"],\r\n"
+					+ " \"Do you have Previous/ Current policy or proposal applied for life, health, hospital daily cash or critical illness or Cancer or personal accident insurance?\":[\"Do You want to consider this Health policy for Portability.\",\"Claim in previous policy.\"],\r\n"
+					+ " \"Was any proposal/policy declined/ deferred/ withdrawn / accepted with modified terms/ cancelled, if “Yes” please provide details in additional information\":\"Yes\"\r\n"
+					+ "}";
+
+			LinkedHashMap<String, Object> orderedMap = new LinkedHashMap<>();
+			// Pattern to match key-value pairs in the JSON string
+			Pattern pattern = Pattern.compile("\\\"([^\\\"]+)\\\":(\\[.*?\\]|\\\".*?\\\"),?");
+
+			Matcher matcher = pattern.matcher(jsonStr);
+			while (matcher.find()) {
+				String key1 = matcher.group(1);
+				String value = matcher.group(2);
+				// Handling array values by creating JSONArray objects
+				if (value.startsWith("[")) {
+					JSONArray jsonArray = new JSONArray(value);
+					orderedMap.put(key1, jsonArray);
+				} else {
+					orderedMap.put(key1, value);
+				}
+			}
+			for (int i = 0; i <list.size(); i++) {
+				for (Map.Entry<String, Object> entry : orderedMap.entrySet()) {
+					String name = list.get(i);
+					System.out.println(name);
+					String key1 = entry.getKey();
+					Object value = entry.getValue();
+
+					if (value instanceof JSONArray) {
+						driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='Yes'])[last()]")).click();
+						System.out.println("jsonarray");
+						JSONArray arrayValue = (JSONArray) value;
+						System.out.println("Key: " + key1);
+						WebElement element=null;
+						for (int j = 0; j < arrayValue.length(); j++) {
+							try {
+								System.out.println("jsonarray");
+								System.out.println("Value " + (j + 1) + ": " + arrayValue.getString(j));
+								element = driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+arrayValue.getString(j)+"')]/following-sibling::div/descendant::label[text()='Yes'])[last()]"));
+								if (arrayValue.getString(j).contains("Do You want to consider this Health policy for Portability") || arrayValue.getString(j).contains("Claim in previous policy")) {
+									System.out.println("only click");
+									JavascriptExecutor js = (JavascriptExecutor) driver;
+									js.executeScript("window.scrollBy(0, arguments[0]);", 700);
+									element.click();
+								}
+								else {
+									JavascriptExecutor js = (JavascriptExecutor) driver;
+									js.executeScript("window.scrollBy(0, arguments[0]);", 700);
+									element.click();
+									inputTextFields(driver,arrayValue.getString(j),name);
+								}
+
+							} catch (Exception e) {
+								JavascriptExecutor js = (JavascriptExecutor) driver;
+								js.executeScript("window.scrollBy(0, arguments[0]);", 900);							
+							}
+				
+						}
+					} else {					
+						System.out.println("click iteration else block");
+						WebElement question=null;
+						try {
+							System.out.println(entry.getKey());
+							System.out.println(entry.getValue());				
+							question = driver.findElement(By.xpath("//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='Yes']"));
+								System.out.println("scroll");
+								JavascriptExecutor js = (JavascriptExecutor) driver;
+								js.executeScript("window.scrollBy(0, arguments[0]);", 900);
+								question.click();
+								System.out.println("question clicked");
+							
+							if(entry.getKey().contains("please provide details in additional information")) {
+								//if(driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'please provide details in additional information')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]")).isDisplayed()) {
+								String sample="please provide details in additional information";
+								driver.findElement(By.xpath("//h2[contains(text(),'"+name+"')]/../..//label[contains(text(),'Insurer Name')]/preceding-sibling::input")).sendKeys("Pradeep");
+								inputTextFields(driver,sample,name);
+							}
+						} catch (Exception e) {
+							JavascriptExecutor js = (JavascriptExecutor) driver;
+							js.executeScript("arguments[0].scrollIntoView(true);", question);
+							js.executeScript("window.scrollBy(0, arguments[0]);", 900);
+						}
+						System.out.println("Only json key and value");
+						System.out.println("Key: " + key1 + ", Value: " + value);
+					}
+					WebElement policy = driver.findElement(By.xpath("//H3[contains(text(),'Current policy details')]"));
+					JavascriptExecutor js = (JavascriptExecutor) driver;
+					js.executeScript("arguments[0].scrollIntoView(true);", policy);
+					js.executeScript("window.scrollBy(0, arguments[0]);", 900);	
+				}
+				if(list.size()>=1)
+				{
+					driver.findElement(By.xpath("//span[contains(text(),'Proceed')]")).click();
+					Thread.sleep(15000);
+					System.out.println("proceed button clicked");
+					
+				}
+			}
+
+			break;
+
+		default:
+			break;
+		}	
+		System.out.println("exicution completed");
+	}
+
+	public static void inputTextFields(WebDriver driver, String sub, String name)
+	{
+		Map<String, String> input = new LinkedHashMap<>();
+		input.put("Disease name", "disease");
+		input.put("Date of Diagnosis", "16052024");
+		input.put("Last Consultation Date", "18052024");
+		input.put("Name of Surgery", "Surgery");
+		input.put("Details of Treatment", "Nothing");
+		input.put("Disability %", "30");
+		input.put("Period of hospitalization", "2");
+		input.put("Any Other information", "Nothing");
+
+		WebElement element=null;
+		for (Map.Entry<String, String> entry : input.entrySet()) {		
+			element = driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+sub+"')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]"));
+			try {
+				if (element.isDisplayed()) {
+					//					JavascriptExecutor js = (JavascriptExecutor) driver;
+					//					js.executeScript("window.scrollBy(0, arguments[0]);", 300);
+					//driver.findElement(By.xpath("(//p[contains(text(),'"+sub+"')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]")).sendKeys(entry.getValue());
+					driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+sub+"')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]")).sendKeys(entry.getValue());
+				}
+			} catch (Exception e) {
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				js.executeScript("arguments[0].scrollIntoView(true);", element);
+				js.executeScript("window.scrollBy(0, arguments[0]);", 700);				
+			}
+
+		}
+	}
+
+}

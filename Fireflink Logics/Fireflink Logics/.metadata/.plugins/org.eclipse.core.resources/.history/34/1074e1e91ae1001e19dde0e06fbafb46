@@ -1,0 +1,57 @@
+package Practice;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.NoSuchElementException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+
+public class DatePicker {
+	public static void main(String[] args) throws InterruptedException, MalformedURLException {
+		 boolean res=false;
+		 DesiredCapabilities dc=new DesiredCapabilities();
+			dc.setCapability("noReset", "true");
+			dc.setCapability("platformName", "Android");
+			URL url = new URL("http://localhost:4723/wd/hub");	
+			AndroidDriver driver = new AndroidDriver(url, dc);
+			System.out.println("app launched");
+			int Maxswipecount=2;
+		 
+       Thread.sleep(1000);
+		 int Year=1998;
+		WebElement currentyear = driver.findElement(By.xpath("//android.widget.TextView[@resource-id='android:id/date_picker_header_year']"));
+		String curYear = currentyear.getText();
+		System.out.println(curYear);
+		int curyear=Integer.parseInt(curYear);
+		System.out.println(curyear);
+		if(curyear!=Year){
+			currentyear.click();
+	        while (true) {
+	            try {
+	                 WebElement yearElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + Year + "']"));
+	                if (yearElement.isDisplayed()) {
+	                    yearElement.click();
+	                    break;
+	                }
+	            } catch (NoSuchElementException e) {
+	                swipeDown(driver);
+	            }
+	        }
+		}
+		 
+	}
+	public static void swipeDown(AndroidDriver driver) {
+        Dimension size = driver.manage().window().getSize();
+        int starty = (int) (size.height * 0.8);
+        int endy = (int) (size.height * 0.2);
+        int startx = size.width / 2;
+        new TouchAction(driver).press(startx, starty).waitAction().moveTo(startx, endy).release().perform();
+    }
+
+}

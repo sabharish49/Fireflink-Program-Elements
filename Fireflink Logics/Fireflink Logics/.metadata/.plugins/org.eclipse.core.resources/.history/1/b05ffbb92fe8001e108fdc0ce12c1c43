@@ -1,0 +1,33 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ExcelWriter {
+
+    public static void main(String[] args) {
+        String filePath = "C:/Users/User/Downloads/TestData123.csv"; // Replace this with your desired file path
+
+        // Test data
+        String[] testData = {
+                "First name:goutham",
+                "Middle name:roy",
+                "Last name:P",
+                "Pincode:313332",
+                "Village:Bagdola",
+                "Employment type:Self employed non Profession",
+                "Industry category:Agri-Rice mill",
+                "Lead source:Marketing Activity",
+                "Customer feedback:Interested"
+        };
+
+        try (FileWriter writer = new FileWriter(filePath)) {
+            // Write test data
+            for (String data : testData) {
+                writer.append(data).append("\n");
+            }
+            writer.flush();
+            System.out.println("CSV file created successfully at: " + filePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

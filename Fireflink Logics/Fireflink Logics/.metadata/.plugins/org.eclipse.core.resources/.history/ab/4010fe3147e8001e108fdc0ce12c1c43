@@ -1,0 +1,58 @@
+package Practice;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ExcelWriter {
+
+    public static void main(String[] args) {
+        String filePath = "C:/Users/User/Downloads/TestData123.csv"; // Replace this with your desired file path\
+        String array="1. Open App and Login to APAC application\r\n"
+        		+ "2. Verify Alpha logo is displayed\r\n"
+        		+ "3. Tap on Lead link\r\n"
+        		+ "4. Tap on Plus icon\r\n"
+        		+ "5. Verify New lead text is displayed\r\n"
+        		+ "6. Enter input into first name textfield\r\n"
+        		+ "7. Enter input into middle name textfield\r\n"
+        		+ "8. Enter input into last name textfield\r\n"
+        		+ "9. Enter input into Mobile number textfield\r\n"
+        		+ "10. Select pincode from pincode textfield\r\n"
+        		+ "11. Select village from village dropdown\r\n"
+        		+ "12. Select Employment type from Employment type dropdown\r\n"
+        		+ "13. Select industry category from industry category dropdown\r\n"
+        		+ "14. Tap on select button\r\n"
+        		+ "15. Select lead source from lead source dropdown\r\n"
+        		+ "16. Select customer feedback from customer feedback dropdown\r\n"
+        		+ "17. Tap on save button\r\n"
+        		+ "18. Verify the created lead is displayed";
+        String[] stepsArray = array.split("\\n");
+
+        for (int i = 0; i < stepsArray.length; i++) {	
+            System.out.println("User should be able to "+stepsArray[i]);
+        }
+
+        // Test data
+//        String[] testData = {
+//                "First name:goutham",
+//                "Middle name:roy",
+//                "Last name:P",
+//                "Pincode:313332",
+//                "Village:Bagdola",
+//                "Employment type:Self employed non Profession",
+//                "Industry category:Agri-Rice mill",
+//                "Lead source:Marketing Activity",
+//                "Customer feedback:Interested"
+//        };
+
+        try (FileWriter writer = new FileWriter(filePath)) {
+            // Write test data
+            for (String data : stepsArray) {
+                writer.append(data).append("\n");
+            }
+            writer.flush();
+            System.out.print("CSV file created successfully at: " + filePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

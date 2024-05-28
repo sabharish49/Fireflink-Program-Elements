@@ -1,0 +1,51 @@
+package Practice;
+
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class MOF_Payment {
+
+    public static void main(String[] args) throws Exception {
+        
+        int loopDurationMinutes = 2; 
+        long duration = loopDurationMinutes * 60 * 1000; 
+        long startTime = System.currentTimeMillis();
+        DesiredCapabilities dc = new DesiredCapabilities();       
+        dc.setCapability("platformName", "Android");
+        dc.setCapability("noReset","true");
+        AndroidDriver driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), dc); 
+        long elapsedTime;
+        while ((elapsedTime = System.currentTimeMillis() - startTime) < duration) {
+            try {
+            	Thread.sleep(2000);
+                WebElement prospectAlert = driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'ProspectId and Prospect No is not generated')]"));
+                if (prospectAlert.isDisplayed()) {
+                    driver.findElement(By.xpath("//android.widget.Button[@text='OK']")).click();
+                    System.out.println("Alert handled.");
+                }
+            } catch (org.openqa.selenium.NoSuchElementException e) {                
+                System.out.println("MOF button not found.");
+            }               
+            long remainingTime = duration - elapsedTime;
+            if (remainingTime < 5000)
+               break;
+            Thread.sleep(Math.min(5000, remainingTime)); 
+            try {
+            WebElement mof = driver.findElement(By.xpath("//android.widget.Button[@text='MOF']"));       
+				if (mof.isDisplayed()) {
+					mof.click();
+					break;
+				}
+			} catch (Exception e) {
+             continue;
+			}
+            System.out.println("MOF button clicked.");
+        }        
+        System.out.println("Maximum duration reached. Exiting loop.");
+    }
+}

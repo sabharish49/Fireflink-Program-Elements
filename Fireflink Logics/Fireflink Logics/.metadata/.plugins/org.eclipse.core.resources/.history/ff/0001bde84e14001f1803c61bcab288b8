@@ -1,0 +1,25 @@
+package Practice;
+
+import java.util.*;
+
+public class StrinToMap {
+    public static void main(String[] args) {
+        String input = "key1=value1,key2=value2,key3=value3";
+        String[] pairs = input.split(",");
+        for (String pair : pairs) {
+            // Split each pair by '=' to separate key and value
+            String[] keyValue = pair.split("=");
+
+            // Ensure the pair is in the correct format (key=value)
+            if (keyValue.length == 2) {
+                // Add key-value pair to the map
+                map.put(keyValue[0], keyValue[1]);
+            } else {
+                System.err.println("Invalid key-value pair: " + pair);
+            }
+        }
+
+        // Print the map
+        System.out.println("Map: " + map);
+    }
+}

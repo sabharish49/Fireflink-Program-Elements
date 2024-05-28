@@ -1,0 +1,56 @@
+package Practice;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class json_iterator {
+    public static void main(String[] args) {
+        String jsonStr = "{\"Do you consume alcohol or smoke or chew any tobacco products or any other substance?\":\"Yes\",\"Have you ever been diagnosed with / advised / taken treatment or observation is suggested or undergone any investigation or consulted a doctor or undergone or advised surgery or hospitalized for any one or more from the following? If YES then please mention Details in the additional information section below.\":[\"HIV/SLE/ Rheumatoid Arthiritis / Scleroderma / Sarcoidosis/ Psoriasis/ bleeding or clotting disorders or any other diseases of Blood, Bone marrow/ Immunity or Skin.\",\"Disease or disorder of eye, ear, nose or throat (except any sight related problems corrected by prescription lenses)?\",\"Disease of the musculoskeletal system / Or thopedic disorders/Degeneration, Fracture or dislocation of bones or joints/ avascular necrosis of joints or any other disorder related to it?\"],\"Do you have Previous/ Current policy or proposal applied for life, health, hospital daily cash or critical illness or Cancer or personal accident insurance?\":[\"Do You want to consider this Health policy for Portability.\",\"Claim in previous policy.\"],\"Was any proposal/policy declined/ deferred/ withdrawn / accepted with modified terms/ cancelled, if “Yes” please provide details in additional information\":\"Yes\"}";
+
+        try {
+            LinkedHashMap<String, Object> orderedMap = new LinkedHashMap<>();
+
+            // Pattern to match key-value pairs in the JSON string
+            Pattern pattern = Pattern.compile("\\\"([^\\\"]+)\\\":(\\[.*?\\]|\\\".*?\\\"),?");
+
+            Matcher matcher = pattern.matcher(jsonStr);
+            while (matcher.find()) {
+                String key = matcher.group(1);
+                String value = matcher.group(2);
+                // Handling array values by creating JSONArray objects
+                if (value.startsWith("[")) {
+                    JSONArray jsonArray = new JSONArray(value);
+                    orderedMap.put(key, jsonArray);
+                } else {
+                    orderedMap.put(key, value);
+                }
+            }
+
+            for (Map.Entry<String, Object> entry : orderedMap.entrySet()) {
+                String key = entry.getKey();
+                Object value = entry.getValue();
+                if (value instanceof JSONArray) {
+                    JSONArray arrayValue = (JSONArray) value;
+                    System.out.println("Key: " + key);
+                    for (int i = 0; i < arrayValue.length(); i++) {
+                    	System.out.println("Only json key and value");
+                        System.out.println("Value " + (i + 1) + ": " + arrayValue.getString(i));
+                    }
+                } else {
+                	System.out.println("jsonarray");
+                    System.out.println("Key: " + key + ", Value: " + value);
+                }
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+}
+

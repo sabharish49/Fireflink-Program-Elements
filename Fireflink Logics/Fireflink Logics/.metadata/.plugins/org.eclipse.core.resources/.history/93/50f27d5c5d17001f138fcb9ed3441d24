@@ -1,0 +1,96 @@
+package Business_Logic;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.json.JSONObject;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import com.jayway.jsonpath.JsonPath;
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import org.springframework.stereotype.Component;
+
+@Component("LIC19774_PJT1002_PE_NLPcb9995b0-1327-4645-82c0-42cca7933e47")
+public class Json_map_using_path implements Nlp {
+	@InputParams({ @InputParam(name = "Stream", type = "java.io.InputStream") ,@InputParam(name = "JSON Path", type = "java.lang.String")})
+    @ReturnType(name = "map", type = "java.util.Map")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	@Override
+	public static NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		DesiredCapabilities cap = (DesiredCapabilities) attributes.get("Desired Capabilities");
+		  Map<String, Map<String, Object>> result = new HashMap<>();
+		  InputStream fis=(InputStream)attributes.get("Stream");
+		  String path=(String)attributes.get("JSON Path");
+		  String jsonInput = "";	 
+		  HashMap <String, Object> salDataMap =null;
+		try {
+			 String jsonContent = new String(Files.readAllBytes(Paths.get("C:\\Users\\User\\Downloads\\AdityaBirla.json")));
+	           
+			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fis));		
+			String tempString;
+			while ((tempString = bufferedReader.readLine()) != null) {
+				jsonInput = jsonInput + tempString;
+			}		
+			bufferedReader.close();		      
+			salDataMap=   extractValuesFromJsonPath(jsonContent, path);
+		        System.out.println("Values of salData:");
+		        for (Map.Entry<String, Object> entry : salDataMap.entrySet()) {
+		            System.out.println(entry.getKey() + ": " + entry.getValue());
+		        }
+			nlpResponseModel.setStatus(CommonConstants.pass);
+			nlpResponseModel.setMessage(salDataMap+" count is "+salDataMap.size());
+		} catch (Exception e) {
+			StringWriter sw = new StringWriter();
+			e.printStackTrace(new PrintWriter(sw));
+			String exceptionAsString = sw.toString();
+			//log.info(exceptionAsString);
+			nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage(salDataMap+" Failed  " + exceptionAsString);
+		}
+		  nlpResponseModel.getAttributes().put("map", salDataMap);
+		return nlpResponseModel;
+	}
+	  public static HashMap<String, Object> extractValuesFromJsonPath(String jsonString, String jsonPathExpression) {
+	        HashMap<String, Object> resultMap = new HashMap<>();
+	        Object result = JsonPath.read(jsonString, jsonPathExpression);
+	        if (result instanceof Map) {
+	            resultMap.putAll((HashMap<String, Object>) result);
+	        }
+	        return resultMap;
+	    }
+	  public static void main(String[] args) throws NlpException {
+		  NlpRequestModel req=new NlpRequestModel();
+		  Json_map_using_path.execute(req);
+	}
+}

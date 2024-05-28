@@ -1,0 +1,25 @@
+package RestAssure_Practice;
+
+import java.util.HashMap;
+import org.testng.annotations.Test;
+import static org.hamcrest.Matchers.*;
+
+import io.restassured.RestAssured;
+
+public class Post {
+	
+	@Test
+	public void list() {
+		//given
+		//when
+		//then
+		HashMap data =new HashMap();
+		data.put("name", "sample");
+		data.put("job", "Testing");
+		
+		RestAssured.given().body(data).log().all()
+		.when().get("https://reqres.in/api/users?page=2")
+		.then().assertThat().statusCode(200)
+		.body("name", equalTo("sample"));
+	}
+}

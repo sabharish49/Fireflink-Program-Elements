@@ -1,0 +1,25 @@
+package adityaBirla;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DisableSaveOfferNotifications {
+    public static void main(String[] args) throws InterruptedException {
+        // Set the path to the ChromeDriver executable
+        //System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");        // Disable save offer notifications using ChromeOptions
+       // ChromeOptions options = new ChromeOptions();
+        WebDriver driver = new ChromeDriver();
+       // options.setExperimentalOption("prefs", 
+          //  "{\"profile.default_content_setting_values.notifications\": 2}");
+
+        // Initialize ChromeDriver with options
+    
+        //Scanner sc=
+
+        driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/homepage");
+        Thread.sleep(300000);
+         // Close the browser
+        driver.quit();
+       
+    }
+}

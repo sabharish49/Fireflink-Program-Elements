@@ -1,0 +1,134 @@
+package Practice;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class application_questions {
+    static WebDriver driver;
+
+    public static void main(String[] args) throws InterruptedException {
+        // Initialize WebDriver
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
+        driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/");
+
+        // User input
+        Scanner sc = new Scanner(System.in);
+        int key = sc.nextInt();
+
+        // Switch to the newly opened window
+        switchToNewWindow();
+
+        // Process user input
+        switch (key) {
+            case 1:
+                fillForm();
+                break;
+            default:
+                System.out.println("Invalid input.");
+        }
+
+        // Close the WebDriver instance
+        System.out.println("Execution completed.");
+    }
+
+    public static void switchToNewWindow() {
+        String parentWindow = driver.getWindowHandle();
+        Set<String> allWindows = driver.getWindowHandles();
+        for (String windowHandle : allWindows) {
+            if (!windowHandle.equals(parentWindow)) {
+                driver.switchTo().window(windowHandle);
+                break;
+            }
+        }
+        System.out.println("Switched to new window.");
+    }
+
+    public static void fillForm() {
+        Map<String, Object> questions = new LinkedHashMap<>();
+        // Populate questions and answers as needed
+
+        // Loop through questions and fill the form
+        for (Map.Entry<String, Object> entry : questions.entrySet()) {
+            String question = entry.getKey();
+            Object answer = entry.getValue();
+
+            // Find and interact with elements based on question type
+            if (answer instanceof String) {
+                fillSingleChoiceQuestion(question, (String) answer);
+            } else if (answer instanceof String[]) {
+                fillMultipleChoiceQuestion(question, (String[]) answer);
+            }
+        }
+
+        // Proceed to the next step if needed
+        // driver.findElement(By.xpath("//span[contains(text(),'Proceed')]")).click();
+    }
+
+    public static void fillSingleChoiceQuestion(String question, String answer) {
+        try {
+            WebElement questionElement = driver.findElement(By.xpath("//p[contains(text(),'" + question + "')]"));
+            WebElement answerElement = driver.findElement(By.xpath("//p[contains(text(),'" + question + "')]/following-sibling::div/descendant::label[text()='" + answer + "']"));
+
+            if (questionElement.isDisplayed() && answerElement.isDisplayed()) {
+                ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", questionElement);
+                answerElement.click();
+            }
+        } catch (Exception e) {
+            System.out.println("Error filling single choice question: " + e.getMessage());
+        }
+    }
+
+    public static void fillMultipleChoiceQuestion(String question, String[] answers) {
+        try {
+            WebElement questionElement = driver.findElement(By.xpath("//p[contains(text(),'" + question + "')]"));
+            WebElement yesOption = driver.findElement(By.xpath("//p[contains(text(),'" + question + "')]/following-sibling::div/descendant::label[text()='Yes']"));
+
+            if (questionElement.isDisplayed() && yesOption.isDisplayed()) {
+                ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", questionElement);
+                yesOption.click();
+
+                // Fill sub-questions if any
+                for (String subQuestion : answers) {
+                    WebElement subQuestionElement = driver.findElement(By.xpath("//p[contains(text(),'" + subQuestion + "')]/following-sibling::div/descendant::label[text()='Yes']"));
+                    if (subQuestionElement.isDisplayed()) {
+                        subQuestionElement.click();
+                        inputTextFields();
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Error filling multiple choice question: " + e.getMessage());
+        }
+    }
+
+    public static void inputTextFields() {
+        Map<String, String> input = new LinkedHashMap<>();
+        // Populate input fields as needed
+
+        for (Map.Entry<String, String> entry : input.entrySet()) {
+            try {
+                WebElement field = driver.findElement(By.xpath("//label[contains(text(),'" + entry.getKey() + "')]/preceding-sibling::input"));
+                if (field.isDisplayed()) {
+                    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", field);
+                    field.sendKeys(entry.getValue());
+                }
+            } catch (Exception e) {
+                System.out.println("Error filling input field: " + e.getMessage());
+            }
+        }
+    }
+}

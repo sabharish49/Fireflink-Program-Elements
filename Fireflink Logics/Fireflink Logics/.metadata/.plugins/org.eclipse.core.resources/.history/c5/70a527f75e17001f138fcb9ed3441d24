@@ -1,0 +1,168 @@
+package com.tyss.optimize.programelement.LIC19774PJT1002.Business_Logic;
+
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.springframework.stereotype.Component;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+
+@Component("LIC19774_PJT1002_PE_NLP9764b419-2b51-4b4e-b2a1-bb18ac38bba3")
+public class Health_details implements Nlp {
+
+	@InputParams({@InputParam(name = "Questions", type = "java.util.Map"),@InputParam(name = "Health Details", type = "java.util.Map"),@InputParam(name = "Insurer name", type = "java.util.List")})
+	//@ReturnType(name = "result", type = "java.lang.Boolean")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		@SuppressWarnings("unchecked")
+		Map<String, Object> questions = (Map<String, Object>) attributes.get("Questions");
+		@SuppressWarnings("unchecked")
+		Map<String, String> input = (Map<String,String>) attributes.get("Health Details");
+		@SuppressWarnings("unchecked")
+		List<String> names  = (List<String>) attributes.get("Insurer name");		 
+		WebDriver driver  = nlpRequestModel.getWebDriver();
+		Duration implicitWait = driver.manage().timeouts().getImplicitWaitTimeout();
+		try {	
+			for (int i = 0; i < names.size(); i++) {
+				String name = names.get(i);
+
+				for (Map.Entry<String, Object> entry : questions.entrySet()) {
+					if (entry.getValue() instanceof String) {
+						System.out.println(entry.getKey());
+						WebElement question=null;
+						try {
+							question = driver.findElement(By.xpath("//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='"+(String) entry.getValue()+"']"));
+							if (question.isDisplayed()) {
+								JavascriptExecutor js = (JavascriptExecutor) driver;
+								js.executeScript("window.scrollBy(0, arguments[0]);", 900);
+								question.click();
+								System.out.println("question clicked");
+							}
+
+							if(entry.getKey().contains("please provide details in additional information")) {
+								String sample="please provide details in additional information";
+								driver.findElement(By.xpath("//h2[contains(text(),'"+name+"')]/../..//label[contains(text(),'Insurer Name')]/preceding-sibling::input")).sendKeys("Pradeep");
+								inputTextFields(driver,sample,name,input);
+							}
+						} catch (Exception e) {
+							JavascriptExecutor js = (JavascriptExecutor) driver;
+							js.executeScript("arguments[0].scrollIntoView(true);", question);
+							js.executeScript("window.scrollBy(0, arguments[0]);", 900);
+						}
+
+					} 
+					else if(entry.getValue() instanceof String[]) {			
+						driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+entry.getKey()+"')]/following-sibling::div/descendant::label[text()='Yes'])[last()]")).click();
+						List<String> subQuestions = new ArrayList<>(Arrays.asList((String[]) entry.getValue()));
+
+						WebElement element =null;
+						for (String sub : subQuestions) {
+							System.out.println(sub);
+							try {
+								element = driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+sub+"')]/following-sibling::div/descendant::label[text()='Yes'])[last()]"));
+								if (sub.contains("Do You want to consider this Health policy for Portability") || sub.contains("Claim in previous policy")) {
+									JavascriptExecutor js = (JavascriptExecutor) driver;
+									js.executeScript("window.scrollBy(0, arguments[0]);", 700);
+									element.click();
+								}
+								else {
+									JavascriptExecutor js = (JavascriptExecutor) driver;
+									js.executeScript("window.scrollBy(0, arguments[0]);", 700);
+									element.click();
+									inputTextFields(driver,sub,name,input);
+								}
+
+							} catch (Exception e) {
+								JavascriptExecutor js = (JavascriptExecutor) driver;
+								js.executeScript("arguments[0].scrollIntoView(true);", element);
+								js.executeScript("window.scrollBy(0, arguments[0]);", 700);
+
+							}				
+						}
+					}
+					WebElement policy = driver.findElement(By.xpath("//H3[contains(text(),'Current policy details')]"));
+					JavascriptExecutor js = (JavascriptExecutor) driver;
+					js.executeScript("arguments[0].scrollIntoView(true);", policy);
+					js.executeScript("window.scrollBy(0, arguments[0]);", 900);	
+				}
+
+				if(names.size()>=1)
+				{
+					driver.findElement(By.xpath("//span[contains(text(),'Proceed')]")).click();
+					Thread.sleep(10000);
+				}				
+			}
+			nlpResponseModel.setStatus(CommonConstants.pass);
+			nlpResponseModel.setMessage("Successfully entered member details");
+
+		}
+		catch (Exception e) 
+		{
+			nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("Failed to enter member details " +e);		
+		}
+		finally {
+			driver.manage().timeouts().implicitlyWait(implicitWait);
+		}
+
+		//nlpResponseModel.getAttributes().put("result", result);
+		return nlpResponseModel;
+	}
+	public static void inputTextFields(WebDriver driver, String sub, String name,Map<String, String> input)
+	{
+		WebElement element=null;
+		for (Map.Entry<String, String> entry : input.entrySet()) {		
+			element = driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+sub+"')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]"));
+			try {
+				if (element.isDisplayed()) {
+					//					JavascriptExecutor js = (JavascriptExecutor) driver;
+					//					js.executeScript("window.scrollBy(0, arguments[0]);", 300);
+					//driver.findElement(By.xpath("(//p[contains(text(),'"+sub+"')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]")).sendKeys(entry.getValue());
+					driver.findElement(By.xpath("(//h2[contains(text(),'"+name+"')]/../..//p[contains(text(),'"+sub+"')]/../..//label[contains(text(),'"+entry.getKey()+"')]/preceding-sibling::input)[last()]")).sendKeys(entry.getValue());
+				}
+			} catch (Exception e) {
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				js.executeScript("arguments[0].scrollIntoView(true);", element);
+				js.executeScript("window.scrollBy(0, arguments[0]);", 700);				
+			}
+
+		}
+	}
+
+} 
+
+
+
+
+
+
+

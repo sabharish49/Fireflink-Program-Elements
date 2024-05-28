@@ -1,0 +1,62 @@
+package Practice;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.offset.PointOption;
+
+public class DatePicker {
+	static 	 int Year=1998;
+	public static void main(String[] args) throws InterruptedException, MalformedURLException {
+		 boolean res=false;
+		 DesiredCapabilities dc=new DesiredCapabilities();
+			dc.setCapability("noReset", "true");
+			dc.setCapability("platformName", "Android");
+			URL url = new URL("http://localhost:4723/wd/hub");	
+			AndroidDriver driver = new AndroidDriver(url, dc);
+			System.out.println("app launched");
+			 WebElement calendar = driver.findElement(By.xpath("//android.widget.FrameLayout[@resource-id='android:id/customPanel']"));
+		 
+       Thread.sleep(1000);
+	
+		WebElement currentyear = driver.findElement(By.xpath("//android.widget.TextView[@resource-id='android:id/date_picker_header_year']"));
+		String curYear = currentyear.getText();
+		System.out.println(curYear);
+		int curyear=Integer.parseInt(curYear);
+		System.out.println(curyear);
+		if(curyear!=Year){
+			currentyear.click();
+			while (!isYearVisible(driver, Year)) {
+				 swipeInsideElement(driver, calendar);
+	        }
+	        }
+		}
+		 
+	public static void swipeInsideElement(AndroidDriver driver, WebElement element) {
+        Dimension size = element.getSize();
+        int startX = (int) (size.width * 0.8);
+        int startY = (int) (size.height * 0.5);
+        int endX = (int) (size.width * 0.2);
+        int endY = (int) (size.height * 0.5);
+
+        TouchAction<?> touchAction = new TouchAction<>(driver);
+        touchAction.press(PointOption.point(startX, startY))
+                   .moveTo(PointOption.point(endX, endY))
+                   .release()
+                   .perform();
+    }
+    
+	 
+	    public static boolean isYearVisible(AndroidDriver driver, int xpath) {
+	        try {
+	            return driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'"+xpath+"')]")).isDisplayed();
+	        } catch (Exception e) {
+	            return false;
+	        }
+	    }
+}

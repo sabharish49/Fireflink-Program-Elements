@@ -1,0 +1,84 @@
+package Business_logics;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+
+@Component("LIC14952_PJT1005_PE_NLP101ce943-540d-4cd0-8b09-31b5644e5bee")
+public class Get_bearer_token implements Nlp {
+	@InputParams({@InputParam(name = "Request URL", type = "java.lang.String")})
+	@ReturnType(name = "Bearer Token", type = "java.lang.String")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	private static String getBearerToken(WebDriver driver, String reqUrl) throws Exception, JsonProcessingException
+	{
+		List<LogEntry> entries = driver.manage().logs().get(LogType.PERFORMANCE).getAll();
+		String message=""; 
+		for (LogEntry entry : entries) {
+			//			System.out.println(entry);
+			ObjectMapper objectMapper=new ObjectMapper();
+			JsonNode jsonSessionPayload = objectMapper.readTree(entry.getMessage());
+			String requestURL = jsonSessionPayload.path("message").path("params").path("request").path("url").asText();
+			if(requestURL.equalsIgnoreCase(reqUrl)) {
+				String authHeader = jsonSessionPayload.path("message").path("params").path("request").path("headers").path("Authorization").asText();
+				if(authHeader.startsWith("Bearer")) {
+					message=authHeader;
+				}
+			}
+		}
+		return message;
+	}
+
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		String requestURL = (String) attributes.get("Request URL");
+
+
+		String token = null;
+		try {
+			token = getBearerToken(nlpRequestModel.getWebDriver(), requestURL);
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+//		nlpResponseModel.setMessage("Connected to Unix machine and Executed command Successfully");
+		nlpResponseModel.setStatus(CommonConstants.pass);
+
+		nlpResponseModel.getAttributes().put("Bearer Token", token);
+		return nlpResponseModel;
+	}
+} 

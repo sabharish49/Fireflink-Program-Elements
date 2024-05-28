@@ -1,0 +1,32 @@
+package Practice;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import org.json.JSONObject;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class json_object {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+
+        try {
+            // Read the JSON file
+            String jsonContent = new String(Files.readAllBytes(Paths.get("C:\\Users\\User\\Downloads\\AdityaBirla.json")));
+            JSONObject jsonObject = new JSONObject(jsonContent);
+
+            // Extract the "questions" object
+            JSONObject questionsObject = jsonObject.getJSONObject("questions");
+
+            // Print the "questions" object
+            System.out.println("Questions Object: " + questionsObject.toString());
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // Close the WebDriver
+            driver.quit();
+        }
+    }
+}

@@ -1,0 +1,65 @@
+package fireflinktest;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class makemytripTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		long StartTime= System.currentTimeMillis();
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.get("https://www.makemytrip.com/");
+		
+		Thread.sleep(5000);
+		driver.switchTo().frame(2);
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//a[contains(@id,\"notification-close\")]"))));	
+		driver.findElement(By.xpath("//a[contains(@id,\"notification-close\")]")).click();
+		
+		driver.switchTo().defaultContent();
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@href=\"https://www.makemytrip.com/hotels/\"]"))));	
+
+		driver.findElement(By.xpath("//a[@href=\"https://www.makemytrip.com/hotels/\"]")).click();
+		
+		driver.findElement(By.xpath("//input[@id=\"city\"]")).click();
+		driver.findElement(By.xpath("//input[@title=\"Where do you want to stay?\"]")).sendKeys("Tirupati");
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//ul[@role=\"listbox\"]//li"))));	
+
+		driver.findElement(By.xpath("//ul[@role=\"listbox\"]//li")).click();
+		driver.findElement(By.xpath("//div[contains(text(),\"20\")]")).click();
+		driver.findElement(By.xpath("//div[contains(text(),\"22\")]")).click();
+		
+		
+		driver.findElement(By.xpath("//button[contains(text(),\"Apply\")]")).click();
+		
+		driver.findElement(By.xpath("//button[contains(text(),\"Search\")]")).click();
+		
+		driver.findElement(By.xpath("(//div[@class=\"makeFlex flexOne padding16 relative lftCol\"])[1]")).click();
+		
+		
+		Actions action=new Actions(driver);
+		action.scrollToElement(driver.findElement(By.xpath("//a[text()='More Details']")));
+		
+		driver.findElement(By.xpath("//a[text()='More Details']")).click();
+		
+		
+		
+		driver.quit();
+		
+		
+		long endTime=System.currentTimeMillis();
+		long totalTime=(endTime-StartTime)/1000;
+		System.out.println(totalTime);
+
+	}
+
+}

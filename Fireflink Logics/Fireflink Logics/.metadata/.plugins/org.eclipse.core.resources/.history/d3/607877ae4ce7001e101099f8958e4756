@@ -1,0 +1,66 @@
+package com.tyss.optimize.programelement.LIC19046PJT1001.Business_Logics;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+
+import org.springframework.stereotype.Component;
+
+@Component("LIC19046_PJT1001_PE_NLP93d1520f-3673-439f-b9d2-4f2922a47506")
+public class Select_Tenor implements Nlp {
+	    @InputParams({@InputParam(name = "element", type = "org.openqa.selenium.WebElement")})
+
+	      @Override
+	      public List<String> getTestParameters() throws NlpException {
+	        List<String> params = new ArrayList<>();
+	        return params;
+	      }
+
+	      @Override
+	      public StringBuilder getTestCode() throws NlpException {
+	        StringBuilder sb = new StringBuilder();
+	        return sb;
+	      }
+	      @Override
+	      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+	        
+	          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+	          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+	          
+	         WebElement dropDown=(WebElement) attributes.get("element");
+	         boolean isDisplay=true;
+
+	         try {
+	        	 Select select = new Select(dropDown);
+	             List<WebElement> options = select.getOptions();
+	             int totalOptions = options.size();
+	             Random random = new Random();
+	             int randomIndex = random.nextInt(totalOptions);
+	             select.selectByIndex(randomIndex);    
+	             nlpResponseModel.setStatus(CommonConstants.pass);
+	        	 nlpResponseModel.setMessage("Successfully selected option from drop down");
+	         }
+	         catch(Exception e) {	     
+	        	 nlpResponseModel.setStatus(CommonConstants.fail);
+	        	 nlpResponseModel.setMessage("Failed to selecte option from drop down"+e);
+	        	 
+	         }
+	         // String string3 = "Return Value";
+	         // nlpResponseModel.getAttributes().put("isDisplay", isDisplay);
+	          return nlpResponseModel;
+	      }
+
+}

@@ -1,0 +1,26 @@
+package android;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class ChromePopupHandling {
+    public static void main(String[] args) throws InterruptedException {
+        // Set Chrome options
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-popup-blocking");
+
+        // Create desired capabilities
+       // DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+      //  capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
+        // Instantiate WebDriver
+        WebDriver driver = new ChromeDriver(options);
+
+        // Example usage: navigate to a website
+        driver.get("https://mtpre.adityabirlahealth.com/healthinsurance/homepage");
+        Thread.sleep(50000);
+         // Close the browser
+        driver.quit();
+    }
+}

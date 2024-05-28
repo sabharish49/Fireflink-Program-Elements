@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;Business_LogicForWeb&apos; to &apos;ProgramElements/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;ALL_Platform_PE&apos;&#x0D;&#x0A;- Destination element: &apos;ProgramElements/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;ALL_Platform_PE/src/main/java/Business_LogicForWeb&apos;" description="Copy package" destination="=ProgramElements/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Business_LogicForWeb" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1707383882459" version="1.0"/>
+</session>
