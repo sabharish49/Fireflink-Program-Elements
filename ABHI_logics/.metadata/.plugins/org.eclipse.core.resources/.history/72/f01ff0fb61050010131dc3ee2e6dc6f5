@@ -1,0 +1,61 @@
+package Logics;
+
+import java.io.*;
+import java.util.zip.*;
+
+public class ZipExtractor {
+
+	public static int extractZipFileAndCountFolders(String zipFilePath, String destinationFolder) throws IOException {
+		int folderCount = 0;
+
+		try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFilePath))) {
+			ZipEntry entry;
+
+			while ((entry = zipInputStream.getNextEntry()) != null) {
+				// For each entry, check if it's a directory or file
+				File outputFile = new File(destinationFolder, entry.getName());
+
+				if (entry.isDirectory()) {
+					outputFile.mkdirs();
+					folderCount++;
+				} else {
+
+					File parentDir = outputFile.getParentFile();
+					if (parentDir != null && !parentDir.exists()) {
+						parentDir.mkdirs();
+					}
+
+					try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(outputFile))) {
+						byte[] buffer = new byte[1024];
+						int bytesRead;
+						while ((bytesRead = zipInputStream.read(buffer)) != -1) {
+							bos.write(buffer, 0, bytesRead);
+						}
+					}
+				}
+				zipInputStream.closeEntry(); // Close the current entry
+			}
+		}
+		return folderCount;
+	}
+
+	public static void main(String[] args) {
+		String zipFilePath = "C:\\Users\\User\\Downloads\\Calculators-20250320T074810Z-001.zip";
+		String destinationFolder = "C:\\Users\\User\\Downloads\\ABHIExtractedPath";
+
+		try {
+			int folderCount = extractZipFileAndCountFolders(zipFilePath, destinationFolder);
+			System.out.println("Extraction complete! Number of folders: " + folderCount);
+
+			File specificFolder = new File(destinationFolder, "Activ One Calculators/Premium Calculators");
+			if (specificFolder.exists() && specificFolder.isDirectory()) {
+				System.out.println("The folder 'Activeone' exists at: " + specificFolder.getAbsolutePath());
+			} else {
+				System.out.println("The folder 'Activeone' does not exist.");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.out.println("Error extracting ZIP file.");
+		}
+	}
+}

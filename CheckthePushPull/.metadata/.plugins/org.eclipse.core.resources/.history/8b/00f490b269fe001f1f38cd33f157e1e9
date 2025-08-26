@@ -1,0 +1,16 @@
+package Business_Logic;
+
+public class Check {
+	
+	public static void main(String[] args) {
+		
+		String num="750000";
+		if(num.contains("0000000000000")) {
+			
+			System.out.println(true);
+		}
+		
+		else System.out.println(false);
+	}
+
+}

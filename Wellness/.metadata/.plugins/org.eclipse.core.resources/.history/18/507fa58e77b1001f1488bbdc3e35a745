@@ -1,0 +1,116 @@
+
+package Business_Logics;
+
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+
+import io.appium.java_client.android.AndroidDriver;
+import lombok.extern.slf4j.Slf4j;
+
+public class ScrollTillBuy implements Nlp {
+	@InputParams({ @InputParam(name = "Target XPath", type = "java.lang.String"),@InputParam(name = "Xpath of Products", type = "java.lang.String")})
+	//	@ReturnType(name = "List", type = "java.util.List")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		String xpathOfWebElements = (String) attributes.get("Xpath of Products");
+		String buyLocator = (String) attributes.get("Target XPath");
+		AndroidDriver driver = nlpRequestModel.getAndroidDriver();
+		Set<String> productNames = new HashSet<>();
+		boolean isNewProductAdded = true;
+		try {
+			int screenWidth = driver.manage().window().getSize().getWidth();
+			int screenHeight = driver.manage().window().getSize().getHeight();
+			By buyNowButtonLocator = By.xpath(buyLocator);
+			while (isNewProductAdded) {
+				int sizeBeforeScroll = productNames.size();
+				if (isElementVisible(driver, buyNowButtonLocator)) {
+					//     log.info("'Buy now' button found. Stopping the iteration.");
+					nlpResponseModel.setStatus(CommonConstants.pass);
+					nlpResponseModel.setMessage("'Buy now' button found");
+					break;
+				}
+				for (WebElement product : driver.findElements(By.xpath(xpathOfWebElements))) {
+					productNames.add(product.getText().trim());
+					//    log.info("The product names are : "+product.getText().trim());
+				}
+				
+				scroll(driver, screenWidth / 2, (int) (screenHeight * 0.8), screenWidth / 2, (int) (screenHeight* 0.2));
+				int sizeAfterScroll = productNames.size();
+				isNewProductAdded = sizeAfterScroll > sizeBeforeScroll;
+			}
+
+			if(!(isElementVisible(driver, buyNowButtonLocator))) {
+				nlpResponseModel.setStatus(CommonConstants.pass);
+				nlpResponseModel.setMessage("Buy not found after Swiping multiple times");
+				}
+			productNames.clear();
+			
+		} catch (Exception e) {
+			StringWriter sw = new StringWriter();
+			e.printStackTrace(new PrintWriter(sw));
+			String exceptionAsString = sw.toString(); 
+			nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("Failed to get the target" + exceptionAsString);
+		}
+
+		//nlpResponseModel.getAttributes().put("List", listOfText);
+		return nlpResponseModel;
+	}
+	public static void scroll(AndroidDriver driver, int startX, int startY, int endX, int endY) {
+		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+		Sequence swipe = new Sequence(finger, 1)
+				.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY))
+				.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+				.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), endX, endY))
+				.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+		driver.perform(Arrays.asList(swipe));
+	}
+	public static boolean isElementVisible(AndroidDriver driver, By locator) {
+		try {
+			WebElement element = (WebElement) driver.findElement(locator);
+			return element.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
+}

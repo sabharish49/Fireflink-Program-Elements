@@ -1,0 +1,91 @@
+package bussiness_logic;
+
+import com.tyss.optimize.common.util.*;
+import com.tyss.optimize.nlp.util.*;
+import com.tyss.optimize.nlp.util.annotation.*;
+import org.openqa.selenium.WebElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+
+import java.time.Duration;
+import java.util.Arrays;
+import java.util.Map;
+
+public class TapOnElement implements Nlp {
+
+    @InputParams({
+        @InputParam(name = "AndroidXPath", type = "java.lang.String"),
+        @InputParam(name = "iOSXPath", type = "java.lang.String")
+    })
+    @ReturnType(name = "Status", type = "java.lang.String")
+    public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        Map<String, Object> programElementsInput = nlpRequestModel.getAttributes();
+        
+        // Fetch the appropriate XPath for Android or iOS based on the platform
+        String androidXPath = (String) programElementsInput.get("AndroidXPath");
+        String iOSXPath = (String) programElementsInput.get("iOSXPath");
+
+        // Get the Android and iOS drivers
+        AndroidDriver androidDriver = nlpRequestModel.getAndroidDriver();
+        IOSDriver iosDriver = nlpRequestModel.getIosDriver();
+
+        NlpResponseModel nlpResponseModel = new NlpResponseModel();
+        String statusMessage = "";
+
+        try {
+            WebElement element = null;
+
+            // Use the correct XPath depending on the platform
+            if (androidDriver != null) {
+                element = androidDriver.findElement(By.xpath(androidXPath)); // Use Android XPath
+            } else if (iosDriver != null) {
+                element = iosDriver.findElement(By.xpath(iOSXPath)); // Use iOS XPath
+            }
+
+            if (element == null) {
+                throw new Exception("No driver available to perform the action.");
+            }
+
+            // Get the element's location and size
+            int elementX = element.getLocation().getX();
+            int elementY = element.getLocation().getY();
+            int elementWidth = element.getSize().getWidth();
+            int elementHeight = element.getSize().getHeight();
+
+            // Calculate the coordinates to tap (adjust the offset as needed)
+            int tapX = elementX + 200; // Adjust this offset as needed
+            int tapY = elementY + (elementHeight / 2); // Adjust based on the position of the element
+
+            // Create a PointerInput instance for touch gestures
+            PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+            // Define the sequence for the tap gesture
+            Sequence tapSequence = new Sequence(finger, 0);
+            tapSequence.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), tapX, tapY));
+            tapSequence.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+            tapSequence.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+            // Perform the tap gesture
+            if (androidDriver != null) {
+                androidDriver.perform(Arrays.asList(tapSequence)); // Perform on Android
+            } else if (iosDriver != null) {
+                iosDriver.perform(Arrays.asList(tapSequence)); // Perform on iOS
+            }
+
+            statusMessage = "Tap action successfully performed on the element.";
+            nlpResponseModel.setStatus(CommonConstants.pass);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            statusMessage = "Failed to perform tap action: " + e.getMessage();
+            nlpResponseModel.setStatus(CommonConstants.fail);
+        }
+
+        // Set the response message
+        nlpResponseModel.setMessage(statusMessage);
+        return nlpResponseModel;
+    }
+}

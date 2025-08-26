@@ -1,0 +1,33 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class CloseDefaultBrowser {
+    public static void main(String[] args) {
+        String osName = System.getProperty("os.name").toLowerCase();
+        String processName = "";
+        
+        if (osName.contains("windows")) {
+            processName = "taskkill /F /IM iexplore.exe"; // Internet Explorer
+            // Add more process names for other browsers if needed
+        } else if (osName.contains("mac") || osName.contains("linux") || osName.contains("unix")) {
+            processName = "pkill -9 firefox"; // Firefox
+            // Add more process names for other browsers if needed
+        } else {
+            System.err.println("Unsupported operating system: " + osName);
+            System.exit(1);
+        }
+
+        try {
+            Process process = Runtime.getRuntime().exec(processName);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+            process.waitFor();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}

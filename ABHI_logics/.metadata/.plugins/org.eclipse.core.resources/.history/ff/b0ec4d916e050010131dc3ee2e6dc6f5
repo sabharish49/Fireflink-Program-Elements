@@ -1,0 +1,95 @@
+package Logics;
+
+import java.io.*;
+import java.util.zip.*;
+
+public class UnzipAndCheckTheContent {
+
+    // Method to extract the ZIP file
+    public static void extractZipFile(String zipFilePath, String destinationFolder) throws IOException {
+        File destFolder = new File(destinationFolder);
+        if (!destFolder.exists()) {
+            destFolder.mkdirs();  // Create the destination folder if it doesn't exist
+        }
+
+        try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFilePath))) {
+            ZipEntry entry;
+
+            // Iterate through all entries in the zip file
+            while ((entry = zipInputStream.getNextEntry()) != null) {
+                File outputFile = new File(destinationFolder, entry.getName());
+
+                // If entry is a directory, create it
+                if (entry.isDirectory()) {
+                    outputFile.mkdirs();
+                } else {
+                    // If it's a file, create parent directories if needed
+                    File parentDir = outputFile.getParentFile();
+                    if (parentDir != null && !parentDir.exists()) {
+                        parentDir.mkdirs();
+                    }
+
+                    // Write the content of the zip entry to the file
+                    try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(outputFile))) {
+                        byte[] buffer = new byte[1024];
+                        int bytesRead;
+                        while ((bytesRead = zipInputStream.read(buffer)) != -1) {
+                            bos.write(buffer, 0, bytesRead);
+                        }
+                    }
+                }
+                zipInputStream.closeEntry(); // Close the current entry
+            }
+        }
+    }
+
+    // Main method to handle extraction and listing of contents
+    public static void main(String[] args) {
+        // Path to the ZIP file and the destination folder for extraction
+        String zipFilePath = "C:\\Users\\User\\Downloads\\Calculators-20250320T074810Z-001.zip"; 
+        String destinationFolder = "C:\\Users\\User\\Downloads\\CalculatorExtractedPath"; 
+
+        try {
+            // Step 1: Extract the ZIP file to the destination folder
+            System.out.println("Extracting ZIP file...");
+            extractZipFile(zipFilePath, destinationFolder);
+            System.out.println("Extraction complete!");
+
+            // Step 2: Check if the 'Calculators' directory exists inside the extracted folder
+            File calculatorsFolder = new File(destinationFolder, "Calculators");
+
+            if (calculatorsFolder.exists() && calculatorsFolder.isDirectory()) {
+                File[] subfolders = calculatorsFolder.listFiles();
+
+                if (subfolders != null) {
+                    for (File folder : subfolders) {
+                        if (folder.isDirectory()) {
+                            // Print the absolute path of the folder
+                            System.out.println("Folder: " + folder.getAbsolutePath());
+
+                            // List the contents inside the folder
+                            File[] contents = folder.listFiles();
+
+                            if (contents != null && contents.length > 0) {
+                                System.out.println("Contents of " + folder.getName() + ":");
+                                for (File content : contents) {
+                                    // Print the absolute path of each file/content
+                                    System.out.println(" - " + content.getAbsolutePath());
+                                }
+                            } else {
+                                System.out.println("No contents found inside " + folder.getAbsolutePath());
+                            }
+                            System.out.println();  // For better readability between folders
+                        }
+                    }
+                }
+            } else {
+                System.out.println("The 'Calculators' directory does not exist or is not a directory.");
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Error extracting ZIP file.");
+        }
+    }
+}

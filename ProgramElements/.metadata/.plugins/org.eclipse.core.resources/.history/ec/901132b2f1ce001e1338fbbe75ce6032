@@ -1,0 +1,95 @@
+package bussiness_logic;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+
+
+import org.springframework.stereotype.Component;
+
+
+@Component("LIC14952_PJT1001_PE_NLP004f673f-370c-43de-8ece-6a93970467de")
+public class ValueInJson implements Nlp {
+	
+	    @InputParams({@InputParam(name = "jsonBody", type = "java.lang.String"), 
+	    @InputParam(name = "inputKey", type = "java.lang.String")})
+	    @ReturnType(name = "value", type = "java.lang.Object")
+
+	      @Override
+	      public List<String> getTestParameters() throws NlpException {
+	        List<String> params = new ArrayList<>();
+	        return params;
+	      }
+
+	      @Override
+	      public StringBuilder getTestCode() throws NlpException {
+	        StringBuilder sb = new StringBuilder();
+	        return sb;
+	      }
+	      @Override
+	      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+	        
+	          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+	          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+	          String jsonBody = (String) attributes.get("jsonBody");
+	          String inputKey = (String) attributes.get("inputKey");
+
+	          // Your program element business logic goes here ...
+	           Object Value="";
+	           
+	           try {	
+	        	JSONParser parser = new JSONParser(); 
+	       		JSONObject json = null;
+	       		try {
+	       			json = (JSONObject) parser. parse(jsonBody	);
+	       		} catch (ParseException e) {
+
+	       				e.printStackTrace();
+	       		}
+	       		String[] keys = inputKey.split("\\.");
+	    		Object current = json;
+	    		
+	    		for (String key : keys) {
+	    			if (current instanceof JSONObject) {
+	    				current = ((JSONObject) current).get(key);
+	    				
+	    			} else if (current instanceof JSONArray) {
+	    				int index = Integer.parseInt(key.replaceAll("\\D", ""));
+
+	    				current = ((JSONArray) current).get(index);
+	    				
+	    			}
+	    			
+	    		}
+	    		Value=current;
+	    	
+	        		   nlpResponseModel.setStatus(CommonConstants.pass);
+	        		   nlpResponseModel.setMessage("value fetched successfully");
+	        	   
+	        		  
+			} 
+	           catch (Exception e) {
+				
+				nlpResponseModel.setStatus(CommonConstants.fail);
+	 		   nlpResponseModel.setMessage("failed to fetch value" +e);
+			}
+	         
+	          nlpResponseModel.getAttributes().put("value", Value);
+	          return nlpResponseModel;
+	      }
+	  } 

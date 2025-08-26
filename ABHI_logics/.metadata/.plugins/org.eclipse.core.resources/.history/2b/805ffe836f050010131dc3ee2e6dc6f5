@@ -1,0 +1,89 @@
+package Logics;
+
+import java.io.*;
+import java.util.zip.*;
+
+import java.util.Scanner;
+
+public class UnzipAndCheckTheContent {
+
+    public static void extractZipFile(String zipFilePath, String destinationFolder) throws IOException {
+        File destFolder = new File(destinationFolder);
+        if (!destFolder.exists()) {
+            destFolder.mkdirs();  
+        }
+
+        try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFilePath))) {
+            ZipEntry entry;
+
+            while ((entry = zipInputStream.getNextEntry()) != null) {
+                File outputFile = new File(destinationFolder, entry.getName());
+
+                if (entry.isDirectory()) {
+                    outputFile.mkdirs();
+                } else {
+                    File parentDir = outputFile.getParentFile();
+                    if (parentDir != null && !parentDir.exists()) {
+                        parentDir.mkdirs();
+                    }
+
+                    try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(outputFile))) {
+                        byte[] buffer = new byte[1024];
+                        int bytesRead;
+                        while ((bytesRead = zipInputStream.read(buffer)) != -1) {
+                            bos.write(buffer, 0, bytesRead);
+                        }
+                    }
+                }
+                zipInputStream.closeEntry(); 
+            }
+        }
+    }
+
+    public static String getFilePath(String folderName, String fileName, String baseFolderPath) {
+        File folder = new File(baseFolderPath, folderName);
+        File targetFile = new File(folder, fileName);
+
+        if (targetFile.exists() && targetFile.isFile()) {
+            return targetFile.getAbsolutePath();
+        } else {
+            return null;
+        }
+    }
+
+    public static void main(String[] args) {
+        String zipFilePath = "C:\\Users\\User\\Downloads\\Calculators-20250320T074810Z-001.zip"; 
+        String destinationFolder = "C:\\Users\\User\\Downloads\\newfile"; 
+
+        String baseFolderPath = destinationFolder + "\\Calculators";
+
+        // Scanner for user input
+      //  Scanner scanner = new Scanner(System.in);
+
+        try {
+            //System.out.println("Extracting ZIP file...");
+            extractZipFile(zipFilePath, destinationFolder);
+            System.out.println("Extraction complete!");
+
+           // System.out.print("Enter the folder name ");
+           // String folderName = scanner.nextLine().trim();
+
+          //  System.out.print("Enter the file name");
+            String fileName = scanner.nextLine().trim();
+
+            String filePath = getFilePath(folderName, fileName, baseFolderPath);
+
+            if (filePath != null) {
+                System.out.println("File found at: " + filePath);
+            } else {
+                System.out.println("File not found in the specified folder.");
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Error extracting ZIP file.");
+        } finally {
+            scanner.close();
+        }
+    }
+}

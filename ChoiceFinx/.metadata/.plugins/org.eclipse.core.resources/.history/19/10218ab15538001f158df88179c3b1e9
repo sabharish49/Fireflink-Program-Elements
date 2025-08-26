@@ -1,0 +1,1555 @@
+
+package Business_Logics;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
+
+import java.util.Map;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.springframework.stereotype.Component;
+
+@Component("LIC20369_PJT1002_PE_NLPb38a9550-7334-4f77-b6f7-980ab1d0c0ba")
+public class ApplyFilters implements Nlp {
+    @InputParams({@InputParam(name = "sortInput", type = "java.lang.String"), @InputParam(name = "filterSection", type = "java.lang.String")})
+    @ReturnType(name = "result", type = "java.lang.Boolean")
+
+      @Override
+      public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+      }
+
+      @Override
+      public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+      }
+      @Override
+      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        
+          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+          String sortInput = (String) attributes.get("sortInput");
+          String filterSection = (String) attributes.get("filterSection");
+
+    	  AndroidDriver driver = nlpRequestModel.getAndroidDriver();
+    	  Duration implicitWait = driver.manage().timeouts().getImplicitWaitTimeout();
+    	  boolean result=false;
+          try {
+        	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        	  ArrayList<String> checkBox = new ArrayList();
+	      	  checkBox.add("Exchange");
+	      	  checkBox.add("Segment");
+	      	  checkBox.add("Type");
+	      	  checkBox.add("Order Type");
+	     
+	      	  driver.findElement(By.xpath("//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgSortBtn']")).click();
+			
+			ArrayList<String> checkBoxlist = new ArrayList();
+			
+			String section=filterSection;
+			
+			String filters = sortInput;
+			String sortElement = null;
+			String sortType = null;
+			String header=null;
+			String sortXpath=null;
+			String[] category = filters.split(":");
+			for (String individual : category) {
+				String[] elements = individual.split(";");
+				for (int i = 0; i < elements.length; i++) {			
+					String[] values = elements[0].split("-");
+					if (checkBox.contains(values[0])) {
+						 header = values[0];
+						String[] checkBoxes = values[1].split(",");
+						for (int i1 = 0; i1 < checkBoxes.length; i1++) {
+							String value = checkBoxes[i1];
+							driver.findElement(By.xpath("//android.widget.TextView[@text='" + header+ "']/following-sibling::android.widget.HorizontalScrollView//android.widget.CheckBox[@text='"+ value + "']")).click();
+							checkBoxlist.add(value);
+						}
+					} 
+					else if(values[0].contains("BasketStocks")) {
+						String value = values[1];
+						if(value.equalsIgnoreCase("yes")){
+							driver.findElement(By.xpath("//android.widget.RadioButton[@resource-id='com.choiceequitybroking.jiffy:id/rbIncludeBasketYes']")).click();
+						}
+						else {
+							driver.findElement(By.xpath("//android.widget.RadioButton[@resource-id='com.choiceequitybroking.jiffy:id/rbIncludeBasketNo']")).click();
+						}
+						
+					}
+
+					else if (values[0].contains("Sort")) {
+						sortElement = values[1];
+						sortType=values[2];
+						if(sortElement.contains("Invested Value") && section.equalsIgnoreCase("Position")) {
+							performSwipeUp(driver);
+						}
+						
+						if(section.equalsIgnoreCase("Watchlist")) {
+							switch (sortElement) {
+								case "Alphabetically" :{					
+									sortXpath="//*[@resource-id='com.choiceequitybroking.jiffy:id/tvScripName']";
+									
+									if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("decrease")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+								
+								case "Change" :{
+									sortXpath="//*[@resource-id='com.choiceequitybroking.jiffy:id/tvCcp']";
+						
+									if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("decrease")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+						
+							}
+						}
+						else if(section.contains("Position") | section.contains("Orders")| section.contains("Portfolio")) {
+							switch (sortElement) {
+								case "Alphabetically" :{
+									sortXpath="//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvScripName')  or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketName')]";
+								
+									if(sortType.equalsIgnoreCase("decrease")) {
+										driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+								
+								case "Profit & Loss" :{
+									sortXpath="//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvPnlValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvPnlCcpValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvGainPriceValue')] ";
+		
+								
+									if(sortType.equalsIgnoreCase("decrease")) {
+										driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+								
+								case "Profit & Loss Percentage" :{
+									sortXpath="//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvPnlCcpValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvCCP') ]";
+								
+									if(sortType.equalsIgnoreCase("decrease")) {
+										driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+								
+								case "Quantity" :{
+									sortXpath="//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvQtyValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvQtyAndAvgPriceValue')]";
+								
+									if(sortType.equalsIgnoreCase("decrease")) {
+										driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+								
+								case "Order Quantity" :{
+									sortXpath="//*[@resource-id='com.choiceequitybroking.jiffy:id/tvQtyValue']";
+								
+									if(sortType.equalsIgnoreCase("decrease")) {
+										driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+								
+								case "Invested Value" :{
+									sortXpath="//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvTotalInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketValue1') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvInvestedValue')]";
+								
+									if(sortType.equalsIgnoreCase("decrease")) {
+										driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+										 Thread.sleep(1000);
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+									else if(sortType.equalsIgnoreCase("increase")) {
+										 driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'" + sortElement + "')]")).click();
+									}
+								}
+								break;
+							}
+						}
+					
+					}			
+							
+				}
+			}
+			
+			driver.pressKey(new KeyEvent(AndroidKey.BACK));
+	        Thread.sleep(3000);
+	         
+			System.out.println("Checkbox values are : "+checkBoxlist.size());
+			for (String string : checkBoxlist) {
+				System.out.println(string);
+			}
+			
+			ArrayList sortValues=new ArrayList<String>();
+			LinkedHashSet<String> stocks=new LinkedHashSet<String>();
+			int sizeOfLinkedHashSet=0;
+			
+			String xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgParent'])[1]//* |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vdWlScripParent'])[1]//* |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgScrip'])[1]//* |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/cvScrip'])[1]//* |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgItem'])[1]//*";
+			String parentXpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgParent']) | (//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vdWlScripParent']) |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgScrip']) |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/cvScrip']) |(//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[@resource-id='com.choiceequitybroking.jiffy:id/vgItem'])";
+			 
+			
+			int Childlength_static = driver.findElements(By.xpath(xpath)).size();
+			
+			String notApplied="";
+			String applied="";
+
+			String currentstock=null;
+			String lastStock=null;
+			
+			boolean mainWhile=false;
+			while(mainWhile==false) {
+				List<WebElement> parentElements = driver.findElements(By.xpath(parentXpath));
+				int parentElementsSize = parentElements.size();
+				
+				for(int i=1;i<=parentElementsSize;i++) {
+					List<WebElement> childElements = driver.findElements(By.xpath("("+parentXpath+")["+i+"]//*"));
+					int childElementsSize = childElements.size();
+					
+					ArrayList<String> currentStockValues=new ArrayList<String>();
+					if(childElementsSize==Childlength_static) {
+						
+						String xpath1 = "("+parentXpath+")["+i+"]";
+						String currentStockName = null;
+						String currentStockExchange_Invested=null;
+						try {
+							currentStockName = driver.findElement(By.xpath(xpath1 +"//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvScripName') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketName')]")).getText();
+							currentStockExchange_Invested = driver.findElement(By.xpath(xpath1+"//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvExchangeName') or  contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketCategoryValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvGainPriceValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvTotalInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvCurrentPriceValue')  or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvMetaData')]")).getText();
+						}catch (Exception e) {
+							// TODO: handle exception
+						}
+						currentstock=currentStockName+"-"+currentStockExchange_Invested;
+						if(!(stocks.contains(currentStockName+"-"+currentStockExchange_Invested))) {//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvExchangeName') or  contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketCategoryValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvGainPriceValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvTotalInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvCurrentPriceValue')  or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvMetaData')]
+							stocks.add(currentStockName+"-"+currentStockExchange_Invested);
+							
+							for (int ind=1;ind< childElements.size();ind++) {
+								String value = fetchEitherAttributeOrTextOfElement(driver,xpath1,ind);
+								currentStockValues.add(value);
+							}
+							
+							boolean flag=false;
+							if(checkBoxlist.size()>0) {
+								for (String string : checkBoxlist) {
+									for (String string2 : currentStockValues) {
+										if(string2.contains(string))
+										{
+											flag=true;
+											break;
+										}
+									}
+									if(flag==false) {
+										notApplied=notApplied+currentStockName+"-"+currentStockExchange_Invested+",";
+									}
+								}
+								
+								if(flag==true) {
+									for (String string : currentStockValues) {
+										System.out.println(string);
+									}	
+									System.out.println(currentStockName +" contains filters");
+									applied=applied+currentstock+",";
+								}
+								else {
+									System.out.println(currentStockName+" doesn't contain any filters");
+								}
+								
+								
+							}
+							else {
+								System.out.println("No checkbox filters are applied");
+								
+							}
+							System.out.println(currentStockName);
+							if(filters.contains("Sort")) {
+								sortValues.add(driver.findElement(By.xpath(xpath1+sortXpath)).getText());
+							}
+							
+							
+						}
+						else {
+							continue;
+						}
+					}
+					else {
+						continue;
+					}
+					
+				}
+				performSwipeUp(driver);
+				try {
+					
+					
+					String xpath1 = "("+parentXpath+")[last()]";
+					String LastStockName = null;
+					String LastStockExchange_Invested=null;
+					try {
+						LastStockName = driver.findElement(By.xpath(xpath1 +"//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvScripName') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketName')]")).getText();
+						LastStockExchange_Invested = driver.findElement(By.xpath(xpath1+"//*[contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvExchangeName') or  contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvBasketCategoryValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvGainPriceValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvTotalInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvInvestedValue') or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvCurrentPriceValue')  or contains(@resource-id,'com.choiceequitybroking.jiffy:id/tvMetaData')]")).getText();
+					}
+					catch (Exception e) {
+					
+					}
+
+					lastStock=LastStockName+"-"+LastStockExchange_Invested;
+					if(stocks.contains(lastStock)) {
+						break;
+					}
+					
+				}
+				catch (Exception e) {
+
+				}	
+				
+				System.out.println("stock values in Set till now");
+				for (String val : stocks) {
+					System.out.println(val);
+				}
+				
+			}
+			
+			System.out.println("validation started");
+
+			
+			
+			
+			
+			if(filters.contains("Sort")) {
+				System.out.println("validation started");
+				result= validateSortType(sortValues,sortType,sortElement);
+				if(result==true) {
+					nlpResponseModel.setStatus(CommonConstants.pass);
+					nlpResponseModel.setMessage("Successfully Applied and Validated Filters in "+ filterSection);
+				}
+				else {
+					nlpResponseModel.setStatus(CommonConstants.fail);
+					nlpResponseModel.setMessage("Failed to Apply and Validate Filters in "+ filterSection +" and filters are not properly applied in " +notApplied );
+				}
+				
+			}
+			else {
+				if(notApplied.equals("")) {
+					nlpResponseModel.setStatus(CommonConstants.fail);
+					nlpResponseModel.setMessage("Failed to Apply and Validate Filters in "+ filterSection +" and filters are not properly applied in " +notApplied );
+				}
+				else {
+					nlpResponseModel.setStatus(CommonConstants.pass);
+					nlpResponseModel.setMessage("Successfully Applied and Validated Filters for stocks "+ applied );
+					
+				}
+			}
+			
+	      }
+          catch (Exception e) {
+        	  nlpResponseModel.setStatus(CommonConstants.fail);
+			  nlpResponseModel.setMessage("Failed to Apply and Validate Filters in "+ filterSection+ " "+e );
+          }
+          finally {
+        	  driver.manage().timeouts().implicitlyWait(implicitWait);		
+          }
+
+         
+          nlpResponseModel.getAttributes().put("result", result);
+          return nlpResponseModel;
+      }
+      
+      private static String fetchEitherAttributeOrTextOfElement(AndroidDriver driver, String xpath, int ind) {
+  		String value = null;
+  		String indexedXpath = "(" + xpath + "//*)[" + ind + "]";
+  		System.out.println(ind);
+  		int count = 0;
+  		while (value == null) {
+  			try {
+  				if (driver.findElement(By.xpath(indexedXpath)).getText() != null) {
+  					value = driver.findElement(By.xpath(indexedXpath)).getText();
+  				}
+  				if (driver.findElement(By.xpath(indexedXpath)).getAttribute("content-desc") != null) {
+  					value = driver.findElement(By.xpath(indexedXpath)).getAttribute("content-desc");
+  				}
+  			} catch (Exception e) {
+  				System.out.println(e + "  " + count);
+  			}
+  		}
+  		return value;
+
+  	}
+      
+      
+      
+      public static void performSwipeUp(AndroidDriver driver) {
+
+  		boolean swipeUp = false;
+  		Dimension screenSize = driver.manage().window().getSize();
+  		int screenCenter = (int) (screenSize.getWidth() * 0.5);// Identify center point of screen for Y axis
+  		int startPoint = (int) (screenSize.getHeight() * 0.5);// Identify beginning point of scroll for X axis
+  		int endPoint = (int) (screenSize.getHeight() * 0.3);// Identify ending point of scroll
+  		int count = 0;
+  		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+  		while (swipeUp == false) {
+  			Sequence swipe = new Sequence(finger, 1);
+  			swipe.addAction(finger.createPointerMove(Duration.ofSeconds(0), PointerInput.Origin.viewport(),
+  					screenCenter, startPoint));
+  			swipe.addAction(finger.createPointerDown(0));
+  			swipe.addAction(finger.createPointerMove(Duration.ofMillis(700), PointerInput.Origin.viewport(),
+  					screenCenter, endPoint));
+  			swipe.addAction(finger.createPointerUp(0));
+  			((RemoteWebDriver) driver).perform(Arrays.asList(swipe));
+  			if (++count > 2) {
+  				break;
+  			}
+  			if (count >= 2) {
+  				swipeUp = true;
+  			} else {
+
+  			}
+
+  		}
+
+  	}
+      
+      private static  boolean validateSortType(ArrayList sortValues, String sortType, String sortElement) {
+  		
+  		String primary = sortElement;
+  		String secondary = sortType;
+
+  		ArrayList<String> values =sortValues;
+
+  		boolean res = true;
+
+  		String section="";
+  		if(section.equalsIgnoreCase("Watchlist")) {
+  			if (primary.equalsIgnoreCase("Alphabetically")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) <= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) >= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Decreasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+  			}
+
+  			else if (primary.equalsIgnoreCase("Change")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(') + 1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = val2.indexOf('(') + 1;
+  						endIndex = val2.indexOf('%');
+  						val2 = val2.substring(startIndex, endIndex);
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(') + 1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = val2.indexOf('(') + 1;
+  						endIndex = val2.indexOf('%');
+  						val2 = val2.substring(startIndex, endIndex);
+
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			} 	
+  			
+  		}
+  		
+  		else if(section.equalsIgnoreCase("Portfolio-Stocks") | section.equalsIgnoreCase("Portfolio-Baskets")) {
+  			if (primary.equalsIgnoreCase("Alphabetically")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) <= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) >= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Decreasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+  			}
+  			else if (primary.equalsIgnoreCase("Profit & Loss")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('(')-1;
+  						val1 = val1.substring(startIndex, endIndex).replaceAll(",", "");
+
+  						String val2 = values.get(i+1);
+  						 startIndex = 0;
+  						 endIndex = val2.indexOf('(')-1;
+  						val2 = val2.substring(startIndex, endIndex).replaceAll(",", "");
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('(')-1;
+  						val1 = val1.substring(startIndex, endIndex).replaceAll(",", "");
+
+  						String val2 = values.get(i+1);
+  						 startIndex = 0;
+  						 endIndex = val2.indexOf('(')-1;
+  						 val2 = val2.substring(startIndex, endIndex).replaceAll(",", "");
+
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+
+  			else if (primary.equalsIgnoreCase("Profit & Loss Percentage")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(')+1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = val2.indexOf('(') + 1;
+  						endIndex = val2.indexOf('%');
+  						val2 = val2.substring(startIndex, endIndex);
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(') + 1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = val2.indexOf('(') + 1;
+  						endIndex = val2.indexOf('%');
+  						val2 = val2.substring(startIndex, endIndex);
+
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  			else if (primary.equalsIgnoreCase("Quantity")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('@');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = 0;
+  						endIndex = val2.indexOf('@');
+  						val2 = val2.substring(startIndex, endIndex);		
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('@');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = 0;
+  						endIndex = val2.indexOf('@');
+  						val2 = val2.substring(startIndex, endIndex);	
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  			else if (primary.equalsIgnoreCase("Invested Value")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);			
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+  						
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  	
+  		}
+  		else if(section.equalsIgnoreCase("Portfolio-Mutual Fund")) {
+  			if (primary.equalsIgnoreCase("Alphabetically")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) <= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) >= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Decreasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+  			}
+  			else if (primary.equalsIgnoreCase("Profit & Loss")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i).replaceAll(",", "");
+  						String val2 = values.get(i+1).replaceAll(",", "");
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i).replaceAll(",", "");
+  						String val2 = values.get(i+1).replaceAll(",", "");
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+
+  			else if (primary.equalsIgnoreCase("Profit & Loss Percentage")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i).replaceAll("%", "");
+  						String val2 = values.get(i+1).replaceAll("%", "");
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i).replaceAll("%", "");
+  						String val2 = values.get(i+1).replaceAll("%", "");
+
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  			else if (primary.equalsIgnoreCase("Invested Value")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);			
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+  						
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  	
+  		}
+  		
+  		else if(section.equalsIgnoreCase("Orders")) {
+  			if (primary.equalsIgnoreCase("Alphabetically")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) <= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) >= val2.charAt(0)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Decreasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+  			}
+  			else if (primary.equalsIgnoreCase("Profit & Loss")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('(')-1;
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i+1);
+  						 startIndex = 0;
+  						 endIndex = val2.indexOf('(')-1;
+  						val2 = val2.substring(startIndex, endIndex);
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('(')-1;
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i+1);
+  						 startIndex = 0;
+  						 endIndex = val2.indexOf('(')-1;
+  						val1 = val2.substring(startIndex, endIndex);
+
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+
+  			else if (primary.equalsIgnoreCase("Profit & Loss Percentage")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(')+1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = val2.indexOf('(') + 1;
+  						endIndex = val2.indexOf('%');
+  						val2 = val2.substring(startIndex, endIndex);
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(') + 1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = val2.indexOf('(') + 1;
+  						endIndex = val2.indexOf('%');
+  						val2 = val2.substring(startIndex, endIndex);
+
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  			else if (primary.equalsIgnoreCase("Quantity")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('/');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = 0;
+  						endIndex = val2.indexOf('/');
+  						val2 = val2.substring(startIndex, endIndex);			
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = 0;
+  						int endIndex = val1.indexOf('/');
+  						val1 = val1.substring(startIndex, endIndex);
+
+  						String val2 = values.get(i + 1);
+  						startIndex = 0;
+  						endIndex = val2.indexOf('/');
+  						val2 = val2.substring(startIndex, endIndex);	
+
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+
+  			}
+  			else if (primary.equalsIgnoreCase("Invested Value")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);			
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+  						
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+
+  				}
+  					break;
+  				}
+  			}		
+  			
+  		}
+  		else if(section.equalsIgnoreCase("Position")) {
+  		
+  			if (primary.equalsIgnoreCase("Alphabetically")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) <= val1.charAt(1)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);
+  						if (val1.charAt(0) >= val1.charAt(1)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Decreasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  			}
+  	
+  			else if (primary.equalsIgnoreCase("Change")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(')+1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+  	
+  						String val2 = values.get(i+1);
+  						 startIndex = val2.indexOf('(')+1;
+  						 endIndex = val2.indexOf('%');
+  						val1 = val2.substring(startIndex, endIndex);
+  	
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int startIndex = val1.indexOf('(')+1;
+  						int endIndex = val1.indexOf('%');
+  						val1 = val1.substring(startIndex, endIndex);
+  	
+  						String val2 = values.get(i+1);
+  						 startIndex = val2.indexOf('(')+1;
+  						 endIndex = val2.indexOf('%');
+  						val1 = val2.substring(startIndex, endIndex);
+  	
+  	
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  	
+  			} 
+  			else if (primary.equalsIgnoreCase("Profit & Loss")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);			
+  	
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);		
+  						String val2 = values.get(i + 1);
+  	
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  	
+  			}
+  			else if (primary.equalsIgnoreCase("Profit & Loss Percentage")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1=val1.replaceAll("%", "");
+  						String val2 = values.get(i + 1);			
+  						val2=val2.replaceAll("%", "");
+  	
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1=val1.replaceAll("%", "");
+  						String val2 = values.get(i + 1);			
+  						val2=val2.replaceAll("%", "");
+  	
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  	
+  			}
+  			else if (primary.equalsIgnoreCase("Quantity")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						String val2 = values.get(i + 1);			
+  	
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);		
+  						String val2 = values.get(i + 1);
+  	
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  	
+  			}
+  			else if (primary.equalsIgnoreCase("Invested Value")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+  	
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						val1.replaceAll(",", "");
+  						String val2 = values.get(i + 1);			
+  						val2.replaceAll(",", "");
+  						if(val1.contains("-") | val2.contains("-")) {
+  							continue;
+  						}
+  						
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  	
+  			}
+  			else if (primary.equalsIgnoreCase("Order Quantity")) {
+  				switch (secondary) {
+  				case "increase": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int endIndex = val1.indexOf('/') ;
+  						val1 = val1.substring(0, endIndex);
+  						
+  						String val2 = values.get(i+1);
+  						 endIndex = val2.indexOf('/') ;
+  						val2 = val2.substring(0, endIndex);
+  	
+  						if (Double.parseDouble(val1) <= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				case "decrease": {
+  					for (int i = 0; i < values.size() - 1; i++) {
+  						String val1 = values.get(i);
+  						int endIndex = val1.indexOf('/') ;
+  						val1 = val1.substring(0, endIndex);
+  						
+  						String val2 = values.get(i+1);
+  						 endIndex = val2.indexOf('/') ;
+  	
+  						if (Double.parseDouble(val1) >= Double.parseDouble(val2)) {
+  							continue;
+  						} else {
+  							res = false;
+  							System.out.println("Not following proper Increasing order");
+  							break;
+  						}
+  					}
+  					System.out.println(res);
+  	
+  				}
+  					break;
+  				}
+  	
+  			}			
+  		}
+  		return res;
+  	}
+  } 

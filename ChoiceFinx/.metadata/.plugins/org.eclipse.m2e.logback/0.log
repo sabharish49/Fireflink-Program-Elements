@@ -1,0 +1,237 @@
+2024-06-21 10:06:10,791 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-21 10:07:31,929 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml.
+2024-06-21 10:07:48,557 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/main/java
+2024-06-21 10:07:48,558 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/main/resources
+2024-06-21 10:07:48,559 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/test/java
+2024-06-21 10:07:48,559 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/test/resources
+2024-06-21 10:07:59,137 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:07:59,142 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:08:00,960 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:08:00,964 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:08:17,530 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:08:17,533 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:08:56,277 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:08:56,282 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:09:33,504 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:09:33,507 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:10:10,559 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:10:10,562 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:10:18,141 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:10:18,144 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:10:26,219 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:10:26,224 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:10:38,643 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:10:38,645 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:10:53,613 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:10:53,616 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:11:21,891 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml.
+2024-06-21 10:11:24,165 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:11:24,168 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:11:40,551 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml.
+2024-06-21 10:11:42,604 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:11:42,607 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:11:43,314 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml.
+2024-06-21 10:11:44,185 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:11:44,189 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:11:44,762 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-06-21 10:11:44,787 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:44,796 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-06-21 10:11:44,796 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-06-21 10:11:44,796 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-06-21 10:11:44,797 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-06-21 10:11:46,528 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:11:46,533 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:11:46,852 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:46,853 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:46,877 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\target
+2024-06-21 10:11:46,893 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:46,893 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:47,027 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:11:47,028 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:47,028 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:47,153 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-06-21 10:11:47,156 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 5 source files with javac [debug target 11] to target\classes
+2024-06-21 10:11:50,370 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-06-21 10:11:50,372 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:50,372 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:50,376 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:11:50,376 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:50,376 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:50,380 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-06-21 10:11:50,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:50,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:51,546 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-06-21 10:11:51,556 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:51,556 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:58,079 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\target\classes with includes "" and excludes ""
+2024-06-21 10:11:58,838 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:58,838 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:59,365 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\target\tyss-program-elements-1.0.jar
+2024-06-21 10:11:59,588 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-06-21 10:11:59,589 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-06-21 10:11:59,620 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-06-21 10:11:59,631 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-06-21 10:11:59,656 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-06-21 10:11:59,657 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-06-21 10:11:59,657 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-06-21 10:11:59,657 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  14.897 s
+2024-06-21 10:11:59,657 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-06-21T10:11:59+05:30
+2024-06-21 10:11:59,657 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-06-21 10:11:59,658 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-06-21 10:12:00,243 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:12:00,246 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-06-21 10:12:01,857 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-06-21 10:12:01,860 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 14:57:14,397 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-02 14:58:24,296 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:24,743 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:30,226 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:30,615 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:30,974 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:31,263 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:46,076 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:46,365 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-02 14:58:52,606 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-02 14:58:52,615 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2024-07-02 14:58:52,690 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-02 14:58:53,461 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2024-07-02 14:59:10,357 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml.
+2024-07-02 14:59:34,228 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 14:59:34,240 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 14:59:41,785 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 14:59:41,794 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 15:00:27,936 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\pom.xml.
+2024-07-02 15:00:36,541 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 15:00:36,547 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 15:00:38,184 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 15:00:38,195 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 15:03:33,212 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 15:03:33,220 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 15:04:52,750 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 15:04:52,758 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 18:45:46,043 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 18:45:46,046 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 18:45:50,880 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 18:45:50,882 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 18:45:54,607 [Worker-34: Launching kljhgfdr] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 18:45:54,612 [Worker-34: Launching kljhgfdr] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 18:46:08,829 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 18:46:08,831 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 18:46:21,059 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 18:46:21,060 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-02 18:46:32,665 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-02 18:46:32,667 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-03 17:13:25,019 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-05 09:50:54,374 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-05 09:52:06,901 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:07,176 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:07,838 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:08,093 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:08,334 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:08,593 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:09,911 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:10,161 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-05 09:52:10,720 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-05 09:52:10,760 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-05 09:52:10,771 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2024-07-05 09:52:11,562 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2024-07-05 09:52:12,582 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 09:52:12,587 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 09:54:47,688 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 09:54:47,692 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 09:54:55,096 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.8.1+1
+2024-07-05 09:54:55,134 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-07-05 09:54:55,172 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@57b2f2fd{/help,null,AVAILABLE}
+2024-07-05 09:54:55,204 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@663a06b1{HTTP/1.1, (http/1.1)}{127.0.0.1:54966}
+2024-07-05 09:54:55,208 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@59f6d2d7{STARTING}[10.0.15,sto=0] @257435ms
+2024-07-05 09:55:02,868 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 09:55:02,871 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 09:55:33,854 [Worker-20: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 09:55:33,857 [Worker-20: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 09:59:24,843 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@59f6d2d7{STOPPING}[10.0.15,sto=0]
+2024-07-05 09:59:24,851 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@663a06b1{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-07-05 09:59:24,861 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@57b2f2fd{/help,null,STOPPED}
+2024-07-05 12:09:14,244 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-05 12:10:14,093 [Worker-2: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 12:10:14,105 [Worker-2: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 12:11:37,945 [Worker-10: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 12:11:37,953 [Worker-10: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 12:12:05,020 [Worker-14: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 12:12:05,029 [Worker-14: Launching New] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:29:38,127 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:29:38,146 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:32:03,422 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:32:03,427 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:32:38,587 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:32:38,595 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:33:29,015 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:33:29,024 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:34:42,833 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:34:42,873 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:36:51,838 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:36:51,844 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:37:32,868 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:37:32,872 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:38:30,219 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:38:30,225 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:41:03,012 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:41:03,023 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:41:24,556 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:41:24,560 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:42:12,936 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:42:12,944 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:42:27,048 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:42:27,053 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:42:53,223 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:42:53,228 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:43:13,193 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:43:13,199 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:45:12,491 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:45:12,506 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 15:46:04,011 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 15:46:04,017 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:03:34,132 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:03:34,138 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:08:39,489 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:08:39,493 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:08:44,406 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:08:44,410 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:10:03,242 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:10:03,247 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:10:13,347 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:10:13,355 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:10:26,449 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:10:26,455 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:10:36,686 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:10:36,691 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:10:41,233 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:10:41,238 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:10:50,645 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:10:50,650 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:11:03,828 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:11:03,834 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:11:18,896 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:11:18,902 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:11:49,421 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:11:49,425 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:13:56,417 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:13:56,428 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:14:48,087 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:14:48,093 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 16:16:43,848 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 16:16:43,852 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:10:35,974 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-05 17:14:59,268 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:14:59,275 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:17:20,525 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:17:20,530 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:17:29,355 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:17:29,358 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:18:46,209 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:18:46,212 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:21:59,056 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:21:59,060 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:23:00,558 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:23:00,561 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources
+2024-07-05 17:23:05,223 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\main\resources
+2024-07-05 17:23:05,225 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinx\Choice FinX\src\test\resources

@@ -1,0 +1,24 @@
+package testingpython;
+import java.io.*;
+import java.nio.file.*;
+public class Test {
+    public static void main(String[] args) {
+        String inputText = "Hello, this is from Java!";
+        String outputPath = "C:\\Users\\User\\Downloads\\ExtractedSpeech.wav";
+        String templatePath = "C:\\Users\\User\\Downloads\\pythonspeechtovoice.py"; // Update this
+        String outputPythonScript = "C:\\Users\\User\\Downloads\\pythonspeechtovoice.py"; // Update this
+        try {
+            // Read template
+            String content = new String(Files.readAllBytes(Paths.get(templatePath)));
+            // Replace placeholders
+            content = content.replace("{{TEXT_PLACEHOLDER}}", inputText);
+            content = content.replace("{{OUTPUT_PATH_PLACEHOLDER}}", outputPath.replace("\\", "\\\\"));
+            // Write updated script
+            Files.write(Paths.get(outputPythonScript), content.getBytes());
+            System.out.println("Generated script:\n" + content);
+            System.out.println("Python script generated at: " + outputPythonScript);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

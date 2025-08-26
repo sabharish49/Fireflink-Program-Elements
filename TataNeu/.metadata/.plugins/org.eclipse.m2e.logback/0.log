@@ -1,0 +1,384 @@
+2024-12-12 18:27:36,854 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-12 18:28:20,903 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:28:23,549 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TataNeu/src/main/java
+2024-12-12 18:28:23,553 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TataNeu/src/main/resources
+2024-12-12 18:28:23,555 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TataNeu/src/test/java
+2024-12-12 18:28:23,559 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TataNeu/src/test/resources
+2024-12-12 18:28:27,455 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:28:29,801 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:28:29,807 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:28:31,610 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:28:31,626 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:29:15,249 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:29:15,256 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:29:19,577 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:29:19,582 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:29:30,540 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:29:30,545 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:30:14,396 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:30:14,403 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:30:34,526 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:30:34,535 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:31:26,418 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-12 18:31:26,758 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:31:27,906 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2024-12-12 18:31:27,917 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2024-12-12 18:31:27,985 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2024-12-12 18:31:27,999 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2024-12-12 18:31:28,054 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2024-12-12 18:31:28,070 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2024-12-12 18:31:29,060 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TataNeu/src/main/java
+2024-12-12 18:31:29,063 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TataNeu/src/main/resources
+2024-12-12 18:31:29,064 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TataNeu/src/test/java
+2024-12-12 18:31:29,065 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TataNeu/src/test/resources
+2024-12-12 18:31:29,301 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-12-12 18:31:29,697 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:31:29,706 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:31:41,208 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:31:43,015 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:31:43,036 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:31:45,827 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:31:45,834 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:31:48,250 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:31:48,261 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:31:53,037 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:32:05,972 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-12-12 18:32:06,013 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:06,026 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2024-12-12 18:32:06,026 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-12-12 18:32:06,026 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-12-12 18:32:06,026 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-12-12 18:32:06,124 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:32:06,132 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:32:07,104 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:07,105 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:07,170 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target
+2024-12-12 18:32:07,206 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:07,207 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:07,382 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:32:07,385 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:07,385 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:07,732 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2024-12-12 18:32:07,764 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 6 source files with javac [debug target 17] to target\classes
+2024-12-12 18:32:11,710 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2024-12-12 18:32:11,712 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2024-12-12 18:32:11,713 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:11,713 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:11,720 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:32:11,721 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:11,721 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:11,729 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-12-12 18:32:11,730 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:11,730 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:12,241 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-12-12 18:32:12,265 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:12,265 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:12,934 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0.jar
+2024-12-12 18:32:13,074 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:13,075 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:13,384 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.json:json:jar:20240303 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.5 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2024-12-12 18:32:13,385 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.26.1 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,386 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2024-12-12 18:32:13,387 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2024-12-12 18:32:13,388 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2024-12-12 18:32:13,388 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2024-12-12 18:32:13,388 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2024-12-12 18:32:13,388 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.8.9 in the shaded jar.
+2024-12-12 18:32:13,388 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-java:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chrome-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chromium-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v127:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v128:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v129:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v85:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-edge-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-firefox-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-ie-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-safari-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,389 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-support:jar:4.25.0 in the shaded jar.
+2024-12-12 18:32:13,398 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2024-12-12 18:32:22,665 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\TataNeu\TataNeu\dependency-reduced-pom.xml
+2024-12-12 18:32:23,198 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:23,262 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:24,785 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:24,826 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:24,844 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,459 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,515 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,517 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,518 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,521 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,530 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,637 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,720 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,904 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,986 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:27,988 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:28,001 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:28,005 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:28,011 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:32:28,041 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2024-12-12 18:32:28,042 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AdditionalHttpCommands
+2024-12-12 18:32:28,043 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.26.1.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.8.9.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, json-20240303.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-http-4.19.1.jar, selenium-ie-driver-4.25.0.jar, selenium-java-4.25.0.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar, selenium-support-4.25.0.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.5.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2024-12-12 18:32:28,044 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2024-12-12 18:32:28,044 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2024-12-12 18:32:28,045 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2024-12-12 18:32:28,046 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.26.1.jar, failsafe-3.3.2.jar, j2objc-annotations-3.0.0.jar, json-20240303.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2024-12-12 18:32:28,047 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2024-12-12 18:32:28,047 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2024-12-12 18:32:28,047 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AugmenterProvider
+2024-12-12 18:32:28,050 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2024-12-12 18:32:28,051 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2024-12-12 18:32:28,052 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2024-12-12 18:32:28,053 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2024-12-12 18:32:28,054 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2024-12-12 18:32:28,054 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2024-12-12 18:32:28,055 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-ie-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 2 overlapping resources: 
+2024-12-12 18:32:28,055 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.WebDriverInfo
+2024-12-12 18:32:28,056 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.service.DriverService$Builder
+2024-12-12 18:32:28,056 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2024-12-12 18:32:28,057 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2024-12-12 18:32:28,058 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2024-12-12 18:32:28,058 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar define 1 overlapping resource: 
+2024-12-12 18:32:28,059 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.devtools.CdpInfo
+2024-12-12 18:32:28,059 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2024-12-12 18:32:28,060 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2024-12-12 18:32:28,060 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2024-12-12 18:32:28,061 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2024-12-12 18:32:28,062 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2024-12-12 18:32:28,063 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2024-12-12 18:32:28,063 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2024-12-12 18:32:28,088 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 13980 -> 6556 (46%)
+2024-12-12 18:32:28,088 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2024-12-12 18:32:28,088 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0-shaded.jar
+2024-12-12 18:32:28,090 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:32:28,090 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:32:28,179 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\TataNeu\TataNeu\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-12-12 18:32:28,187 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-12-12 18:32:28,326 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-12 18:32:28,326 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-12-12 18:32:28,326 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-12 18:32:28,326 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  22.358 s
+2024-12-12 18:32:28,327 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-12-12T18:32:28+05:30
+2024-12-12 18:32:28,327 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-12 18:32:28,328 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-12-12 18:32:28,557 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:32:28,570 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:32:30,305 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:32:30,314 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:57:33,178 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-12 18:58:18,502 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:58:18,514 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:58:26,635 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:58:28,239 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:58:28,251 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:58:34,307 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:58:35,849 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:58:35,856 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:58:36,986 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\TataNeu\TataNeu\pom.xml.
+2024-12-12 18:58:39,671 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-12-12 18:58:39,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:39,757 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2024-12-12 18:58:39,757 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-12-12 18:58:39,758 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-12-12 18:58:39,758 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-12-12 18:58:40,076 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:58:40,087 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:58:41,299 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:41,299 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:41,385 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target
+2024-12-12 18:58:41,437 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:41,437 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:41,626 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:58:41,627 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:41,627 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:42,049 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2024-12-12 18:58:42,083 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 6 source files with javac [debug target 17] to target\classes
+2024-12-12 18:58:48,265 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2024-12-12 18:58:48,268 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2024-12-12 18:58:48,268 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:48,269 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:48,278 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:58:48,278 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:48,278 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:48,288 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-12-12 18:58:48,289 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:48,289 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:48,693 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-12-12 18:58:48,710 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:48,711 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:49,250 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0.jar
+2024-12-12 18:58:49,371 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:58:49,371 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:58:49,559 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.json:json:jar:20240303 in the shaded jar.
+2024-12-12 18:58:49,559 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.5 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2024-12-12 18:58:49,560 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.26.1 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,561 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,562 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2024-12-12 18:58:49,562 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,562 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2024-12-12 18:58:49,562 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,562 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,562 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.8.9 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-java:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chrome-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chromium-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,563 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v127:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v128:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v129:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v85:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-edge-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-firefox-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-ie-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-safari-driver:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,564 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-support:jar:4.25.0 in the shaded jar.
+2024-12-12 18:58:49,569 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2024-12-12 18:58:57,834 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\TataNeu\TataNeu\dependency-reduced-pom.xml
+2024-12-12 18:58:58,160 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:58:58,213 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:58:59,551 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:58:59,596 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:58:59,616 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,688 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,735 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,737 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,738 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,744 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,754 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:01,941 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,107 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,272 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,383 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,389 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,411 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,417 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,427 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-12 18:59:02,457 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2024-12-12 18:59:02,458 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AdditionalHttpCommands
+2024-12-12 18:59:02,460 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.26.1.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.8.9.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, json-20240303.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-http-4.19.1.jar, selenium-ie-driver-4.25.0.jar, selenium-java-4.25.0.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar, selenium-support-4.25.0.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.5.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2024-12-12 18:59:02,462 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2024-12-12 18:59:02,464 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2024-12-12 18:59:02,465 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2024-12-12 18:59:02,466 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.26.1.jar, failsafe-3.3.2.jar, j2objc-annotations-3.0.0.jar, json-20240303.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2024-12-12 18:59:02,468 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2024-12-12 18:59:02,469 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2024-12-12 18:59:02,471 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AugmenterProvider
+2024-12-12 18:59:02,472 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2024-12-12 18:59:02,473 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2024-12-12 18:59:02,474 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2024-12-12 18:59:02,475 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2024-12-12 18:59:02,478 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2024-12-12 18:59:02,479 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2024-12-12 18:59:02,480 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-ie-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 2 overlapping resources: 
+2024-12-12 18:59:02,481 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.WebDriverInfo
+2024-12-12 18:59:02,482 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.service.DriverService$Builder
+2024-12-12 18:59:02,483 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2024-12-12 18:59:02,484 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2024-12-12 18:59:02,486 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2024-12-12 18:59:02,487 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar define 1 overlapping resource: 
+2024-12-12 18:59:02,488 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.devtools.CdpInfo
+2024-12-12 18:59:02,489 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2024-12-12 18:59:02,490 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2024-12-12 18:59:02,492 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2024-12-12 18:59:02,493 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2024-12-12 18:59:02,494 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2024-12-12 18:59:02,495 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2024-12-12 18:59:02,496 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2024-12-12 18:59:02,530 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 13980 -> 6556 (46%)
+2024-12-12 18:59:02,531 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2024-12-12 18:59:02,531 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0-shaded.jar
+2024-12-12 18:59:02,533 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-12 18:59:02,534 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-12 18:59:02,629 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\TataNeu\TataNeu\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-12-12 18:59:02,641 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\TataNeu\TataNeu\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-12-12 18:59:02,745 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-12 18:59:02,745 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-12-12 18:59:02,746 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-12 18:59:02,746 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  23.082 s
+2024-12-12 18:59:02,746 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-12-12T18:59:02+05:30
+2024-12-12 18:59:02,747 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-12 18:59:02,747 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-12-12 18:59:02,951 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:59:02,956 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources
+2024-12-12 18:59:04,344 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\main\resources
+2024-12-12 18:59:04,348 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\TataNeu\TataNeu\src\test\resources

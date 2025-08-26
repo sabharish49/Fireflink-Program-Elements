@@ -1,0 +1,738 @@
+2024-07-18 17:03:58,296 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-19 11:22:31,237 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-19 12:07:57,565 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-19 12:09:34,140 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 12:09:49,365 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Bigbasket/src/main/java
+2024-07-19 12:09:49,366 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Bigbasket/src/main/resources
+2024-07-19 12:09:49,370 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Bigbasket/src/test/java
+2024-07-19 12:09:49,371 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Bigbasket/src/test/resources
+2024-07-19 12:09:52,424 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:09:52,432 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:09:59,476 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 12:10:07,130 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:10:07,140 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:11:56,500 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:11:56,505 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:13:32,120 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 12:13:37,069 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:13:37,078 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:14:15,715 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 12:14:20,497 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:14:20,503 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:14:26,816 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 12:14:31,405 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:14:31,410 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:14:32,132 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 12:14:34,248 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:14:34,256 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:14:35,169 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-19 12:14:35,206 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:35,271 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-19 12:14:35,272 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-19 12:14:35,272 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-19 12:14:35,272 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-19 12:14:35,753 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:14:35,759 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:14:39,187 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:39,187 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:39,253 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-19 12:14:39,285 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:39,285 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:39,574 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:14:39,576 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:39,577 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:39,917 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-19 12:14:39,923 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 13 source files with javac [debug target 11] to target\classes
+2024-07-19 12:14:46,245 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-19 12:14:46,247 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-19 12:14:46,247 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-19 12:14:46,247 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:46,248 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:46,253 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:14:46,253 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:46,254 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:46,260 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-19 12:14:46,261 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:46,261 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:48,126 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-19 12:14:48,140 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:48,141 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:56,472 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 12:14:57,975 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 12:14:58,094 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:58,095 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:59,395 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-19 12:14:59,821 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 12:14:59,823 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 12:14:59,890 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-19 12:14:59,914 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-19 12:14:59,963 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 12:14:59,963 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-19 12:14:59,963 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 12:14:59,963 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  24.798 s
+2024-07-19 12:14:59,964 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-19T12:14:59+05:30
+2024-07-19 12:14:59,964 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 12:14:59,965 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-19 12:15:01,236 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:15:01,241 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:15:03,049 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:15:03,052 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:52:38,189 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:52:38,193 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:58:06,145 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:58:06,149 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 12:58:54,562 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 12:58:54,565 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:30:41,201 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:30:41,205 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:30:50,632 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.8.1+1
+2024-07-19 13:30:50,664 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-07-19 13:30:50,716 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@63c513dc{/help,null,AVAILABLE}
+2024-07-19 13:30:50,732 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2fa01192{HTTP/1.1, (http/1.1)}{127.0.0.1:63261}
+2024-07-19 13:30:50,737 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@e1273b1{STARTING}[10.0.15,sto=0] @4991508ms
+2024-07-19 13:36:28,799 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:36:28,804 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:36:49,783 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:36:49,787 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:08,030 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:08,034 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:15,994 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:15,998 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:17,722 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 13:37:24,132 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:24,137 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:26,133 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:26,141 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:28,057 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:28,061 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:34,556 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 13:37:38,714 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:38,718 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:39,288 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 13:37:41,088 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:41,096 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:41,565 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-19 13:37:41,583 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:41,583 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-19 13:37:41,583 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-19 13:37:41,583 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-19 13:37:41,583 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-19 13:37:42,609 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:42,613 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:45,138 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:45,139 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:45,178 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-19 13:37:45,261 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:45,261 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:45,351 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:45,351 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:45,351 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:45,531 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-19 13:37:45,535 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 13 source files with javac [debug target 11] to target\classes
+2024-07-19 13:37:48,747 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-19 13:37:48,749 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-19 13:37:48,749 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-19 13:37:48,750 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:48,750 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:48,757 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:48,758 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:48,758 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:48,762 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-19 13:37:48,763 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:48,763 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:49,059 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-19 13:37:49,075 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:49,075 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:49,920 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 13:37:51,567 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 13:37:51,683 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:51,684 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:52,874 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-19 13:37:53,357 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 13:37:53,357 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 13:37:53,396 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-19 13:37:53,403 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-19 13:37:53,429 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 13:37:53,429 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-19 13:37:53,429 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 13:37:53,430 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  11.866 s
+2024-07-19 13:37:53,430 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-19T13:37:53+05:30
+2024-07-19 13:37:53,430 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 13:37:53,431 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-19 13:37:54,625 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:54,629 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 13:37:56,515 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 13:37:56,517 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:46:59,524 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:46:59,525 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:47:13,354 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:47:13,358 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:47:40,614 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 14:47:58,300 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:47:58,303 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:48:02,489 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 14:48:04,124 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:48:04,126 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:48:05,075 [Worker-32: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 14:48:05,730 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-19 14:48:05,744 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:05,744 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-19 14:48:05,744 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-19 14:48:05,744 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-19 14:48:05,744 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-19 14:48:05,936 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:48:05,940 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:48:07,158 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:07,158 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:07,171 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-19 14:48:07,200 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:07,200 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:07,286 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:48:07,286 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:07,286 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:07,393 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-19 14:48:07,395 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 13 source files with javac [debug target 11] to target\classes
+2024-07-19 14:48:08,565 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-19 14:48:08,566 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-19 14:48:08,566 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-19 14:48:08,566 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:08,567 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:08,569 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:48:08,569 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:08,569 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:08,572 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-19 14:48:08,572 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:08,572 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:09,567 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-19 14:48:09,572 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:09,572 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:14,223 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 14:48:14,880 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 14:48:14,928 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:14,929 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:15,417 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-19 14:48:15,587 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:48:15,587 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:48:15,603 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-19 14:48:15,610 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-19 14:48:15,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 14:48:15,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-19 14:48:15,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 14:48:15,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  9.896 s
+2024-07-19 14:48:15,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-19T14:48:15+05:30
+2024-07-19 14:48:15,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 14:48:15,627 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-19 14:48:16,132 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:48:16,134 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:48:17,702 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:48:17,704 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:59:31,879 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:59:31,882 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:59:41,284 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 14:59:42,977 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:59:42,980 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:59:52,343 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 14:59:54,056 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:59:54,058 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:59:55,168 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-19 14:59:55,515 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-19 14:59:55,538 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:55,538 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-19 14:59:55,538 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-19 14:59:55,538 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-19 14:59:55,538 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-19 14:59:55,802 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:59:55,805 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:59:56,825 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:56,826 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:56,842 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-19 14:59:56,873 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:56,873 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:56,908 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 14:59:56,909 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:56,909 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:57,015 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-19 14:59:57,018 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 13 source files with javac [debug target 11] to target\classes
+2024-07-19 14:59:58,042 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-19 14:59:58,043 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-19 14:59:58,043 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-19 14:59:58,043 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:58,043 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:58,045 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 14:59:58,045 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:58,045 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:58,048 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-19 14:59:58,048 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:58,048 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:58,159 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-19 14:59:58,165 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:58,165 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:58,545 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 14:59:59,191 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-19 14:59:59,238 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:59,238 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:59,650 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-19 14:59:59,807 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-19 14:59:59,807 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-19 14:59:59,823 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-19 14:59:59,826 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-19 14:59:59,835 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 14:59:59,836 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-19 14:59:59,836 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 14:59:59,836 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  4.321 s
+2024-07-19 14:59:59,836 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-19T14:59:59+05:30
+2024-07-19 14:59:59,836 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-19 14:59:59,836 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-19 15:00:00,466 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 15:00:00,468 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 15:00:02,037 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 15:00:02,039 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 19:12:26,888 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-19 19:12:26,901 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-19 19:12:29,532 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@e1273b1{STOPPING}[10.0.15,sto=0]
+2024-07-19 19:12:29,590 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2fa01192{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-07-19 19:12:29,721 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@63c513dc{/help,null,STOPPED}
+2024-07-20 11:07:55,761 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-20 11:07:56,250 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-07-20 16:19:16,363 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-21 11:16:08,289 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-22 09:30:03,167 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-22 09:47:57,889 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-22 09:47:57,896 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata com.testyantra.optimize:tyss-data-models:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:47:57,915 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - com.testyantra.optimize:tyss-data-models:1.0-SNAPSHOT/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata com.testyantra.optimize:tyss-data-models:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:50:13,439 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-22 09:50:13,443 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata com.testyantra.optimize:tyss-common:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:50:13,457 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - com.testyantra.optimize:tyss-common:1.0-SNAPSHOT/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata com.testyantra.optimize:tyss-common:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:54:50,770 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-22 09:54:50,776 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata com.testyantra.optimize:OPTIMIZE:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:58:44,235 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-22 09:58:44,238 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata com.testyantra.optimize:tyss-config:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:58:44,256 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - com.testyantra.optimize:tyss-config:1.0-SNAPSHOT/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata com.testyantra.optimize:tyss-config:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml. Error code 502, 
+2024-07-22 09:58:47,279 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-22 09:58:47,327 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-22 09:58:48,326 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2024-07-22 10:01:37,760 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2024-07-22 10:01:37,783 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml. Error code 502, 
+2024-07-22 10:01:43,939 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:01:43,946 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:04:37,333 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:04:37,338 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:05:11,984 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 10:05:12,971 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - net.minidev:json-smart/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml. Error code 502, 
+2024-07-22 10:05:21,694 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:05:21,699 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:09:21,766 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:09:21,770 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:09:23,180 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:09:23,184 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:09:37,783 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 10:09:38,890 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - net.minidev:json-smart/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml. Error code 502, 
+2024-07-22 10:09:40,283 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:09:40,286 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:10:51,052 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:10:51,056 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:14:23,700 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 10:14:24,579 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - net.minidev:json-smart/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml. Error code 502, 
+2024-07-22 10:14:25,734 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:14:25,742 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:14:26,271 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 10:14:27,310 [Worker-28: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - net.minidev:json-smart/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): Failed to transfer https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml. Error code 502, 
+2024-07-22 10:14:29,108 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-22 10:14:29,130 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:29,135 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-22 10:14:29,136 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-22 10:14:29,136 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-22 10:14:29,136 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-22 10:14:29,370 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:14:29,373 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:14:31,450 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:31,450 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:31,468 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-22 10:14:31,485 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:31,485 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:31,665 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:14:31,666 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:31,666 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:31,864 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-22 10:14:31,868 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 14 source files with javac [debug target 11] to target\classes
+2024-07-22 10:14:34,400 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-22 10:14:34,401 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-22 10:14:34,401 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-22 10:14:34,401 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:34,401 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:34,404 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:14:34,404 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:34,404 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:34,406 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-22 10:14:34,406 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:34,407 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:35,464 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-22 10:14:35,471 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:35,472 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:40,862 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 10:14:41,555 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 10:14:41,604 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:41,604 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:42,099 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-22 10:14:42,341 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 10:14:42,341 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 10:14:42,368 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-22 10:14:42,380 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-22 10:14:42,406 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 10:14:42,406 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-22 10:14:42,406 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 10:14:42,406 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  13.301 s
+2024-07-22 10:14:42,407 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-22T10:14:42+05:30
+2024-07-22 10:14:42,407 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 10:14:42,407 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-22 10:14:43,026 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:14:43,028 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:14:44,624 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:14:44,625 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:30:06,171 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:30:06,175 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:31:05,358 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:31:05,360 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:31:16,100 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:31:16,102 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 10:34:04,643 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 10:34:04,645 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 11:48:45,161 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 11:48:45,165 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 11:49:22,095 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 11:49:22,101 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:19:44,057 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:19:44,064 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:20:58,933 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:20:58,936 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:21:32,493 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 12:21:36,937 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:21:36,943 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:22:48,164 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 12:22:52,217 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:22:52,220 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:22:53,172 [Worker-46: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 12:22:54,441 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:22:54,450 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:22:55,032 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-22 12:22:55,052 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:22:55,052 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-22 12:22:55,052 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-22 12:22:55,052 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-22 12:22:55,052 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-22 12:22:55,939 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:22:55,944 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:22:58,646 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:22:58,647 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:22:58,672 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-22 12:22:58,758 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:22:58,758 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:22:58,846 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:22:58,847 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:22:58,847 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:22:59,111 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-22 12:22:59,115 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 14 source files with javac [debug target 11] to target\classes
+2024-07-22 12:23:02,250 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-22 12:23:02,251 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-22 12:23:02,251 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-22 12:23:02,251 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:23:02,252 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:23:02,255 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:23:02,255 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:23:02,255 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:23:02,259 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-22 12:23:02,259 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:23:02,260 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:23:02,462 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-22 12:23:02,475 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:23:02,475 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:23:03,212 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 12:23:04,775 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 12:23:04,884 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:23:04,885 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:23:05,820 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-22 12:23:06,181 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 12:23:06,182 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 12:23:06,222 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-22 12:23:06,228 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-22 12:23:06,247 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 12:23:06,247 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-22 12:23:06,247 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 12:23:06,248 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  11.216 s
+2024-07-22 12:23:06,248 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-22T12:23:06+05:30
+2024-07-22 12:23:06,248 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 12:23:06,248 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-22 12:23:07,349 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:23:07,351 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 12:23:09,868 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 12:23:09,871 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:18:10,924 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:18:10,929 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:18:41,728 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 13:18:45,712 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:18:45,716 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:18:50,894 [Worker-53: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 13:18:54,591 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:18:54,596 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:18:55,395 [Worker-53: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 13:18:56,705 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:18:56,710 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:18:57,046 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-22 13:18:57,061 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:18:57,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-22 13:18:57,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-22 13:18:57,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-22 13:18:57,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-22 13:18:58,066 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:18:58,070 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:19:00,250 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:00,250 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:00,293 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-22 13:19:00,364 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:00,364 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:00,445 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:19:00,445 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:00,445 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:00,687 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-22 13:19:00,691 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 14 source files with javac [debug target 11] to target\classes
+2024-07-22 13:19:02,930 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-22 13:19:02,932 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-22 13:19:02,932 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-22 13:19:02,932 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:02,932 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:02,936 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:19:02,937 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:02,937 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:02,941 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-22 13:19:02,941 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:02,941 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:03,154 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-22 13:19:03,173 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:03,173 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:03,765 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 13:19:05,371 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 13:19:05,475 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:05,475 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:06,751 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-22 13:19:07,349 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 13:19:07,349 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 13:19:07,386 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-22 13:19:07,392 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-22 13:19:07,411 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 13:19:07,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-22 13:19:07,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 13:19:07,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  10.367 s
+2024-07-22 13:19:07,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-22T13:19:07+05:30
+2024-07-22 13:19:07,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 13:19:07,413 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-22 13:19:08,517 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:19:08,520 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 13:19:10,799 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 13:19:10,802 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:43:00,512 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.8.1+1
+2024-07-22 17:43:00,546 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-07-22 17:43:00,599 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4fc2ce3a{/help,null,AVAILABLE}
+2024-07-22 17:43:00,622 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@52cdb4b7{HTTP/1.1, (http/1.1)}{127.0.0.1:57502}
+2024-07-22 17:43:00,632 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@21700f4{STARTING}[10.0.15,sto=0] @29704610ms
+2024-07-22 17:43:15,181 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:43:15,183 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:43:22,954 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:43:22,955 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:43:42,957 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:43:42,960 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:45:33,742 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:45:33,744 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:45:56,621 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 17:46:15,144 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:46:15,146 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:46:19,701 [Worker-61: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 17:46:21,335 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:46:21,337 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:46:22,447 [Worker-62: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 17:46:22,948 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-22 17:46:22,955 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:22,955 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-22 17:46:22,956 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-22 17:46:22,956 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-22 17:46:22,956 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-22 17:46:23,383 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:46:23,387 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:46:24,414 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:24,414 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:24,425 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-22 17:46:24,453 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:24,453 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:24,593 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:46:24,594 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:24,594 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:24,695 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-22 17:46:24,697 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 14 source files with javac [debug target 11] to target\classes
+2024-07-22 17:46:25,839 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-22 17:46:25,840 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-22 17:46:25,840 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-22 17:46:25,840 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:25,840 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:25,842 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:46:25,842 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:25,842 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:25,844 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-22 17:46:25,845 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:25,845 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:26,768 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-22 17:46:26,774 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:26,774 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:32,322 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 17:46:33,096 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 17:46:33,147 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:33,147 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:33,600 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-22 17:46:33,753 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 17:46:33,753 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 17:46:33,766 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-22 17:46:33,779 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-22 17:46:33,799 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 17:46:33,799 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-22 17:46:33,799 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 17:46:33,799 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  10.851 s
+2024-07-22 17:46:33,800 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-22T17:46:33+05:30
+2024-07-22 17:46:33,800 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 17:46:33,800 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-22 17:46:34,285 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:46:34,288 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 17:46:35,865 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 17:46:35,866 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:39:31,604 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:39:31,607 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:43:55,961 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:43:55,965 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:52:27,866 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:52:27,872 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:52:36,252 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:52:36,254 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:53:16,697 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:53:16,703 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:54:54,128 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:54:54,131 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:03,724 [Worker-76: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 18:55:08,265 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:08,269 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:37,545 [Worker-76: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 18:55:41,502 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:41,507 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:42,363 [Worker-70: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml.
+2024-07-22 18:55:43,716 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:43,723 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:44,121 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-07-22 18:55:44,136 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:44,136 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2024-07-22 18:55:44,137 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-07-22 18:55:44,137 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-07-22 18:55:44,137 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-07-22 18:55:45,156 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:45,161 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:47,163 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:47,163 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:47,188 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target
+2024-07-22 18:55:47,251 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:47,251 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:47,330 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:47,331 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:47,331 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:47,549 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :source
+2024-07-22 18:55:47,553 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 14 source files with javac [debug target 11] to target\classes
+2024-07-22 18:55:50,219 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2024-07-22 18:55:50,221 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\java\com\tyss\optimize\programelement\LIC20665PJT1001\Business_Logics\MOB_SelectTimeSlot.java uses or overrides a deprecated API.
+2024-07-22 18:55:50,221 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/BigbasketNew/Bigbasket/src/main/java/com/tyss/optimize/programelement/LIC20665PJT1001/Business_Logics/MOB_SelectTimeSlot.java: Recompile with -Xlint:deprecation for details.
+2024-07-22 18:55:50,221 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:50,221 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:50,225 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:50,226 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:50,226 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:50,232 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-07-22 18:55:50,232 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:50,232 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:50,411 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-07-22 18:55:50,423 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:50,423 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:51,075 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 18:55:52,597 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\json\json\20240303\json-20240303.jar to C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\classes with includes "" and excludes ""
+2024-07-22 18:55:52,702 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:52,702 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:53,628 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar
+2024-07-22 18:55:54,168 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-07-22 18:55:54,168 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-07-22 18:55:54,204 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-07-22 18:55:54,211 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-07-22 18:55:54,237 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 18:55:54,237 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-07-22 18:55:54,237 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 18:55:54,237 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  10.117 s
+2024-07-22 18:55:54,237 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-07-22T18:55:54+05:30
+2024-07-22 18:55:54,237 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-07-22 18:55:54,238 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-07-22 18:55:55,180 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:55,184 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 18:55:57,225 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-22 18:55:57,228 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-22 19:14:38,877 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@21700f4{STOPPING}[10.0.15,sto=0]
+2024-07-22 19:14:38,891 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@52cdb4b7{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-07-22 19:14:38,914 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4fc2ce3a{/help,null,STOPPED}
+2024-07-23 17:31:09,770 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-23 17:31:10,845 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-07-29 12:36:05,470 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-29 13:04:46,342 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:46,607 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:48,980 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:49,307 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:49,568 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:49,814 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:56,650 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:04:56,914 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-07-29 13:05:00,342 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-29 13:05:00,385 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-07-29 13:05:00,396 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2024-07-29 13:05:01,198 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2024-07-29 13:05:07,760 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-29 13:05:07,765 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-29 14:23:43,941 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-29 14:23:43,947 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-29 14:27:13,553 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-29 14:27:13,556 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-29 14:27:20,014 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-29 14:27:20,017 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-07-29 17:12:13,925 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-07-29 17:12:13,934 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-09-05 10:42:05,114 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-11 17:30:33,120 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-12 10:41:02,403 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-12 11:26:41,189 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-12 12:24:41,095 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-20 11:34:33,761 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-26 15:13:15,419 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-27 12:19:48,186 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-30 13:30:27,854 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-30 13:35:21,432 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-09-30 13:35:22,848 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-09-30 13:35:23,153 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-09-30 13:35:25,834 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-09-30 13:35:26,944 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2024-09-30 13:35:27,376 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-09-30 13:35:27,399 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-09-30 13:35:27,778 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2024-09-30 13:35:30,263 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\main\resources
+2024-09-30 13:35:30,277 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\BigbasketNew\Bigbasket\src\test\resources
+2024-11-04 15:24:44,913 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-07 17:38:54,968 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-03 11:24:10,184 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-03 16:25:10,522 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-10 12:35:58,618 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-02 12:05:47,934 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-17 13:07:52,866 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-21 12:54:03,510 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-21 12:54:59,677 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.15; built: 2024-11-05T19:44:57.623Z; git: 8281ae9740d4b4225e8166cc476bad237c70213a; jvm 22.0.2+9
+2025-08-21 12:54:59,734 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@21d16e8c{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7c9b637c{STARTED}}
+2025-08-21 12:54:59,735 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-08-21 12:54:59,759 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7f675346{HTTP/1.1, (http/1.1)}{127.0.0.1:58034}
+2025-08-21 12:54:59,767 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@5ab44d2b{STARTING}[12.0.15,sto=0] @65950ms
+2025-08-21 13:07:36,149 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@5ab44d2b{STOPPING}[12.0.15,sto=0]
+2025-08-21 13:07:36,153 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7f675346{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

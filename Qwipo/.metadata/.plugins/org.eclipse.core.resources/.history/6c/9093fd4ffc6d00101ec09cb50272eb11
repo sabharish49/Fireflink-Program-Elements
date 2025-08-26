@@ -1,0 +1,26 @@
+package default_package;
+
+import com.jayway.jsonpath.JsonPath;
+import java.io.File;
+import java.nio.file.Files;
+
+public class JsonPathExampleLogic {
+    public static void main(String[] args) throws Exception {
+        // Replace this with your actual local file path
+        File file = new File("C:/Users/User/Downloads/Global_Medical (1).json");
+
+        // Read the file content into a String
+        String json = new String(Files.readAllBytes(file.toPath()), "UTF-8");
+
+        // Use JsonPath to extract values
+        String answer = JsonPath.read(json, "x[\"अन्य शर्तें\"].conditions[0]");
+        String allergy = JsonPath.read(json, "$.['हमारे पास पहले से एलर्जी'].conditions[0]");
+        String medication = JsonPath.read(json, "$.['क्या आप दवा ले रहे हैं?'].['Add Medications']['वहीं ']");
+
+
+        // Print results
+        System.out.println("Answer: " + answer);
+        System.out.println("Allergy condition 1: " + allergy);
+        System.out.println("Medication: " + medication);
+    }
+}

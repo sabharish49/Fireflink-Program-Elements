@@ -1,0 +1,328 @@
+2024-12-31 12:15:41,759 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-31 12:16:27,449 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:16:30,123 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Xuriti/src/main/java
+2024-12-31 12:16:30,126 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Xuriti/src/main/resources
+2024-12-31 12:16:30,129 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Xuriti/src/test/java
+2024-12-31 12:16:30,131 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Xuriti/src/test/resources
+2024-12-31 12:16:33,636 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:16:34,057 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/tess4j/tess4j/5.2.0/tess4j-5.2.0.pom
+2024-12-31 12:16:34,098 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/tess4j/tess4j/5.2.0/tess4j-5.2.0.pom
+2024-12-31 12:16:34,140 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.pom
+2024-12-31 12:16:34,151 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.pom
+2024-12-31 12:16:34,181 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.25/pdfbox-2.0.25.pom
+2024-12-31 12:16:34,216 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.25/pdfbox-2.0.25.pom
+2024-12-31 12:16:34,242 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.25/pdfbox-parent-2.0.25.pom
+2024-12-31 12:16:34,257 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.25/pdfbox-parent-2.0.25.pom
+2024-12-31 12:16:34,289 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.25/fontbox-2.0.25.pom
+2024-12-31 12:16:34,300 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.25/fontbox-2.0.25.pom
+2024-12-31 12:16:34,343 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.25/pdfbox-tools-2.0.25.pom
+2024-12-31 12:16:34,356 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.25/pdfbox-tools-2.0.25.pom
+2024-12-31 12:16:34,384 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.25/pdfbox-debugger-2.0.25.pom
+2024-12-31 12:16:34,395 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.25/pdfbox-debugger-2.0.25.pom
+2024-12-31 12:16:34,425 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.pom
+2024-12-31 12:16:34,437 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.pom
+2024-12-31 12:16:34,473 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/lept4j/lept4j/1.16.1/lept4j-1.16.1.pom
+2024-12-31 12:16:34,480 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/lept4j/lept4j/1.16.1/lept4j-1.16.1.pom
+2024-12-31 12:16:34,520 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-vfs/3.2.16.Final/jboss-vfs-3.2.16.Final.pom
+2024-12-31 12:16:34,529 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-vfs/3.2.16.Final/jboss-vfs-3.2.16.Final.pom
+2024-12-31 12:16:35,562 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/tess4j/tess4j/5.2.0/tess4j-5.2.0.jar
+2024-12-31 12:16:35,911 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/tess4j/tess4j/5.2.0/tess4j-5.2.0.jar
+2024-12-31 12:16:35,932 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.25/fontbox-2.0.25.jar
+2024-12-31 12:16:35,969 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar
+2024-12-31 12:16:35,972 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.25/fontbox-2.0.25.jar
+2024-12-31 12:16:35,976 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.25/pdfbox-tools-2.0.25.jar
+2024-12-31 12:16:36,012 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.jar
+2024-12-31 12:16:36,015 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.25/pdfbox-tools-2.0.25.jar
+2024-12-31 12:16:36,022 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.jar
+2024-12-31 12:16:36,035 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/lept4j/lept4j/1.16.1/lept4j-1.16.1.jar
+2024-12-31 12:16:36,046 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-vfs/3.2.16.Final/jboss-vfs-3.2.16.Final.jar
+2024-12-31 12:16:36,070 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-vfs/3.2.16.Final/jboss-vfs-3.2.16.Final.jar
+2024-12-31 12:16:36,076 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar
+2024-12-31 12:16:36,211 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/lept4j/lept4j/1.16.1/lept4j-1.16.1.jar
+2024-12-31 12:16:36,230 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.25/pdfbox-debugger-2.0.25.jar
+2024-12-31 12:16:36,266 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.25/pdfbox-debugger-2.0.25.jar
+2024-12-31 12:16:36,268 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.25/pdfbox-2.0.25.jar
+2024-12-31 12:16:36,374 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.25/pdfbox-2.0.25.jar
+2024-12-31 12:16:37,332 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:16:37,337 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:16:38,461 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/tess4j/tess4j/5.2.0/tess4j-5.2.0-sources.jar
+2024-12-31 12:16:38,828 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/tess4j/tess4j/5.2.0/tess4j-5.2.0-sources.jar
+2024-12-31 12:16:38,837 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sourceforge.tess4j:tess4j:5.2.0
+2024-12-31 12:16:38,838 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:16:38,845 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:16:38,903 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0-sources.jar
+2024-12-31 12:16:38,940 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0-sources.jar
+2024-12-31 12:16:38,947 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.java.dev.jna:jna:5.10.0
+2024-12-31 12:16:39,271 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.25/pdfbox-2.0.25-sources.jar
+2024-12-31 12:16:39,385 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.25/pdfbox-2.0.25-sources.jar
+2024-12-31 12:16:39,391 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:pdfbox:2.0.25
+2024-12-31 12:16:39,965 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.25/fontbox-2.0.25-sources.jar
+2024-12-31 12:16:40,053 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.25/fontbox-2.0.25-sources.jar
+2024-12-31 12:16:40,059 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:fontbox:2.0.25
+2024-12-31 12:16:40,374 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.25/pdfbox-tools-2.0.25-sources.jar
+2024-12-31 12:16:40,382 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.25/pdfbox-tools-2.0.25-sources.jar
+2024-12-31 12:16:40,386 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:pdfbox-tools:2.0.25
+2024-12-31 12:16:40,436 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.25/pdfbox-debugger-2.0.25-sources.jar
+2024-12-31 12:16:40,467 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.25/pdfbox-debugger-2.0.25-sources.jar
+2024-12-31 12:16:40,470 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:pdfbox-debugger:2.0.25
+2024-12-31 12:16:40,524 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4-sources.jar
+2024-12-31 12:16:40,558 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4-sources.jar
+2024-12-31 12:16:40,562 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:jbig2-imageio:3.0.4
+2024-12-31 12:16:40,619 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/lept4j/lept4j/1.16.1/lept4j-1.16.1-sources.jar
+2024-12-31 12:16:40,761 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/lept4j/lept4j/1.16.1/lept4j-1.16.1-sources.jar
+2024-12-31 12:16:40,766 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sourceforge.lept4j:lept4j:1.16.1
+2024-12-31 12:16:40,887 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-vfs/3.2.16.Final/jboss-vfs-3.2.16.Final-sources.jar
+2024-12-31 12:16:40,965 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-vfs/3.2.16.Final/jboss-vfs-3.2.16.Final-sources.jar
+2024-12-31 12:16:40,970 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jboss-vfs:3.2.16.Final
+2024-12-31 12:17:11,998 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:17:12,005 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:18:32,977 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:18:34,460 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:18:34,465 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:18:36,884 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:18:36,890 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:20:19,379 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:20:19,386 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:20:50,666 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:20:53,193 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:20:53,208 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:20:55,319 [ModalContext] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-31 12:20:55,733 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:20:57,655 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:20:57,664 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:20:58,347 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Xuriti/src/main/java
+2024-12-31 12:20:58,350 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Xuriti/src/main/resources
+2024-12-31 12:20:58,352 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Xuriti/src/test/java
+2024-12-31 12:20:58,353 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Xuriti/src/test/resources
+2024-12-31 12:20:58,842 [ModalContext] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 1.00 sec 
+2024-12-31 12:21:03,325 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:21:05,699 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:21:05,708 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:21:06,844 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Xurity\Xuriti\pom.xml.
+2024-12-31 12:21:19,005 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-12-31 12:21:19,031 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - 
+2024-12-31 12:21:19,032 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - Some problems were encountered while building the effective model for com.fireflink:tyss-program-elements:jar:1.0
+2024-12-31 12:21:19,033 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.fireflink:tyss-nlp-data-models:jar -> duplicate declaration of version [0.0.1,) @ line 91, column 17
+2024-12-31 12:21:19,034 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.projectlombok:lombok:jar -> duplicate declaration of version 1.18.24 @ line 96, column 17
+2024-12-31 12:21:19,034 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - 
+2024-12-31 12:21:19,035 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - It is highly recommended to fix these problems because they threaten the stability of your build.
+2024-12-31 12:21:19,035 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - 
+2024-12-31 12:21:19,036 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - For this reason, future Maven versions might no longer support building such malformed projects.
+2024-12-31 12:21:19,037 [ModalContext] WARN  o.a.maven.graph.DefaultGraphBuilder - 
+2024-12-31 12:21:19,054 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:19,066 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2024-12-31 12:21:19,067 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-12-31 12:21:19,067 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-12-31 12:21:19,076 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-12-31 12:21:19,886 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:21:19,904 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:21:20,893 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:20,893 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:20,965 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\Xurity\Xuriti\target
+2024-12-31 12:21:21,001 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:21,001 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:21,169 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:21:21,171 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:21,171 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:21,515 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2024-12-31 12:21:21,533 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2024-12-31 12:21:25,074 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2024-12-31 12:21:25,076 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2024-12-31 12:21:25,076 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:25,076 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:25,082 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:21:25,082 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:25,082 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:25,090 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-12-31 12:21:25,090 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:25,090 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:25,446 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-12-31 12:21:25,459 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:25,460 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:25,954 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\Xurity\Xuriti\target\tyss-program-elements-1.0.jar
+2024-12-31 12:21:26,074 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:26,074 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:26,268 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.5 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2024-12-31 12:21:26,269 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,270 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.poi:poi:jar:5.2.3 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including commons-codec:commons-codec:jar:1.15 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-math3:jar:3.6.1 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including commons-io:commons-io:jar:2.11.0 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.zaxxer:SparseBitSet:jar:1.2 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.poi:poi-ooxml:jar:5.2.3 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.poi:poi-ooxml-lite:jar:5.2.3 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.xmlbeans:xmlbeans:jar:5.1.1 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.21 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.github.virtuald:curvesapi:jar:1.07 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.sourceforge.jexcelapi:jxl:jar:2.6.12 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including log4j:log4j:jar:1.2.14 in the shaded jar.
+2024-12-31 12:21:26,271 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.logging.log4j:log4j-api:jar:2.20.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.logging.log4j:log4j-core:jar:2.20.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-collections4:jar:4.4 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.pdfbox:pdfbox:jar:2.0.24 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.pdfbox:fontbox:jar:2.0.24 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including commons-logging:commons-logging:jar:1.2 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.json:json:jar:20240303 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-java:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chrome-driver:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chromium-driver:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v127:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v128:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v129:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v85:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-edge-driver:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-firefox-driver:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-ie-driver:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-safari-driver:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,272 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-support:jar:4.25.0 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.jayway.jsonpath:json-path:jar:2.7.0 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.minidev:json-smart:jar:2.4.7 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.minidev:accessors-smart:jar:2.4.7 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.ow2.asm:asm:jar:9.1 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:1.7.33 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.sourceforge.tess4j:tess4j:jar:5.2.0 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.java.dev.jna:jna:jar:5.10.0 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.github.jai-imageio:jai-imageio-core:jar:1.4.0 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.pdfbox:pdfbox-tools:jar:2.0.25 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.pdfbox:pdfbox-debugger:jar:2.0.25 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.pdfbox:jbig2-imageio:jar:3.0.4 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.sourceforge.lept4j:lept4j:jar:1.16.1 in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.jboss:jboss-vfs:jar:3.2.16.Final in the shaded jar.
+2024-12-31 12:21:26,273 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.jboss.logging:jboss-logging:jar:3.1.4.GA in the shaded jar.
+2024-12-31 12:21:26,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2024-12-31 12:21:41,210 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\Xurity\Xuriti\dependency-reduced-pom.xml
+2024-12-31 12:21:41,669 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:41,714 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:43,058 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:43,089 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:43,101 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:44,919 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,296 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,297 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,300 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,305 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,371 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,441 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,514 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,564 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,567 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,580 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,583 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,587 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:47,595 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-12-31 12:21:51,084 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,085 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AdditionalHttpCommands
+2024-12-31 12:21:51,087 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - poi-5.2.3.jar, poi-ooxml-5.2.3.jar define 3 overlapping resources: 
+2024-12-31 12:21:51,087 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.apache.poi.extractor.ExtractorProvider
+2024-12-31 12:21:51,088 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.apache.poi.sl.draw.ImageRenderer
+2024-12-31 12:21:51,089 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.apache.poi.ss.usermodel.WorkbookProvider
+2024-12-31 12:21:51,090 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,092 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AugmenterProvider
+2024-12-31 12:21:51,093 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2024-12-31 12:21:51,094 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2024-12-31 12:21:51,095 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2024-12-31 12:21:51,096 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2024-12-31 12:21:51,097 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - commons-logging-1.2.jar, spring-jcl-5.3.24.jar define 3 overlapping classes: 
+2024-12-31 12:21:51,098 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - org.apache.commons.logging.Log
+2024-12-31 12:21:51,098 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - org.apache.commons.logging.LogFactory
+2024-12-31 12:21:51,099 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - org.apache.commons.logging.LogFactory$1
+2024-12-31 12:21:51,099 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - jai-imageio-core-1.4.0.jar, jbig2-imageio-3.0.4.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,100 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/javax.imageio.spi.ImageReaderSpi
+2024-12-31 12:21:51,101 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-ie-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 2 overlapping resources: 
+2024-12-31 12:21:51,101 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.WebDriverInfo
+2024-12-31 12:21:51,102 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.service.DriverService$Builder
+2024-12-31 12:21:51,102 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, json-20240303.jar, log4j-api-2.20.0.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar, xmlbeans-5.1.1.jar define 1 overlapping classes: 
+2024-12-31 12:21:51,103 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2024-12-31 12:21:51,103 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - commons-codec-1.15.jar, commons-collections4-4.4.jar, commons-compress-1.21.jar, commons-exec-1.3.jar, commons-io-2.11.0.jar, commons-logging-1.2.jar, commons-math3-3.6.1.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,104 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/NOTICE.txt
+2024-12-31 12:21:51,104 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, fontbox-2.0.24.jar, jai-imageio-core-1.4.0.jar, jbig2-imageio-3.0.4.jar, log4j-1.2.14.jar, log4j-api-2.20.0.jar, log4j-core-2.20.0.jar, pdfbox-2.0.24.jar, pdfbox-debugger-2.0.25.jar, pdfbox-tools-2.0.25.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,105 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/NOTICE
+2024-12-31 12:21:51,105 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2024-12-31 12:21:51,106 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2024-12-31 12:21:51,106 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2024-12-31 12:21:51,107 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - fontbox-2.0.24.jar, jbig2-imageio-3.0.4.jar, log4j-api-2.20.0.jar, log4j-core-2.20.0.jar, pdfbox-2.0.24.jar, pdfbox-debugger-2.0.25.jar, pdfbox-tools-2.0.25.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,107 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/DEPENDENCIES
+2024-12-31 12:21:51,107 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,108 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.devtools.CdpInfo
+2024-12-31 12:21:51,109 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - lept4j-1.16.1.jar, tess4j-5.2.0.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,110 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - versionchanges.txt
+2024-12-31 12:21:51,111 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, fontbox-2.0.24.jar, guava-33.1.0-jre.jar, jai-imageio-core-1.4.0.jar, jbig2-imageio-3.0.4.jar, jna-5.10.0.jar, log4j-1.2.14.jar, log4j-api-2.20.0.jar, log4j-core-2.20.0.jar, pdfbox-2.0.24.jar, pdfbox-debugger-2.0.25.jar, pdfbox-tools-2.0.25.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,113 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2024-12-31 12:21:51,114 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - SparseBitSet-1.2.jar, accessors-smart-2.4.7.jar, asm-9.1.jar, auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-codec-1.15.jar, commons-collections4-4.4.jar, commons-compress-1.21.jar, commons-exec-1.3.jar, commons-io-2.11.0.jar, commons-logging-1.2.jar, commons-math3-3.6.1.jar, curvesapi-1.07.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, fontbox-2.0.24.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, jai-imageio-core-1.4.0.jar, java-client-9.2.3.jar, jbig2-imageio-3.0.4.jar, jboss-logging-3.1.4.GA.jar, jboss-vfs-3.2.16.Final.jar, jna-5.10.0.jar, json-20240303.jar, json-path-2.7.0.jar, json-smart-2.4.7.jar, jsr305-3.0.2.jar, jxl-2.6.12.jar, lept4j-1.16.1.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, log4j-1.2.14.jar, log4j-api-2.20.0.jar, log4j-core-2.20.0.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, pdfbox-2.0.24.jar, pdfbox-debugger-2.0.25.jar, pdfbox-tools-2.0.25.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar, selenium-api-4.19.1.jar, selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-http-4.19.1.jar, selenium-ie-driver-4.25.0.jar, selenium-java-4.25.0.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar, selenium-support-4.25.0.jar, slf4j-api-1.7.33.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tess4j-5.2.0.jar, tyss-nlp-data-models-0.0.5.jar, tyss-program-elements-1.0.jar, xmlbeans-5.1.1.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,114 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2024-12-31 12:21:51,115 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-codec-1.15.jar, commons-collections4-4.4.jar, commons-compress-1.21.jar, commons-exec-1.3.jar, commons-io-2.11.0.jar, commons-logging-1.2.jar, commons-math3-3.6.1.jar, jboss-logging-3.1.4.GA.jar define 1 overlapping resource: 
+2024-12-31 12:21:51,115 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2024-12-31 12:21:51,116 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2024-12-31 12:21:51,116 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2024-12-31 12:21:51,117 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2024-12-31 12:21:51,117 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2024-12-31 12:21:51,118 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2024-12-31 12:21:51,118 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2024-12-31 12:21:51,119 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2024-12-31 12:21:51,180 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 30051 -> 15941 (53%)
+2024-12-31 12:21:51,181 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2024-12-31 12:21:51,181 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\Xurity\Xuriti\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\Xurity\Xuriti\target\tyss-program-elements-1.0-shaded.jar
+2024-12-31 12:21:51,183 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-12-31 12:21:51,183 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-12-31 12:21:51,243 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\Xurity\Xuriti\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-12-31 12:21:51,249 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\Xurity\Xuriti\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-12-31 12:21:51,439 [ModalContext] WARN  o.a.m.r.i.PluginsMetadataGenerator - Artifact com.fireflink:tyss-program-elements JAR (about to be installed/deployed) contains Maven Plugin metadata for conflicting coordinates: org.apache.xmlbeans:xmlbeans. Your JAR contains rogue Maven Plugin metadata. Possible causes may be: shaded into this JAR some Maven Plugin or some rogue resource.
+2024-12-31 12:21:51,445 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-31 12:21:51,446 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-12-31 12:21:51,446 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-31 12:21:51,446 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  32.445 s
+2024-12-31 12:21:51,447 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-12-31T12:21:51+05:30
+2024-12-31 12:21:51,447 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-12-31 12:21:51,448 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-12-31 12:21:51,633 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:21:51,636 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:21:52,905 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:21:52,908 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2024-12-31 12:21:53,984 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\main\resources
+2024-12-31 12:21:53,988 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Xurity\Xuriti\src\test\resources
+2025-01-02 09:40:43,362 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

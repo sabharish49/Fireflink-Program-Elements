@@ -1,0 +1,134 @@
+package Business_Logics;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import io.appium.java_client.android.AndroidDriver;
+
+
+import org.springframework.stereotype.Component;
+
+@Component("LIC20369_PJT1002_PE_NLP159197de-c114-459c-a520-5a3e89682a18")
+public class clickOnOptionChainLTP implements Nlp {
+	@InputParams({@InputParam(name = "strike", type = "java.lang.String"), 
+	@InputParam(name = "OptionChainType", type = "java.lang.String")})
+	@ReturnType(name = "result", type = "java.lang.Boolean")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		String strike = (String) attributes.get("strike");
+		String ltpType = (String) attributes.get("OptionChainType");
+
+		AndroidDriver driver = nlpRequestModel.getAndroidDriver();
+		Duration implicitWait = driver.manage().timeouts().getImplicitWaitTimeout();
+
+		boolean res = false;
+		try {
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+
+			 boolean isClicked = false;
+		        int count = 0;
+
+		       
+		        while (isClicked ==false && count <= 30) {
+		            try {
+		                if (driver.findElement(By.xpath("//android.widget.TextView[@text='" + strike + "']")).isDisplayed()) {
+		                    if (ltpType.equalsIgnoreCase("Call LTP")) {
+		                    	driver.findElement(By.xpath("//android.widget.TextView[@text='" + strike + "']/preceding-sibling::android.view.View[@resource-id='com.choiceequitybroking.jiffy:id/vCallClicker']")).click();
+		                        
+		                    }   else if (ltpType.equalsIgnoreCase("Put LTP")) {
+		                    	driver.findElement(By.xpath("//android.widget.TextView[@text='" + strike + "']/following-sibling::android.view.View[@resource-id='com.choiceequitybroking.jiffy:id/vPutClicker']")).click();
+		                        
+		                    }
+		                    isClicked = true;
+		                }
+		            } catch (Exception e) {
+		             
+		                performSwipeUp(driver);
+		            }
+		            count++;
+		        }
+
+			res=true;
+			nlpResponseModel.setStatus(CommonConstants.pass);
+			nlpResponseModel.setMessage("Successfully tapped on the element");
+
+		} catch (Exception e) {
+			nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("failed to tap on the element "+e);
+
+		}
+		finally {
+			driver.manage().timeouts().implicitlyWait(implicitWait);
+
+		}
+
+		nlpResponseModel.getAttributes().put("result", res);
+		return nlpResponseModel;
+	}
+	
+	public static void performSwipeUp(AndroidDriver driver) {
+
+		boolean swipeUp = false;
+		Dimension screenSize = driver.manage().window().getSize();
+		int screenCenter = (int) (screenSize.getWidth() * 0.5);// Identify center point of screen for Y axis
+		int startPoint = (int) (screenSize.getHeight() * 0.5);// Identify beginning point of scroll for X axis
+		int endPoint = (int) (screenSize.getHeight() * 0.4);// Identify ending point of scroll
+		int count = 0;
+		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+		while (swipeUp == false) {
+			Sequence swipe = new Sequence(finger, 1);
+			swipe.addAction(finger.createPointerMove(Duration.ofSeconds(0), PointerInput.Origin.viewport(),
+					screenCenter, startPoint));
+			swipe.addAction(finger.createPointerDown(0));
+			swipe.addAction(finger.createPointerMove(Duration.ofMillis(700), PointerInput.Origin.viewport(),
+					screenCenter, endPoint));
+			swipe.addAction(finger.createPointerUp(0));
+			((RemoteWebDriver) driver).perform(Arrays.asList(swipe));
+			if (++count > 1) {
+				break;
+			}
+			if (count >= 1) {
+				swipeUp = true;
+			} else {
+
+			}
+
+		}
+
+	}
+
+	}

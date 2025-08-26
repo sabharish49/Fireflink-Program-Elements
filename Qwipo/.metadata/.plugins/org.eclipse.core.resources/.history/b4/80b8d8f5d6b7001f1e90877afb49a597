@@ -1,0 +1,116 @@
+package default_package;
+
+import java.net.URL;
+import java.time.Duration;
+import java.util.Arrays;
+import java.util.Calendar;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+
+	
+public static void main(String[] args) {
+	
+
+	static AndroidDriver androidDriver = null;
+	static IOSDriver iosDriver = null;
+	static NlpResponseModel nlpResponseModel = null;
+	static int yearfewYearsAgo = 0;
+	static int maxSwipeCount = 10;
+	DesiredCapabilities dc = new DesiredCapabilities();
+	dc.setCapability("appium:platformName","Android");
+	URL url = new URL("http://localhost:4723/wd/hub");
+	AndroidDriver driver = new AndroidDriver(url,
+			dc);driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));System.out.println("app launched");
+
+	androidDriver=nlpRequestModel.getAndroidDriver();iosDriver=nlpRequestModel.getIosDriver();
+
+	Calendar calendar = Calendar.getInstance();
+	int currentYear = calendar.get(Calendar.YEAR);
+
+	yearfewYearsAgo=currentYear-Age;
+
+	SelectDateElement.click();if(androidDriver!=null)
+	{
+		WebElement element = androidDriver.findElement(By.xpath(
+				"//android.widget.Button[contains(@content-desc,'Select')]/android.view.View/android.view.View"));
+		int x = element.getLocation().getX();
+		int y = element.getLocation().getY();
+		int width = element.getSize().getWidth();
+		int height = element.getSize().getHeight();
+		int startX = (int) (x + (width * 0.5));
+		int startY = (int) (y + (height * 0.8));
+		int endX = (int) (x + width);
+		int endY = (int) (y + (height * 0.5));
+
+		int centerX = 457;
+		int centerY = 855;
+		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+		Sequence tap = new Sequence(finger, 1)
+				.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), centerX, centerY))
+				.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+				.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+		androidDriver.perform(Arrays.asList(tap));
+
+		selectDate(startX, startY, endX, endY, maxSwipeCount, yearfewYearsAgo);
+	}else
+	{
+
+	}
+}
+}
+
+	public static void selectDate(int startX, int startY, int endX, int endY, int maxSwipeCount, int yearfewYearsAgo) {
+		for (int i = 0; i < maxSwipeCount;) {
+			PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+			// Define a swipe action sequence
+			Sequence swipe = new Sequence(finger, 1)
+					.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY))
+					.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg())).addAction(finger
+							.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), endX, endY))
+					.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+			if (androidDriver != null) {
+				androidDriver.perform(Arrays.asList(swipe));
+			} else {
+
+			}
+			try {
+				if (androidDriver != null) {
+					androidDriver
+							.findElement(By.xpath("//android.widget.Button[@content-desc='" + yearfewYearsAgo + "']"))
+							.isDisplayed();
+					androidDriver
+							.findElement(By.xpath("//android.widget.Button[@content-desc='" + yearfewYearsAgo + "']"))
+							.click();
+					androidDriver.findElement(By.xpath("//android.widget.Button[@content-desc=\"OK\"]")).click();
+					nlpResponseModel.setStatus(CommonConstants.pass);
+					nlpResponseModel.setMessage("Selected The Date");
+					break;
+
+				} else {
+
+				}
+
+			} catch (org.openqa.selenium.NoSuchElementException e) {
+				i++;
+				System.out.println("Element Not Found");
+
+			} catch (Exception e) {
+				System.out.println("Execption is occured " + e);
+			}
+
+		}
+	}
+}

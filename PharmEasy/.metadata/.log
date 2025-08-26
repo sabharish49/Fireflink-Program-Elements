@@ -1,0 +1,1821 @@
+!SESSION 2024-02-27 15:37:43.428 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-27 15:38:14.570
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-27 15:38:28.801
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\PharmEasy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-27 15:38:31.309
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-27 15:38:31.309
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-27 15:38:34.473
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:03.708
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:30.808
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:32.923
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:32.924
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:43.793
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:43.796
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:45.074
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:52.076
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:52.077
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.188
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.189
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.190
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.191
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.192
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.193
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.193
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding repository information to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.193
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:39:53.194
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven dependency plugin
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:40:20.684
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:40:20.690
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:40:34.039
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:40:34.045
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:40:34.791
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:40:34.946
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:40:34.958
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Replacing default pom.xml contents with that on the server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:40:34.964
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:40:39.214
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:40:39.221
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:46:53.446
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:46:53.451
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:47:33.817
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:47:33.820
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:42.447
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:42.448
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:42.481
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:44.853
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:46.104
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:46.105
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:46.106
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:46.106
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.581
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.582
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.593
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.595
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/Business_Logic
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.607
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for setDatatypeAndAssertsForParameters
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.623
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for extractParametersFromQuery
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.634
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Add_Minutes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.657
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for test
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:47:47.658
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:47:47.912
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:47:47.926
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:03.402
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:03.408
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:03.428
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:03.429
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:03.433
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:03.435
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:03.650
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:03.655
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:13.387
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:13.387
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:13.417
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:15.858
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:16.844
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:16.846
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:16.846
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:16.847
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.891
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.892
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.893
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.894
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/Business_Logic
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.912
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for setDatatypeAndAssertsForParameters
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.934
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for extractParametersFromQuery
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.957
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Add_Minutes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.982
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for test
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:17.983
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:18.183
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:18.188
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.639
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.645
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.664
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.665
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.666
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.667
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.731
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.744
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:19.747
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:25.630
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:25.636
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:25.841
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC18416PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:25.842
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /GateKeeper/src/main/java/Business_Logic
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:50.567
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /GateKeeper/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:48:50.677
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC18416PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:51.088
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:51.093
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:53.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:53.549
+!MESSAGE File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:56.876
+!MESSAGE system modules path not set in conjunction with -source 11
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:48:56.882
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:49:06.106
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:06.200
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:06.200
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC18416PJT1001
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:49:06.651
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:49:06.656
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:07.039
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:07.040
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:08.239
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:08.239
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:08.240
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /GateKeeper/src/main/java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:49:08.300
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 15:49:08.307
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:09.692
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /GateKeeper/src/main/java/Business_Logic
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:09.694
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server Add_Minutes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:11.185
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server extractParametersFromQuery
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:12.314
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server Query_Iterator
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:14.133
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server setDatatypeAndAssertsForParameters
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:17.161
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /GateKeeper/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:17.163
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:18.781
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:18.783
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:19.936
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:19.937
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:20.834
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:20.834
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:22.320
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:22.321
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:22.322
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:22.332
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:23.222
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:31.976
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 15:49:31.976
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+!SESSION 2024-02-27 22:12:56.435 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-27 22:13:36.436
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-27 22:13:43.861
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\PharmEasy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-27 22:13:47.654
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-27 22:13:47.654
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-27 22:13:53.895
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:22:32.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:22:32.317
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:22:50.367
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:22:50.382
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:25:57.449
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:25:57.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:27:56.660
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:27:56.670
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:28:23.180
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:28:23.187
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:28:31.419
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:28:31.423
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:28:31.546
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 4 0 2024-02-27 22:28:43.745
+!MESSAGE com.flinko.plugin.service.PullThread - License not active
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:29:07.067
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:29:07.068
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:29:07.149
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 4 0 2024-02-27 22:29:07.181
+!MESSAGE com.flinko.plugin.service.PullThread - License not active
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:01.385
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:01.386
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:01.470
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:05.099
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:06.513
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:06.514
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:06.515
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:06.515
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.072
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.076
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.104
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.112
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/Business_Logic
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.186
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for setDatatypeAndAssertsForParameters
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.259
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for extractParametersFromQuery
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.314
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Add_Minutes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.373
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Query_Iterator
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.526
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.543
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.595
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.596
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.599
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-27 22:32:08.601
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:32:09.274
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-27 22:32:09.282
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2024-02-27 23:02:55.529
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.ui.model.application.ui.basic.MWindow.getContext()" because "window" is null
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:567)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.ole.win32.COM.VtblCall(Native Method)
+	at org.eclipse.swt.internal.ole.win32.ITaskbarList3.SetOverlayIcon(ITaskbarList3.java:31)
+	at org.eclipse.swt.widgets.TaskItem.destroyWidget(TaskItem.java:112)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:831)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.TaskItem$1.handleEvent(TaskItem.java:470)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1092)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui 4 0 2024-02-27 23:02:55.558
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Decorations.getMinimized(Decorations.java:622)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$7(WBWRenderer.java:719)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1092)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui 4 0 2024-02-27 23:02:55.560
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Widget.removeListener(Widget.java:936)
+	at org.eclipse.swt.dnd.DropTarget.onDispose(DropTarget.java:577)
+	at org.eclipse.swt.dnd.DropTarget.lambda$1(DropTarget.java:156)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.dnd.DropTarget.lambda$0(DropTarget.java:151)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1092)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2024-02-28 15:06:46.537 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-28 15:06:48.112
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-28 15:06:53.501
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\PharmEasy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-28 15:06:55.180
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-28 15:06:55.180
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-28 15:07:01.058
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2024-02-28 19:32:45.022
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.ui.model.application.ui.basic.MWindow.getContext()" because "window" is null
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:567)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.ole.win32.COM.VtblCall(Native Method)
+	at org.eclipse.swt.internal.ole.win32.ITaskbarList3.SetOverlayIcon(ITaskbarList3.java:31)
+	at org.eclipse.swt.widgets.TaskItem.destroyWidget(TaskItem.java:112)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:831)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.TaskItem$1.handleEvent(TaskItem.java:470)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1092)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui 4 0 2024-02-28 19:32:45.053
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Decorations.getMinimized(Decorations.java:622)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$7(WBWRenderer.java:719)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1092)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui 4 0 2024-02-28 19:32:45.057
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Widget.removeListener(Widget.java:936)
+	at org.eclipse.swt.dnd.DropTarget.onDispose(DropTarget.java:577)
+	at org.eclipse.swt.dnd.DropTarget.lambda$1(DropTarget.java:156)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.dnd.DropTarget.lambda$0(DropTarget.java:151)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1092)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2024-02-29 09:35:06.040 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-29 09:35:08.323
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-29 09:35:11.946
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\PharmEasy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-29 09:35:13.321
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-29 09:35:13.321
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-29 09:35:17.700
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:24.835
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:24.837
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:24.882
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:27.415
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:28.540
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:28.540
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:28.541
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:28.541
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:29.459
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:29.462
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:29.471
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:29.487
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/Business_Logic
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:29.560
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for setDatatypeAndAssertsForParameters
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:36:29.561
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:36:47.893
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:36:47.899
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:02.659
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for extractParametersFromQuery
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:02.692
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Add_Minutes
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:02.693
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:37:03.013
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:37:03.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:04.075
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Query_Iterator
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:04.076
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:37:04.300
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:37:04.306
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:05.873
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /GateKeeper/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:05.891
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:05.943
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:06.002
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:06.006
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-02-29 09:37:06.007
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:37:06.246
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-29 09:37:06.251
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2024-03-01 10:03:05.102 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-01 10:03:25.200
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-01 10:09:57.864
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\PharmEasy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-01 10:09:59.415
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-01 10:09:59.415
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-01 10:10:04.653
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:10:44.326
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:10:44.331
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:10:52.407
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:10:52.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:24:10.569
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:24:10.572
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:32:06.964
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:32:06.968
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:32:13.869
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:32:13.874
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:33:43.733
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:33:43.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:34:10.892
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:34:10.896
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:40:44.745
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:04.462
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:06.155
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:06.155
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:20.052
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:20.054
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:21.012
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:27.692
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:27.693
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.722
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.723
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.725
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.726
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.727
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.728
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.728
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding repository information to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.728
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:28.729
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven dependency plugin
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:41:32.069
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:41:32.074
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:32.534
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:32.569
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:41:32.640
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:41:33.281
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:41:33.283
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:42:06.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:42:06.297
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:42:27.157
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:42:27.160
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:40.172
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:40.173
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:40.229
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:41.776
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:42.929
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:42.930
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:42.930
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:42.930
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:43.964
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:43.965
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:43.975
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:43.977
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /IndiaBonds/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:43.982
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:44.004
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:44.005
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:44.006
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:44.014
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:42:44.252
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:42:44.255
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:52.774
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:52.774
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:52.824
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:54.700
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:55.845
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:55.846
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:55.846
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:55.847
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.881
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.881
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.882
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.883
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /IndiaBonds/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.898
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.929
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.929
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.930
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:56.936
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:57.040
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:57.076
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:42:57.077
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:02.690
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:02.694
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:03.427
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC14365PJT1002 package
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:03.428
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /IndiaBonds/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:03.944
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /IndiaBonds/src/main/java/logics
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:04.635
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC14365PJT1002 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:05.147
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:05.151
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:06.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:06.731
+!MESSAGE File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:09.100
+!MESSAGE system modules path not set in conjunction with -source 11
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:09.105
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:11.116
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:11.207
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:11.208
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC14365PJT1002
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:11.501
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:11.505
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:11.814
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:11.814
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:12.681
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:12.682
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:12.682
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /IndiaBonds/src/main/java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:12.801
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:12.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:13.738
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /IndiaBonds/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:13.739
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:15.880
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /IndiaBonds/src/main/java/logics
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:15.881
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server Browser_resize
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:16.266
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 10:43:16.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:17.083
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:17.084
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:18.108
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:18.109
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:18.850
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:18.851
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:19.891
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully created on server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:19.892
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:19.892
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:19.899
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:20.676
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:20.677
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating the file in S3
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:30.517
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-03-01 10:43:30.517
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 11:32:48.598
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 11:32:48.601
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 11:32:57.966
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 11:32:57.969
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 13:19:45.024
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 13:19:45.026
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 16:26:22.245
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 16:26:22.250
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 16:26:31.982
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-03-01 16:26:31.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

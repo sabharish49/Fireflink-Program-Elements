@@ -1,0 +1,61 @@
+package default_package;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.LinkedList;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelToString {
+
+    public static void main(String[] args) {
+        String excelFilePath = "C:/Users/User/Downloads/OrthoFX TestData.xlsx";
+        String sheetName = "File_Paths"; 
+        int columnIndex = 1; 
+        int rowSize=5;
+        LinkedList<String> columnData = new LinkedList<>();
+        
+        
+        
+        try (FileInputStream fis = new FileInputStream(excelFilePath);
+             Workbook workbook = new XSSFWorkbook(fis)) {
+
+          
+            Sheet sheet = workbook.getSheet(sheetName);
+            
+            if (sheet == null) {
+                System.out.println("Sheet with name \"" + sheetName + "\" does not exist.");
+               // return;
+            }
+            
+            String result = null;
+            
+            for (int i = 1; i <= rowSize; i++) {
+                Row row = sheet.getRow(i);
+
+                if (row != null) {
+                    Cell cell = row.getCell(columnIndex);
+
+                    if (cell != null) {
+                      
+                       columnData.add(cell.toString().trim());
+                      
+                       result = String.join(", ", columnData);
+                       
+                    } else {
+                    	
+                        System.out.println("Empty cell at row " + (i + 1) + ", column " + (columnIndex + 1));
+                    }
+                }
+            }
+            
+           String finalString = result.replace("\"", "");
+           System.out.println(columnData);
+           
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

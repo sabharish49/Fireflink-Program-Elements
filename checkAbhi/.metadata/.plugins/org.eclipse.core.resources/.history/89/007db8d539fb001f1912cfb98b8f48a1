@@ -1,0 +1,41 @@
+package IssueCheck;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class LaunchAndClickOnShutter {
+
+	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+		DesiredCapabilities dc = new DesiredCapabilities();
+		dc.setCapability("platformName", "android");
+		dc.setCapability("appium:appPackage", "com.adityabirlahealth.insurance");
+		dc.setCapability("appium:appActivity", "com.adityabirlahealth.insurance.Login.SplashActivity");
+		dc.setCapability("appium:noRest", false);
+		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), dc);
+
+		Thread.sleep(45000);
+		System.out.println("MObile launched ");
+
+		String currentActivity = driver.currentActivity();
+		System.out.println("Current Activity: " + currentActivity);
+
+		if (currentActivity.equals("com.sec.android.app.camera.Camera")) {
+			System.out.println("Camera is open, capturing a photo...");
+
+			try {
+				driver.findElement(By.id("com.android.permissioncontroller:id/permission_allow_button")).click();
+				Thread.sleep(2000);
+			} catch (Exception e) {
+				System.out.println("No permission popup found.");
+			}
+
+
+		}
+	}
+}

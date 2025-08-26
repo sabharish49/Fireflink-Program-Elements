@@ -1,0 +1,1214 @@
+!SESSION 2025-05-29 16:30:58.636 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-29 16:31:05.460
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-29 16:31:32.135
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\fireflinkV3\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-29 16:31:39.579
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:34:47.409
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:46.557
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:47.482
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:47.483
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:48.223
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:48.225
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:48.345
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.520
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.522
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.662
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.664
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.667
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.670
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.670
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.671
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.672
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:52.672
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven shade plugin
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:57.092
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:57.119
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:57.127
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Replacing default pom.xml contents with that on the server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:35:57.131
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.279
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.280
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.320
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.540
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.660
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.661
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.662
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.662
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.788
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.789
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.818
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.824
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /CustomerBased Scenarios/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.858
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.859
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.861
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.864
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.961
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.989
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:08.992
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:15.109
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC3575PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:15.112
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /CustomerBased Scenarios/src/main/java/business_logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:20.130
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /CustomerBased Scenarios/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:20.197
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC3575PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:22.732
+!MESSAGE location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:26.085
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:26.100
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:26.605
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:26.620
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:26.627
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.641
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.653
+!MESSAGE byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.654
+!MESSAGE - META-INF/LICENSE
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.655
+!MESSAGE checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.655
+!MESSAGE - META-INF/LICENSE.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.655
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.656
+!MESSAGE - META-INF/spring.handlers
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.656
+!MESSAGE - META-INF/spring.schemas
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.657
+!MESSAGE - META-INF/spring.tooling
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.658
+!MESSAGE byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.659
+!MESSAGE - META-INF.versions.9.module-info
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.659
+!MESSAGE auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-http-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.660
+!MESSAGE - META-INF/MANIFEST.MF
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.660
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.660
+!MESSAGE - META-INF/license.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.661
+!MESSAGE - META-INF/notice.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.661
+!MESSAGE maven-shade-plugin has detected that some files are
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.661
+!MESSAGE present in two or more JARs. When this happens, only one
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.661
+!MESSAGE single version of the file is copied to the uber jar.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.662
+!MESSAGE Usually this is not harmful and you can skip these warnings,
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.662
+!MESSAGE otherwise try to manually exclude artifacts based on
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.663
+!MESSAGE mvn dependency:tree -Ddetail=true and the above output.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.663
+!MESSAGE See https://maven.apache.org/plugins/maven-shade-plugin/
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-29 16:39:27.738
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:27.759
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:27.763
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC3575PJT1001
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:27.972
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:27.973
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:28.107
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:28.108
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:28.109
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /CustomerBased Scenarios/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:28.518
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /CustomerBased Scenarios/src/main/java/business_logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:28.519
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server Wait_till_element_becomes_invisible
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.231
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /CustomerBased Scenarios/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.232
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server AddTwoNumbers
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.388
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.388
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.517
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.517
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.566
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.566
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.695
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.696
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.696
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.709
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.773
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 16:39:29.774
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating the file in S3
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 17:25:54.314
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 17:25:54.315
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 17:25:54.357
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 4 0 2025-05-29 17:27:18.549
+!MESSAGE com.flinko.plugin.service.PullThread - License not active
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 17:29:35.741
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 17:29:35.741
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-29 17:29:35.785
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 4 0 2025-05-29 17:30:59.952
+!MESSAGE com.flinko.plugin.service.PullThread - License not active
+!SESSION 2025-06-13 18:01:38.716 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-13 18:01:44.964
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-13 18:03:25.814
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\fireflinkV3\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-13 18:03:36.893
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:03:42.589
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:19.685
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:20.600
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:20.600
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:21.295
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:21.297
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:21.410
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.462
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.465
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.595
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.598
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.601
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.608
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.609
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.610
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.610
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:26.611
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven shade plugin
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:30.989
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:31.027
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:06:31.053
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.058
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.059
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.104
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.382
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.496
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.496
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.497
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.497
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.618
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.619
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.638
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.642
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Sachin Team/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.666
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.667
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.670
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.672
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.848
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.955
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:26.964
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:34.937
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC3679PJT1007 package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:34.937
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Sachin Team/src/main/java/basic_logics
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:35.604
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Sachin Team/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:36.660
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC3679PJT1007 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:41.162
+!MESSAGE location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:48.625
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:48.654
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:49.497
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:49.519
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:49.531
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:50.930
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:50.934
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:50.935
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:50.937
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:50.942
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:50.999
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.052
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.107
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.140
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.143
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.149
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.152
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.155
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.184
+!MESSAGE selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.185
+!MESSAGE - META-INF/services/org.openqa.selenium.remote.AdditionalHttpCommands
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.186
+!MESSAGE byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.186
+!MESSAGE - META-INF/LICENSE
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.187
+!MESSAGE selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.187
+!MESSAGE - META-INF/services/org.openqa.selenium.remote.AugmenterProvider
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.188
+!MESSAGE checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.188
+!MESSAGE - META-INF/LICENSE.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.188
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.190
+!MESSAGE - META-INF/spring.handlers
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.191
+!MESSAGE - META-INF/spring.schemas
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.192
+!MESSAGE - META-INF/spring.tooling
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.193
+!MESSAGE byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.193
+!MESSAGE - META-INF.versions.9.module-info
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.194
+!MESSAGE selenium-chrome-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-ie-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 2 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.195
+!MESSAGE - META-INF/services/org.openqa.selenium.WebDriverInfo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.195
+!MESSAGE - META-INF/services/org.openqa.selenium.remote.service.DriverService$Builder
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.196
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.196
+!MESSAGE - META-INF/license.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.197
+!MESSAGE - META-INF/notice.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.198
+!MESSAGE auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-http-4.19.1.jar, selenium-ie-driver-4.25.0.jar, selenium-java-4.25.0.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar, selenium-support-4.25.0.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.198
+!MESSAGE - META-INF/MANIFEST.MF
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.198
+!MESSAGE selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.199
+!MESSAGE - META-INF/services/org.openqa.selenium.devtools.CdpInfo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.199
+!MESSAGE maven-shade-plugin has detected that some files are
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.200
+!MESSAGE present in two or more JARs. When this happens, only one
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.200
+!MESSAGE single version of the file is copied to the uber jar.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.201
+!MESSAGE Usually this is not harmful and you can skip these warnings,
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.202
+!MESSAGE otherwise try to manually exclude artifacts based on
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.202
+!MESSAGE mvn dependency:tree -Ddetail=true and the above output.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.203
+!MESSAGE See https://maven.apache.org/plugins/maven-shade-plugin/
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-13 18:11:51.337
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.363
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.368
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC3679PJT1007
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.716
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.717
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.835
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.836
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:51.837
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Sachin Team/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:52.170
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Sachin Team/src/main/java/basic_logics
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:52.172
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server CustomizedCapabilities
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:53.080
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server Wait_till_element_isVisiable
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:53.816
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Sachin Team/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:53.816
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server AddTwoNumbers
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:54.310
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:54.313
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:54.448
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:54.448
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:54.498
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:54.498
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:55.146
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully created on server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:55.147
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:55.147
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:55.167
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:55.217
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2025-06-13 18:11:55.218
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating the file in S3
+
+!ENTRY com.flinko.plugin 4 0 2025-06-13 18:11:58.372
+!MESSAGE com.flinko.plugin.service.ProjectService - Exception pushing project from server
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:396)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at com.flinko.plugin.service.ProjectService.pushProject(ProjectService.java:64)
+	at com.flinko.plugin.command.handler.PushCommandHandler.execute(PushCommandHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:444)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:442)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:464)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:520)
+	at com.google.gson.Gson.fromJson(Gson.java:1361)
+	at com.google.gson.Gson.fromJson(Gson.java:1262)
+	at com.google.gson.Gson.fromJson(Gson.java:1171)
+	at com.google.gson.Gson.fromJson(Gson.java:1107)
+	at com.flinko.plugin.client.http.FileHttpClient.addFileToFolder(FileHttpClient.java:68)
+	at com.flinko.plugin.util.ProjectUtil.createFile(ProjectUtil.java:2007)
+	at com.flinko.plugin.util.ProjectUtil.pushJarToS3(ProjectUtil.java:1915)
+	at com.flinko.plugin.util.ProjectUtil.pushProject(ProjectUtil.java:1523)
+	at com.flinko.plugin.util.ProjectUtil.pushToFlinko(ProjectUtil.java:1392)
+	at com.flinko.plugin.service.PushThread.run(PushThread.java:34)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1768)
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:430)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:59)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2.readIntoField(ReflectiveTypeAdapterFactory.java:267)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:558)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:516)
+	... 11 more
+Root exception:
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:520)
+	at com.google.gson.Gson.fromJson(Gson.java:1361)
+	at com.google.gson.Gson.fromJson(Gson.java:1262)
+	at com.google.gson.Gson.fromJson(Gson.java:1171)
+	at com.google.gson.Gson.fromJson(Gson.java:1107)
+	at com.flinko.plugin.client.http.FileHttpClient.addFileToFolder(FileHttpClient.java:68)
+	at com.flinko.plugin.util.ProjectUtil.createFile(ProjectUtil.java:2007)
+	at com.flinko.plugin.util.ProjectUtil.pushJarToS3(ProjectUtil.java:1915)
+	at com.flinko.plugin.util.ProjectUtil.pushProject(ProjectUtil.java:1523)
+	at com.flinko.plugin.util.ProjectUtil.pushToFlinko(ProjectUtil.java:1392)
+	at com.flinko.plugin.service.PushThread.run(PushThread.java:34)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1768)
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:430)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:59)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2.readIntoField(ReflectiveTypeAdapterFactory.java:267)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:558)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:516)
+	... 11 more
+!SESSION 2025-06-28 14:55:54.950 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-28 14:56:01.031
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-28 14:56:18.715
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\fireflinkV3\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-28 14:56:44.225
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:01:39.316
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:02:13.605
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:02:16.148
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:02:16.149
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:38.370
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:38.375
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:38.732
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:49.891
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:49.893
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.672
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.674
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.677
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.683
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.684
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.685
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.686
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:50.687
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven shade plugin
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:53.938
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:53.956
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 15:10:53.965
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:09.394
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:09.396
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:09.562
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:11.179
+!MESSAGE com.flinko.plugin.util.PluginUtil - Access token has expired
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:52.161
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:52.646
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:52.647
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:52.649
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:52.650
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.562
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.567
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.621
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.626
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Testing/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.678
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.681
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.684
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:53.685
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:54.194
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:54.552
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:23:54.606
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:04.018
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC21137PJT1007 package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:04.020
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Testing/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:05.043
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC21137PJT1007 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:10.379
+!MESSAGE location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:18.432
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:18.473
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:19.697
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:19.729
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:19.749
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.941
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.981
+!MESSAGE byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.982
+!MESSAGE - META-INF/LICENSE
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.983
+!MESSAGE auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-http-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.983
+!MESSAGE - META-INF/MANIFEST.MF
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.984
+!MESSAGE checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.985
+!MESSAGE - META-INF/LICENSE.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.985
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.986
+!MESSAGE - META-INF/spring.handlers
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.987
+!MESSAGE - META-INF/spring.schemas
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.987
+!MESSAGE - META-INF/spring.tooling
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.988
+!MESSAGE byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.988
+!MESSAGE - META-INF.versions.9.module-info
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.989
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.989
+!MESSAGE - META-INF/license.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.990
+!MESSAGE - META-INF/notice.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.990
+!MESSAGE maven-shade-plugin has detected that some files are
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.991
+!MESSAGE present in two or more JARs. When this happens, only one
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.992
+!MESSAGE single version of the file is copied to the uber jar.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.992
+!MESSAGE Usually this is not harmful and you can skip these warnings,
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.993
+!MESSAGE otherwise try to manually exclude artifacts based on
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.993
+!MESSAGE mvn dependency:tree -Ddetail=true and the above output.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:21.994
+!MESSAGE See https://maven.apache.org/plugins/maven-shade-plugin/
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-28 16:24:22.185
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:22.226
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:22.238
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC21137PJT1007
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:22.653
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:22.656
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:23.686
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:23.688
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:23.690
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Testing/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:24.499
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Testing/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:24.501
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server AddTwoNumbers
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:25.428
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server CustomizedCapabilities
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:26.446
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:26.447
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:27.382
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:27.383
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:27.687
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:27.688
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:28.492
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully created on server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:28.492
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:28.493
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:28.542
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:28.822
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2025-06-28 16:24:28.823
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating the file in S3
+
+!ENTRY com.flinko.plugin 4 0 2025-06-28 16:24:44.266
+!MESSAGE com.flinko.plugin.service.ProjectService - Exception pushing project from server
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:396)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at com.flinko.plugin.service.ProjectService.pushProject(ProjectService.java:64)
+	at com.flinko.plugin.command.handler.PushCommandHandler.execute(PushCommandHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:444)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:442)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:464)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:520)
+	at com.google.gson.Gson.fromJson(Gson.java:1361)
+	at com.google.gson.Gson.fromJson(Gson.java:1262)
+	at com.google.gson.Gson.fromJson(Gson.java:1171)
+	at com.google.gson.Gson.fromJson(Gson.java:1107)
+	at com.flinko.plugin.client.http.FileHttpClient.addFileToFolder(FileHttpClient.java:68)
+	at com.flinko.plugin.util.ProjectUtil.createFile(ProjectUtil.java:2007)
+	at com.flinko.plugin.util.ProjectUtil.pushJarToS3(ProjectUtil.java:1915)
+	at com.flinko.plugin.util.ProjectUtil.pushProject(ProjectUtil.java:1523)
+	at com.flinko.plugin.util.ProjectUtil.pushToFlinko(ProjectUtil.java:1392)
+	at com.flinko.plugin.service.PushThread.run(PushThread.java:34)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1768)
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:430)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:59)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2.readIntoField(ReflectiveTypeAdapterFactory.java:267)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:558)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:516)
+	... 11 more
+Root exception:
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:520)
+	at com.google.gson.Gson.fromJson(Gson.java:1361)
+	at com.google.gson.Gson.fromJson(Gson.java:1262)
+	at com.google.gson.Gson.fromJson(Gson.java:1171)
+	at com.google.gson.Gson.fromJson(Gson.java:1107)
+	at com.flinko.plugin.client.http.FileHttpClient.addFileToFolder(FileHttpClient.java:68)
+	at com.flinko.plugin.util.ProjectUtil.createFile(ProjectUtil.java:2007)
+	at com.flinko.plugin.util.ProjectUtil.pushJarToS3(ProjectUtil.java:1915)
+	at com.flinko.plugin.util.ProjectUtil.pushProject(ProjectUtil.java:1523)
+	at com.flinko.plugin.util.ProjectUtil.pushToFlinko(ProjectUtil.java:1392)
+	at com.flinko.plugin.service.PushThread.run(PushThread.java:34)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 39 path $.responseObject
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at com.google.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1768)
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:430)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:59)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2.readIntoField(ReflectiveTypeAdapterFactory.java:267)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:558)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:516)
+	... 11 more

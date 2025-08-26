@@ -1,0 +1,56 @@
+package com.tyss.optimize.programelement.LIC25632PJT1001.bussiness_Logics;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+public class Round_off_to_required_decimal_places implements Nlp {
+    @InputParams({ @InputParam(name = "value", type = "java.lang.Double"),
+            @InputParam(name = "Decimal format", type = "java.lang.String") })
+    @ReturnType(name = "string3", type = "java.lang.String")
+
+    @Override
+    public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+    }
+
+    @Override
+    public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+    }
+
+    @Override
+    public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+        NlpResponseModel nlpResponseModel = new NlpResponseModel();
+        Map<String, Object> attributes = nlpRequestModel.getAttributes();
+        Double string1 = (Double) attributes.get("value");
+        String format = (String) attributes.get("Decimal format");
+        String string3 = null;
+        
+        // Your program element business logic goes here ...
+        try {
+            string3 = String.format(format, string1);
+            nlpResponseModel.setStatus(CommonConstants.pass);
+            nlpResponseModel.setMessage("Round off Successfull");
+        } catch (Exception e) {
+            nlpResponseModel.setStatus(CommonConstants.fail);
+            nlpResponseModel.setMessage("Round off unsuccessfull");
+        }
+
+        nlpResponseModel.getAttributes().put("string3", string3);
+        return nlpResponseModel;
+    }
+}

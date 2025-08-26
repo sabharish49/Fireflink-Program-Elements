@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DragAndDropExample.java&apos; to &apos;Qwipo/src/main/java/default_package&apos;&#x0D;&#x0A;- Original project: &apos;Qwipo&apos;&#x0D;&#x0A;- Destination element: &apos;Qwipo/src/main/java/default_package&apos;&#x0D;&#x0A;- Original element: &apos;default_package.DragAndDropExample.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;default_package" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;default_package{DragAndDropExample.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1733932054201" units="1" version="1.0"/>
+</session>

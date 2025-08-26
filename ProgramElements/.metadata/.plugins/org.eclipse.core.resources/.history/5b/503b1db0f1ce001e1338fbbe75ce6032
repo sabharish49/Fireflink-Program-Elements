@@ -1,0 +1,104 @@
+package bussiness_logic;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+
+
+public class ConcatJson implements Nlp {
+		
+		    @InputParams({@InputParam(name = "MapData", type = "java.util.Map"),
+		    @InputParam(name = "jsonBody", type = "java.lang.String")})
+		    @ReturnType(name = "json", type = "java.lang.String")
+
+		      @Override
+		      public List<String> getTestParameters() throws NlpException {
+		        List<String> params = new ArrayList<>();
+		        return params;
+		      }
+
+		      @Override
+		      public StringBuilder getTestCode() throws NlpException {
+		        StringBuilder sb = new StringBuilder();
+		        return sb;
+		      }
+		      @SuppressWarnings("unchecked")
+			@Override
+		      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+		        
+		          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		          Map  MapData= (Map) attributes.get("MapData");
+		          String  jsonBody = (String) attributes.get("jsonBody");
+		          String updatedJson="";
+		          
+		          try {
+		        	  
+		        	  ObjectMapper objectMapper = new ObjectMapper();
+		              Map<String, Object> jsonMap = objectMapper.readValue(jsonBody, Map.class);
+		              //String[] keyValuePairs = data.substring(1, data.length() - 1).split(", ");
+		              Map<String, String> comMap = new HashMap();
+		              jsonMap = replacePlaceholdersWithValues(jsonMap, comMap);
+		              updatedJson = objectMapper.writeValueAsString(jsonMap);
+		    		
+		        	 
+		        	  nlpResponseModel.setStatus(CommonConstants.pass);
+		  			  nlpResponseModel.setMessage("json body created successfully");
+		        	  		        	  
+		          }
+		          catch(Exception e) {
+		        	
+		        	  nlpResponseModel.setStatus(CommonConstants.fail);
+		  			  nlpResponseModel.setMessage("failed to create json body"+e);
+		          }
+		         
+		          nlpResponseModel.getAttributes().put("json", updatedJson);
+		          return nlpResponseModel;
+		      }
+		     
+		      public static Map<String, Object> replacePlaceholdersWithValues(Map<String, Object> jsonMap, Map<String, String> comMap) {
+		          for (Map.Entry<String, Object> mapData : jsonMap.entrySet()) {
+		              String key = mapData.getKey();
+		              Object value = mapData.getValue();
+
+		              if (value instanceof String) {
+		                  String strValue = (String) value;
+		                  for (Map.Entry<String, String> staticData : comMap.entrySet()) {
+		                      String staticKey = staticData.getKey();
+		                      String staticValue = staticData.getValue();
+		                      strValue = strValue.replace(staticKey, staticValue);
+		                  }
+		                  jsonMap.put(key, strValue);
+		              } else if (value instanceof List) {
+		                  List<Object> listValue = (List<Object>) value;
+		                  List<Object> updatedList = new ArrayList();
+		                  for (Object listItem : listValue) {
+		                      if (listItem instanceof Map) {                 
+		                          updatedList.add(replacePlaceholdersWithValues((Map<String, Object>) listItem, comMap));
+		                      } else {
+		                          updatedList.add(listItem);
+		                      }
+		                  }
+		                  jsonMap.put(key, updatedList);
+		              }
+		          }
+
+		          return jsonMap;
+		      }
+
+}
+		      

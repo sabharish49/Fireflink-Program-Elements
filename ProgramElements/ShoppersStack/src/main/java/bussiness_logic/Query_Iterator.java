@@ -1,0 +1,106 @@
+package bussiness_logic;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+
+import org.springframework.stereotype.Component;
+
+@Component("LIC14952_PJT1001_PE_NLP93c86660-9be9-484e-8cf9-3c86f84d36d3")
+public class Query_Iterator implements Nlp {
+
+	@InputParams({@InputParam(name = "MapData", type = "java.lang.String")})
+   // @ReturnType(name = "value", type = "java.lang.String")
+   
+      @Override
+      public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+      }
+
+      @Override
+      public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+      }
+      @Override
+      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        
+          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+         // WebElement Element = (WebElement) attributes.get("Value");
+          String parameter = (String) attributes.get("MapData"); 
+          WebDriver driver = nlpRequestModel.getWebDriver();
+
+      	  try {
+      		 Map<String, String> paramMap = convertStringToMap(parameter);
+		        int Queries_Count = Integer.parseInt(paramMap.get("Queries_Count"));
+		        String dataBase = paramMap.get("Databases");	        
+		        System.out.println("save button found");
+		        WebElement Addquery = driver.findElement(By.xpath("//button[contains(text(),'Add Query')]"));
+		        String[] valuesArray = dataBase.split(",");
+		        List DBList = new ArrayList();		        
+		        for (String value : valuesArray) {
+		            DBList.add(value.trim()); 
+		        }
+		        //iteration
+		    	int temp=1;
+		        for (int i = 1; i <= Queries_Count; i++) {		        
+		        	WebElement SelectDataBase = driver.findElement(By.xpath("(//div[@class='select-input selectbox multiple']//input[@placeholder='Select Databases'])["+temp+"]"));	        	
+		            WebElement QueryTextField = driver.findElement(By.xpath("(//textarea[contains(@placeholder,'Enter your sql queries eg:')])["+temp+"]"));
+		            System.out.println("queryTextfield button ");
+		            JavascriptExecutor js = (JavascriptExecutor) driver;   
+					js.executeScript("arguments[0].scrollIntoView(false);", QueryTextField);
+		            String queryKey = "query" + (i-1);      
+		            String queryValue = paramMap.get(queryKey);	
+		            SelectDataBase.click();
+		            driver.findElement(By.xpath("//span[contains(text(),'"+DBList.get(i-1)+"')]")).click();
+		            WebElement SaveButton = driver.findElement(By.xpath("//button[text()='Save']"));
+		            SaveButton.click();
+		            System.out.println("click on savebutton");
+		           Thread.sleep(2000);
+		            QueryTextField.sendKeys(queryValue);
+		            if(i<Queries_Count) {
+		            Addquery.click();
+		            }
+		            temp++;
+		            System.out.println(temp);
+		        }   		
+            nlpResponseModel.setStatus(CommonConstants.pass);
+  			nlpResponseModel.setMessage("Successfully added multiple Queries");
+      	  }
+   		catch(Exception e)
+   		{
+   		    nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("Failed to add multiple Queries" +e);
+   		}
+      	//nlpResponseModel.getAttributes().put("value", formattedNewTime);
+		return nlpResponseModel;
+      }
+      
+      private static Map<String, String> convertStringToMap(String parameter) {
+          Map paramMap = new HashMap();
+          String[] pairs = parameter.replaceAll("[{}]", "").split(", ");
+          for (String pair : pairs) {
+              String[] keyValue = pair.split("=", 2);
+              paramMap.put(keyValue[0], keyValue[1]);
+          }
+          return paramMap;
+      }   
+
+ }
+
+

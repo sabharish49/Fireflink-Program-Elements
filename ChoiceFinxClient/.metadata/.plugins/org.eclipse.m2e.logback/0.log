@@ -1,0 +1,207 @@
+2024-09-23 16:59:43,426 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-23 17:01:19,855 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:01:22,327 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ChoiceFinx_Web/src/main/java
+2024-09-23 17:01:22,331 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ChoiceFinx_Web/src/main/resources
+2024-09-23 17:01:22,333 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ChoiceFinx_Web/src/test/java
+2024-09-23 17:01:22,335 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ChoiceFinx_Web/src/test/resources
+2024-09-23 17:01:25,875 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:01:27,522 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:01:27,530 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:02:01,834 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:02:01,842 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:03:12,290 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:03:12,308 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:04:05,141 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:04:06,864 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:04:06,874 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:04:09,538 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:04:09,546 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:04:29,200 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:04:29,205 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:04:44,402 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:04:44,413 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:04:54,957 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:04:54,960 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:09,139 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:05:09,145 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:34,524 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:05:36,189 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:05:36,197 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:42,792 [ModalContext] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-09-23 17:05:43,131 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:05:44,057 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:05:44,062 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:44,524 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ChoiceFinx_Web/src/main/java
+2024-09-23 17:05:44,527 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ChoiceFinx_Web/src/main/resources
+2024-09-23 17:05:44,528 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ChoiceFinx_Web/src/test/java
+2024-09-23 17:05:44,529 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ChoiceFinx_Web/src/test/resources
+2024-09-23 17:05:44,760 [ModalContext] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-09-23 17:05:49,436 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:05:50,847 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:05:50,854 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:51,052 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\pom.xml.
+2024-09-23 17:05:53,387 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2024-09-23 17:05:53,418 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:53,434 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2024-09-23 17:05:53,435 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2024-09-23 17:05:53,435 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2024-09-23 17:05:53,435 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2024-09-23 17:05:53,737 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:05:53,747 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:54,577 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:54,577 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:54,633 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\target
+2024-09-23 17:05:54,648 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:54,648 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:54,784 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:05:54,785 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:54,786 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:55,059 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2024-09-23 17:05:55,090 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 5 source files with javac [debug target 11] to target\classes
+2024-09-23 17:05:58,323 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 11
+  not setting the location of system modules may lead to class files that cannot run on JDK 11
+    --release 11 is recommended instead of -source 11 -target 11 because it sets the location of system modules automatically
+2024-09-23 17:05:58,337 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2024-09-23 17:05:58,339 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceFinxClient/ChoiceFinx_Web/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1007/Web/launchBrowserInDebugger.java: C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\java\com\tyss\optimize\programelement\LIC20369PJT1007\Web\launchBrowserInDebugger.java uses or overrides a deprecated API.
+2024-09-23 17:05:58,340 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceFinxClient/ChoiceFinx_Web/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1007/Web/launchBrowserInDebugger.java: Recompile with -Xlint:deprecation for details.
+2024-09-23 17:05:58,341 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:58,341 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:58,351 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:05:58,352 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:58,352 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:58,365 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2024-09-23 17:05:58,366 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:58,367 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:58,866 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2024-09-23 17:05:58,876 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:58,877 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:59,316 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\target\tyss-program-elements-1.0.jar
+2024-09-23 17:05:59,396 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:05:59,396 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:05:59,497 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.5 in the shaded jar.
+2024-09-23 17:05:59,497 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2024-09-23 17:05:59,497 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2024-09-23 17:05:59,497 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2024-09-23 17:05:59,497 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2024-09-23 17:05:59,499 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,500 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-java:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chrome-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chromium-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v121:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v122:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v123:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v85:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-edge-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-firefox-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,501 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-ie-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,502 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-safari-driver:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,502 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-support:jar:4.19.1 in the shaded jar.
+2024-09-23 17:05:59,505 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2024-09-23 17:06:03,224 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\dependency-reduced-pom.xml
+2024-09-23 17:06:03,430 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:03,446 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:03,940 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:03,954 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:03,961 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,113 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,116 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,117 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,118 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,121 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,169 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,215 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,257 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,303 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,304 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,311 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,313 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,315 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2024-09-23 17:06:05,329 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.19.1.jar, selenium-edge-driver-4.19.1.jar, selenium-firefox-driver-4.19.1.jar, selenium-ie-driver-4.19.1.jar, selenium-safari-driver-4.19.1.jar define 2 overlapping resources: 
+2024-09-23 17:06:05,329 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.WebDriverInfo
+2024-09-23 17:06:05,330 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.service.DriverService$Builder
+2024-09-23 17:06:05,330 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2024-09-23 17:06:05,330 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2024-09-23 17:06:05,330 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-devtools-v121-4.19.1.jar, selenium-devtools-v122-4.19.1.jar, selenium-devtools-v123-4.19.1.jar, selenium-devtools-v85-4.19.1.jar define 1 overlapping resource: 
+2024-09-23 17:06:05,331 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.devtools.CdpInfo
+2024-09-23 17:06:05,331 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-chrome-driver-4.19.1.jar, selenium-chromium-driver-4.19.1.jar, selenium-devtools-v121-4.19.1.jar, selenium-devtools-v122-4.19.1.jar, selenium-devtools-v123-4.19.1.jar, selenium-devtools-v85-4.19.1.jar, selenium-edge-driver-4.19.1.jar, selenium-firefox-driver-4.19.1.jar, selenium-http-4.19.1.jar, selenium-ie-driver-4.19.1.jar, selenium-java-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.19.1.jar, selenium-support-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.5.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2024-09-23 17:06:05,331 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2024-09-23 17:06:05,331 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2024-09-23 17:06:05,331 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2024-09-23 17:06:05,332 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2024-09-23 17:06:05,332 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2024-09-23 17:06:05,332 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2024-09-23 17:06:05,332 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2024-09-23 17:06:05,332 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2024-09-23 17:06:05,334 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2024-09-23 17:06:05,334 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.19.1.jar, selenium-chromium-driver-4.19.1.jar, selenium-edge-driver-4.19.1.jar, selenium-firefox-driver-4.19.1.jar, selenium-safari-driver-4.19.1.jar define 1 overlapping resource: 
+2024-09-23 17:06:05,334 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AdditionalHttpCommands
+2024-09-23 17:06:05,334 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2024-09-23 17:06:05,334 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2024-09-23 17:06:05,335 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2024-09-23 17:06:05,335 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.19.1.jar, selenium-chromium-driver-4.19.1.jar, selenium-edge-driver-4.19.1.jar, selenium-firefox-driver-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.19.1.jar define 1 overlapping resource: 
+2024-09-23 17:06:05,335 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AugmenterProvider
+2024-09-23 17:06:05,335 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2024-09-23 17:06:05,335 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2024-09-23 17:06:05,336 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2024-09-23 17:06:05,336 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2024-09-23 17:06:05,336 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2024-09-23 17:06:05,336 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2024-09-23 17:06:05,336 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2024-09-23 17:06:05,343 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 13853 -> 6536 (47%)
+2024-09-23 17:06:05,344 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2024-09-23 17:06:05,344 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\target\tyss-program-elements-1.0-shaded.jar
+2024-09-23 17:06:05,344 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2024-09-23 17:06:05,344 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2024-09-23 17:06:05,378 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2024-09-23 17:06:05,382 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2024-09-23 17:06:05,420 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-09-23 17:06:05,420 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2024-09-23 17:06:05,420 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-09-23 17:06:05,420 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  12.037 s
+2024-09-23 17:06:05,421 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2024-09-23T17:06:05+05:30
+2024-09-23 17:06:05,421 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2024-09-23 17:06:05,421 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2024-09-23 17:06:05,558 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:06:05,560 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources
+2024-09-23 17:06:06,669 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\main\resources
+2024-09-23 17:06:06,672 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceFinxClient\ChoiceFinx_Web\src\test\resources

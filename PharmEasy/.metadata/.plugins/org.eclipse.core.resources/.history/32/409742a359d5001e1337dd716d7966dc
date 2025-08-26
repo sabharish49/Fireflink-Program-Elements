@@ -1,0 +1,71 @@
+
+package com.tyss.optimize.programelement.LIC18416PJT1001.Business_Logic;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component("LIC18416_PJT1001_PE_NLPfd6ab1d1-f1d6-41c7-824a-64032de3de0c")
+public class extractParametersFromQuery implements Nlp {
+    @InputParams({@InputParam(name = "Query", type = "java.lang.String")})
+    @ReturnType(name = "ListOfParameters", type = "java.util.List")
+
+      @Override
+      public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+      }
+
+      @Override
+      public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+      }
+      @Override
+      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        
+          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+          String Query = (String) attributes.get("Query");
+          List list=new ArrayList();
+
+          // Your program element business logic goes here ...
+          
+          try {
+          	
+          	Pattern pattern = Pattern.compile(":\\w+");
+              Matcher matcher = pattern.matcher(Query);
+
+              System.out.println("Placeholders found in the SQL query:");
+              while (matcher.find()) {
+                  String placeholder = matcher.group().replaceAll(":", "");
+                  System.out.println(placeholder+":"+placeholder.length());
+                  list.add(placeholder);          
+              }
+              
+              nlpResponseModel.setStatus(CommonConstants.pass);
+              nlpResponseModel.setMessage("Successfully extracted the list of Parameters from Query");
+        	  
+          }
+          catch (Exception e) {
+        	  
+              nlpResponseModel.setStatus(CommonConstants.fail);
+              nlpResponseModel.setMessage("Failed to extract the list of Parameters from Query");
+		}
+
+          nlpResponseModel.getAttributes().put("ListOfParameters", list);
+          return nlpResponseModel;
+      }
+  } 

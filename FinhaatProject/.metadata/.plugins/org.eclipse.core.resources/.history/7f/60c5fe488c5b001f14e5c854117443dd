@@ -1,0 +1,74 @@
+package default_package;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class ExcelReader {
+
+    public static void readExcelData(String filePath, String sheetName, int rowSize, int column) {
+        try (FileInputStream fis = new FileInputStream(filePath);
+             Workbook workbook = new XSSFWorkbook(fis)) {
+
+           
+            Sheet sheet = workbook.getSheet(sheetName);
+            if (sheet == null) {
+                System.out.println("Sheet not found: " + sheetName);
+                return;
+            }
+
+            
+            for (int rowIndex = 0; rowIndex <= rowSize; rowIndex++) {
+                Row row = sheet.getRow(rowIndex);
+                if (row != null) {
+                    
+                    Cell cell = row.getCell(column);
+                    if (cell != null) {
+                       
+                        switch (cell.getCellType()) {
+                            case STRING:
+                                System.out.println(cell.getStringCellValue());
+                                break;
+                            case NUMERIC:
+                                if (DateUtil.isCellDateFormatted(cell)) {
+                                    System.out.println(cell.getDateCellValue());
+                                } else {
+                                    System.out.println(cell.getNumericCellValue());
+                                }
+                                break;
+                            case BOOLEAN:
+                                System.out.println(cell.getBooleanCellValue());
+                                break;
+                            case FORMULA:
+                                System.out.println(cell.getCellFormula());
+                                break;
+                            case BLANK:
+                                System.out.println("[BLANK]");
+                                break;
+                            default:
+                                System.out.println("Unsupported cell type");
+                                break;
+                        }
+                    } else {
+                        System.out.println("Cell is null at row " + rowIndex + " and column " + column);
+                    }
+                } else {
+                    System.out.println("Row is null at index " + rowIndex);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+       
+        String filePath = "C:/Users/User/Downloads/OrthoFX TestData.xlsx";
+        String sheetName = "File_Paths";
+        int rowSize = 10; 
+        int column = 1;    
+
+        readExcelData(filePath, sheetName, rowSize, column);
+    }
+}

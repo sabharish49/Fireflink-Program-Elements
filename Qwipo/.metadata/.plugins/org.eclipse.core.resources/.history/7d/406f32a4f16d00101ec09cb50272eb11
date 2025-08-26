@@ -1,0 +1,21 @@
+package default_package;
+import org.json.JSONObject;
+
+public class JsonExample {
+    public static void main(String[] args) {
+        String jsonString = "{ \"name\": \"Nayana\", \"age\": 25, \"location\": \"India\" }";
+
+        // Create JSON object
+        JSONObject jsonObject = new JSONObject(jsonString);
+
+        // Fetch values
+        String name = jsonObject.getString("name");
+        int age = jsonObject.getInt("age");
+        String location = jsonObject.getString("location");
+
+        // Print values
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Location: " + location);
+    }
+}

@@ -1,0 +1,56 @@
+package Logics;
+import java.io.*;
+import java.util.zip.*;
+
+public class ZipExtractor {
+
+    public static int extractZipFileAndCountFolders(String zipFilePath, String destinationFolder) throws IOException {
+        int folderCount = 0;
+
+        // Create input stream for the zip file
+        try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFilePath))) {
+            ZipEntry entry;
+            
+            // Iterate through all entries in the zip file
+            while ((entry = zipInputStream.getNextEntry()) != null) {
+                // For each entry, check if it's a directory or file
+                File outputFile = new File(destinationFolder, entry.getName());
+
+                if (entry.isDirectory()) {
+                    outputFile.mkdirs(); // Create directory
+                    folderCount++; // Count the directory
+                } else {
+                    // Create parent directories if needed
+                    File parentDir = outputFile.getParentFile();
+                    if (parentDir != null && !parentDir.exists()) {
+                        parentDir.mkdirs(); // Ensure parent directories exist
+                    }
+
+                    // Write the content of the zip entry to the file
+                    try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(outputFile))) {
+                        byte[] buffer = new byte[1024];
+                        int bytesRead;
+                        while ((bytesRead = zipInputStream.read(buffer)) != -1) {
+                            bos.write(buffer, 0, bytesRead);
+                        }
+                    }
+                }
+                zipInputStream.closeEntry(); // Close the current entry
+            }
+        }
+        return folderCount;
+    }
+
+    public static void main(String[] args) {
+        String zipFilePath = "C:\\Users\\User\\Downloads\\Calculators-20250320T074810Z-001.zip";  // Replace with your ZIP file path
+        String destinationFolder = "C:\\Users\\User\\Downloads\\ABHIExtractedPath";  // Replace with your destination folder
+
+        try {
+            int folderCount = extractZipFileAndCountFolders(zipFilePath, destinationFolder);
+            System.out.println("Extraction complete! Number of folders: " + folderCount);
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Error extracting ZIP file.");
+        }
+    }
+}

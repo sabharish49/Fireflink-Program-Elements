@@ -1,0 +1,83 @@
+package default_package;
+import org.json.JSONObject;
+
+public class JsonExample {
+    public static void main(String[] args) {
+        String jsonString = "{\r\n"
+        		+ "  \"अन्य शर्तें\": {\r\n"
+        		+ "    \"answer\": \"हाँ\",\r\n"
+        		+ "    \"conditions\": [\r\n"
+        		+ "      \"मधुमेह(weekness)\",\r\n"
+        		+ "      \"HIV\"\r\n"
+        		+ "    ]\r\n"
+        		+ "  },\r\n"
+        		+ "  \"खाद्य पदार्थों सहित एलर्जी\": {\r\n"
+        		+ "    \"answer\": \"हाँ\",\r\n"
+        		+ "    \"conditions\": [\r\n"
+        		+ "      \"पेनिसिलिन(weekness)\",\r\n"
+        		+ "      \"लाटेकस\"\r\n"
+        		+ "    ]\r\n"
+        		+ "  },\r\n"
+        		+ "   \"क्या आप दवा ले रहे हैं?\": {\r\n"
+        		+ "    \"answer\": \"हाँ\",\r\n"
+        		+ "    \"Add Medications\": {\r\n"
+        		+ "      \"दवाई \":\"paracetemol\",\r\n"
+        		+ "      \"अतिरिक्त नोट्स \":\"Dolo650\"\r\n"
+        		+ "    }\r\n"
+        		+ "  },\r\n"
+        		+ "   \"फार्मेसी\": {\r\n"
+        		+ "    \"answer\": \"हाँ\",\r\n"
+        		+ "    \"Additional fields\": {\r\n"
+        		+ "      \"Pharmacy Name\":\"sree vishnu\",\r\n"
+        		+ "      \"Pharmacy address\":\"jayanagara\",\r\n"
+        		+ "	  \"Pharmacy phone\":\"8174546556\"\r\n"
+        		+ "    }\r\n"
+        		+ "  },\r\n"
+        		+ "  \"दंत चिकित्सा प्रपत्र\": {\r\n"
+        		+ "    \"conditions\": [ {\r\n"
+        		+ "      \"आज आपकी यात्रा का कारण\":\"Tooth Pain\",\r\n"
+        		+ "      \"क्या आपके पास पैनोरमिक एक्स-रे या फुल माउथ एक्स-रे है जो 5 वर्ष से कम पुराना है?\":\"No\",\r\n"
+        		+ "	  \"पूर्व दंत चिकित्सक का नाम\":\"Prajna Parameshwari\"\r\n"
+        		+ "	}\r\n"
+        		+ "    ]\r\n"
+        		+ "  },\r\n"
+        		+ "  \"क्या आपके पास निम्न में से कोई है?\": {\r\n"
+        		+ "    \"conditions\": [\r\n"
+        		+ "      \"नाखून काटना\",\r\n"
+        		+ "      \"स्लीप एप्निया\",\r\n"
+        		+ "	  \"स्लीप एप्निया\"\r\n"
+        		+ "    ]\r\n"
+        		+ "  },\r\n"
+        		+ "  \"पिछला दंत इतिहास?\": {\r\n"
+        		+ "    \"conditions\": [ {\r\n"
+        		+ "      \"क्या आपके पास इलेक्ट्रिक टूथब्रश है?\":\"Iam using from 1 year\",\r\n"
+        		+ "      \"क्या आप अपनी मुस्कुराहट से खुश हैं?\":\"Tested Positive\"\r\n"
+        		+ "	}\r\n"
+        		+ "    ]\r\n"
+        		+ "  },\r\n"
+        		+ "  \"व्यक्तिगत इतिहास\": {\r\n"
+        		+ "    \"conditions\": [ \r\n"
+        		+ "     \"व्यक्तिगत इतिहास पूछें byapurva\"\r\n"
+        		+ "    ]\r\n"
+        		+ "  },\r\n"
+        		+ "   \"मसूड़े और हड्डी\": {\r\n"
+        		+ "    \"conditions\": [ \r\n"
+        		+ "     \"मसूड़ों और हड्डियों का इतिहास अपूर्वा द्वारा पूछा गया\"\r\n"
+        		+ "    ]\r\n"
+        		+ "  }\r\n"
+        		+ "}";
+
+        // Create JSON object
+        JSONObject jsonObject = new JSONObject(jsonString);
+
+        // Fetch values
+       // String name = jsonObject.getString("अन्य शर्तें");
+       // int age = jsonObject.getInt("age");
+       // String location = jsonObject.getString("location");
+
+        // Print values
+        System.out.println("Name: " + jsonObject.getString("अन्य शर्तें"));
+//        System.out.println("Age: " + age);
+//        System.out.println("Location: " + location);
+    }
+}

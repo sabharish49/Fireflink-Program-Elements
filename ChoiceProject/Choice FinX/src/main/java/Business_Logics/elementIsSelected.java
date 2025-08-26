@@ -1,0 +1,74 @@
+package Business_Logics;
+
+import com.tyss.optimize.common.util.CommonConstants;
+
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import io.appium.java_client.android.AndroidDriver;
+
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+
+
+public class elementIsSelected implements Nlp {
+
+	@InputParams({ @InputParam(name = "element", type = "org.openqa.selenium.WebElement") })
+	@ReturnType(name = "result", type = "java.lang.Boolean")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		WebElement element = (WebElement) attributes.get("element");
+
+		boolean result = false;
+
+		AndroidDriver driver = nlpRequestModel.getAndroidDriver();
+		try {
+			if (element.isDisplayed() && element.isSelected())
+			{
+				result = true;
+				nlpResponseModel.setStatus(CommonConstants.pass);
+				nlpResponseModel.setMessage("element is selected");
+			} 
+			else {
+				result = false;
+				nlpResponseModel.setStatus(CommonConstants.pass);
+				nlpResponseModel.setMessage("element is not selected");
+
+			}
+		} catch (Exception e) {
+			result = false;
+			nlpResponseModel.setStatus(CommonConstants.pass);
+			nlpResponseModel.setMessage("element is not selected"+e);
+
+		}
+
+		nlpResponseModel.getAttributes().put("result", result);
+		return nlpResponseModel;
+	}
+}

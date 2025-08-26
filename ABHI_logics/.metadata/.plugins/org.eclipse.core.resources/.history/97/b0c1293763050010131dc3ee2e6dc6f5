@@ -1,0 +1,47 @@
+package Logics;
+import java.io.File;
+
+public class UnzipAndCheckTheContent {
+
+    public static void main(String[] args) {
+        // The path where the ZIP file was extracted
+        String destinationFolder = "C:\\Users\\User\\Downloads\\ABHIExtractedPath";
+        
+        // The base directory where the folders are located
+        File calculatorsFolder = new File(destinationFolder, "Calculators");
+
+        // Check if the "Calculators" folder exists and is indeed a directory
+        if (calculatorsFolder.exists() && calculatorsFolder.isDirectory()) {
+            // List all the files and folders inside the "Calculators" folder
+            File[] subfolders = calculatorsFolder.listFiles();
+            
+            // Check if subfolders exist
+            if (subfolders != null) {
+                // Iterate through the subfolders
+                for (File folder : subfolders) {
+                    if (folder.isDirectory()) {
+                        // Print the name of the folder
+                        System.out.println("Folder: " + folder.getName());
+                        
+                        // Now, let's list the contents of this folder
+                        File[] contents = folder.listFiles();
+                        
+                        if (contents != null && contents.length > 0) {
+                            System.out.println("Contents of " + folder.getName() + ":");
+                            // List the files and subfolders inside the folder
+                            for (File content : contents) {
+                                System.out.println(" - " + content.getName());
+                            }
+                        } else {
+                            System.out.println("No contents found inside " + folder.getName());
+                        }
+                        
+                        System.out.println();  // For better readability between folders
+                    }
+                }
+            }
+        } else {
+            System.out.println("The 'Calculators' directory does not exist or is not a directory.");
+        }
+    }
+}

@@ -1,0 +1,83 @@
+
+package bussiness_logic;
+
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Component;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
+@Component("LIC14952_PJT1001_PE_NLP98e97755-ce72-4f86-a239-b9c2a2ea4f0e")
+public class MOB_StoreInMap implements Nlp {
+    @InputParams({@InputParam(name = "StockRates", type = "java.lang.String")})
+    @ReturnType(name = "StockPrice", type = "java.lang.Double")
+
+      @Override
+      public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+      }
+
+      @Override
+      public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+      }
+      @Override
+      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        
+          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+          String StockRates = (String) attributes.get("StockRates");
+          Double StockPrice=0.0;
+
+          // Your program element business logic goes here ...
+          try {
+        	  HashMap<String,String> h=new HashMap<>();
+     
+      		String s1[]=StockRates.split(" ");
+      		for(int i=0;i<s1.length;i++) {
+      			System.out.println(s1[i]);
+      			h.put("StockExchange", s1[0]); // NSE
+      			h.put("Price", s1[1]);        // ?1,912.05
+      			h.put("Change", s1[2]);       // -206.50
+      			h.put("PercentageChange", s1[3]);
+      		}
+      		String rates = h.get("Price").replace("\u20B9","");
+      		String price=rates.replace(",", "");
+      		double price1 = Double.parseDouble(price);
+      		StockPrice=price1;
+      		nlpResponseModel.setStatus(CommonConstants.pass);
+  			nlpResponseModel.setMessage("Fetched the Stock Price as "+StockPrice);
+        	  
+          }catch(Exception e) {
+        	  StringWriter sw = new StringWriter();
+  			e.printStackTrace(new PrintWriter(sw));
+  			String exceptionAsString = sw.toString();
+  			//log.info(exceptionAsString);
+  			nlpResponseModel.setStatus(CommonConstants.fail);
+  			nlpResponseModel.setMessage("Failed to Fetch the Stock Price "+ exceptionAsString);
+        	 
+            
+        	  
+          }
+
+         // String string3 = "Return Value";
+          nlpResponseModel.getAttributes().put("StockPrice", StockPrice);
+          return nlpResponseModel;
+      }
+  } 

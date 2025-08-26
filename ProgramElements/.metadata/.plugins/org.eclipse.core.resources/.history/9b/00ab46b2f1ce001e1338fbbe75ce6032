@@ -1,0 +1,139 @@
+package bussiness_logic;
+
+
+	import com.tyss.optimize.common.util.CommonConstants;
+	import com.tyss.optimize.nlp.util.Nlp;
+	import com.tyss.optimize.nlp.util.NlpException;
+	import com.tyss.optimize.nlp.util.NlpRequestModel;
+	import com.tyss.optimize.nlp.util.NlpResponseModel;
+	import com.tyss.optimize.nlp.util.annotation.InputParam;
+	import com.tyss.optimize.nlp.util.annotation.InputParams;
+	import com.tyss.optimize.nlp.util.annotation.ReturnType;
+	import java.util.Map;
+	import java.util.ArrayList;
+	import java.util.List;
+
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.WebElement;
+	import org.openqa.selenium.interactions.Actions;
+	import org.springframework.stereotype.Component;
+	import java.io.BufferedWriter;
+	import java.io.FileWriter;
+	import java.io.IOException;
+	import java.util.List;
+
+
+	
+	@Component("LIC14952_PJT1001_PE_NLP2395cb97-6b0d-47d0-9c29-dae44570fa21")
+public class GiftCardLoad implements Nlp {
+		@InputParams({ @InputParam(name = "csvFilePath", type = "java.lang.String") })
+		@ReturnType(name = "result", type = "java.lang.Boolean")
+
+		@Override
+		public List<String> getTestParameters() throws NlpException {
+			List<String> params = new ArrayList<>();
+			return params;
+		}
+
+		@Override
+		public StringBuilder getTestCode() throws NlpException {
+			StringBuilder sb = new StringBuilder();
+			return sb;
+		}
+
+		@Override
+		public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+			NlpResponseModel nlpResponseModel = new NlpResponseModel();
+			Map<String, Object> attributes = nlpRequestModel.getAttributes();
+			String csvFilePath = (String) attributes.get("csvFilePath");
+			boolean result=true;
+			// Your program element business logic goes here ...
+			try {
+				WebDriver driver = nlpRequestModel.getWebDriver();
+				String orgId = driver
+						.findElement(
+								By.xpath("//div[contains(text(),'Business Id')]//span//button/preceding-sibling::span"))
+						.getText();
+				String cardProgramId = driver
+						.findElement(
+								By.xpath("//div[contains(text(),'Card Program Id')]//span//button/preceding-sibling::span"))
+						.getText();
+
+				System.out.println("fetched orgId");
+
+				List<WebElement> rows = driver.findElements(
+						By.xpath("//h3[contains(text(),'Kit Details')]/following-sibling::div[2]//tbody//tr"));
+				int numberOfRows = rows.size();
+
+				List<WebElement> columns = driver.findElements(
+						By.xpath("//h3[contains(text(),'Kit Details')]/following-sibling::div[2]//tbody//tr[1]//td"));
+				int numberOfColumns = columns.size();
+
+				String[][] data = new String[numberOfRows][5];
+				for (int i = 0; i < data.length; i++) {
+
+					data[i][0] = orgId;
+					data[i][1] = cardProgramId;
+					
+					int j=i+1;
+					if(j>data.length) {
+						break;
+					}
+					
+					String xpath2="//h3[contains(text(),'Kit Details')]/following-sibling::div[2]//tbody//tr["+j+"]//td[5]";
+					String xpath3="//h3[contains(text(),'Kit Details')]/following-sibling::div[2]//tbody//tr["+j+"]//td[2]";
+
+					data[i][2] = "100";
+					data[i][3] = driver.findElement(By.xpath(xpath2)).getText();
+					data[i][4] = driver.findElement(By.xpath(xpath3)).getText();
+
+				}
+				String[] headers = { "ORG_ID", "CARD_PROGRAM_ID", "LOAD_AMOUNT", "LAST_FOUR_DIGIT", "KIT_NUMBER" };
+
+				String filePath = csvFilePath;
+
+				// Write data to the CSV file
+				writeCSV(headers, data, filePath);
+				result=true;
+				nlpResponseModel.setStatus(CommonConstants.pass);
+				nlpResponseModel.setMessage("Successfully Created a csv file");
+
+			} catch (Exception e) {
+				result=false;
+				nlpResponseModel.setStatus(CommonConstants.fail);
+				nlpResponseModel.setMessage("Failed to Create a csv file");
+			}
+
+			
+			nlpResponseModel.getAttributes().put("result", result);
+			return nlpResponseModel;
+		}
+
+		private static void writeCSV(String[] headers, String[][] data, String filePath) {
+			try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
+				// Write headers
+				writeLine(writer, headers);
+
+				// Write data
+				for (String[] row : data) {
+					writeLine(writer, row);
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+		private static void writeLine(BufferedWriter writer, String[] data) throws IOException {
+			// Write each element in the array followed by a comma
+			for (int i = 0; i < data.length; i++) {
+				writer.write(data[i]);
+				// Add a comma if it's not the last element
+				if (i < data.length - 1) {
+					writer.write(",");
+				}
+			}
+			writer.write("\n");
+		}
+	}

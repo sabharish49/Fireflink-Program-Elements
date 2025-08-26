@@ -1,0 +1,864 @@
+!SESSION 2024-06-18 11:58:02.249 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\Choice -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-18 11:58:08.078
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-18 11:58:10.519
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\Choice\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-06-18 11:58:14.835
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-18 11:58:14.836
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-18 11:58:21.896
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:14.392
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:30.745
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:32.351
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:32.352
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:39.076
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:39.079
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:39.860
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:44.474
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:44.476
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.102
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.103
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.105
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.106
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.107
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.107
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.108
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding repository information to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.108
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:45.109
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven dependency plugin
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:56.558
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:56.636
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:56.658
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Replacing default pom.xml contents with that on the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:00:56.664
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:55.291
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:55.292
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:55.361
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:56.636
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:57.427
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:57.428
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:57.429
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:57.429
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:58.072
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:58.073
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:58.090
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:58.092
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:58.105
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:04:58.106
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:47.993
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:48.000
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:48.026
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:48.026
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:48.028
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:48.029
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:54.965
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:54.966
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:55.027
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:56.504
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.297
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.299
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.299
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.300
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.969
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.969
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.978
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.980
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.991
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:05:57.992
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.553
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.558
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.585
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.586
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.587
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.587
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.658
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.673
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:04.675
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:11.087
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC20369PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:11.088
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:11.711
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:12.330
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC20369PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-18 12:06:16.308
+!MESSAGE system modules path not set in conjunction with -source 11
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-18 12:06:23.214
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:23.281
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:23.281
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC20369PJT1001
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:23.981
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:23.982
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:24.763
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:24.764
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:24.764
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:25.475
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:25.477
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:27.079
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:27.081
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:27.997
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:27.998
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:28.602
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:28.602
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:29.239
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:29.241
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:30.236
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:30.237
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:30.238
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:30.244
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:30.899
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:40.376
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:06:40.376
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:41.342
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:41.342
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:41.404
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:42.821
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:43.559
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:43.559
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:43.560
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:43.561
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:44.236
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:44.237
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:44.243
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:44.245
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:44.248
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:44.249
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:47.971
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:47.982
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:47.992
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:47.993
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:47.994
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:47.994
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:52.827
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:52.828
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:52.907
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:54.197
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.034
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.035
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.036
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.036
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.685
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.686
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.693
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.695
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.700
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:55.701
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:57.970
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:57.986
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.004
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.004
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.005
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.006
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.066
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.084
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:17:58.086
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:04.380
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC20369PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:04.381
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:05.170
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:05.590
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC20369PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-18 12:18:08.305
+!MESSAGE system modules path not set in conjunction with -source 11
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-18 12:18:09.824
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:09.881
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:09.882
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC20369PJT1001
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:10.392
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:10.393
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:11.236
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:11.237
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:11.238
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:11.878
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:11.879
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:13.422
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:13.424
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:14.309
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:14.310
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:14.929
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:14.929
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:15.573
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:15.574
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:16.602
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:16.603
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:16.603
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:16.610
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating the file in cloud
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:24.617
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:18:24.618
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:05.112
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:05.112
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:05.201
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:06.713
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:07.568
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:07.570
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:07.571
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:07.572
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:08.325
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:08.327
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:08.334
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:08.337
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:08.343
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:08.345
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:16.756
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:16.776
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:16.811
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:16.812
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:16.815
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:16.816
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:17.003
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:17.036
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:17.038
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY org.testng.eclipse 4 4 2024-06-18 12:39:17.416
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Choice does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2518)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-06-18 12:39:17.418
+!MESSAGE Choice does not exist
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:23.582
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC20369PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:23.584
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:24.840
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:26.350
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC20369PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-18 12:39:32.873
+!MESSAGE system modules path not set in conjunction with -source 11
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-18 12:39:37.389
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:37.527
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:37.528
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC20369PJT1001
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:38.754
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:38.755
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:39.515
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:39.516
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:39.518
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:40.245
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:40.246
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:41.893
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:41.895
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:42.800
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:42.802
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:43.461
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:43.462
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:44.083
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:44.085
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:45.115
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:45.117
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:45.118
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:45.131
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating the file in cloud
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:52.931
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-06-18 12:39:52.932
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+!SESSION 2024-06-21 09:38:18.094 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-21 09:40:18.739
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-21 09:41:49.645
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\Choice\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-06-21 09:41:53.718
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-21 09:41:53.718
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-21 09:42:11.163
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:44:47.885
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:44:47.889
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:44:48.051
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:44:49.349
+!MESSAGE com.flinko.plugin.util.PluginUtil - Access token has expired
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:13.066
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:13.785
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:13.788
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:13.789
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:13.791
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:14.602
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:14.609
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:14.689
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:14.695
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:14.728
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:45:14.735
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:46:05.743
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:46:05.789
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:46:05.912
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:46:06.039
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:46:06.044
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-21 09:46:06.046
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+!SESSION 2024-06-28 10:45:45.909 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-28 10:46:21.526
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-28 10:46:31.752
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\Choice\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-06-28 10:46:35.445
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-28 10:46:35.445
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-28 10:46:45.051
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

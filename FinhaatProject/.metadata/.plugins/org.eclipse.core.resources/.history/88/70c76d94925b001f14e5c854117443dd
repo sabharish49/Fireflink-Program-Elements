@@ -1,0 +1,190 @@
+
+package default_package;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DateUtil;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import lombok.extern.java.Log;
+
+public class Get_data_from_Exel implements Nlp {
+	@InputParams({ @InputParam(name = "sheet", type = "java.lang.String"),
+	@InputParam(name = "row", type = "java.lang.Integer"),
+	@InputParam(name = "file", type = "java.lang.String"),
+	@InputParam(name = "column", type = "java.lang.Integer")})
+	
+	@ReturnType(name = "result", type = "java.lang.String")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		String Sheet = (String) attributes.get("sheet");
+		Integer Rows = (Integer) attributes.get("row");
+		String file = (String) attributes.get("file");
+		Integer column = (Integer) attributes.get("column");
+		
+		
+		try {
+			
+			 readExcelData(file, Sheet, Rows, column);
+			    
+				nlpResponseModel.setStatus(CommonConstants.pass);
+				nlpResponseModel.setMessage("Successfully extracted the data from excel");
+			
+
+		} catch (Exception e) {
+			
+			nlpResponseModel.setStatus(CommonConstants.fail);
+			nlpResponseModel.setMessage("Failed to get excel data  "+e);
+		}
+		
+
+		Object e4rtyg = null;
+		nlpResponseModel.getAttributes().put("result", e4rtyg);
+		return nlpResponseModel;
+	}
+	
+	
+    public static String readExcelData(String filePath, String sheetName, int rowSize, int column) {
+        String res = null;
+		try (FileInputStream fis = new FileInputStream(filePath);
+             Workbook workbook = new XSSFWorkbook(fis)) {
+
+        	LinkedList<String> data = new LinkedList<>();
+        	 String result=null;
+        	 
+            Sheet sheet = workbook.getSheet(sheetName);
+            if (sheet == null) {
+                System.out.println("Sheet not found: " + sheetName);
+                //return;
+            }
+
+            
+            for (int rowIndex = 1; rowIndex <= rowSize; rowIndex++) {
+                Row row = sheet.getRow(rowIndex);
+                if (row != null) {
+                    
+                    Cell cell = row.getCell(column);
+                    if (cell != null) {
+                       
+                        switch (cell.getCellType()) {
+                            case STRING:
+                               String value = cell.getStringCellValue();
+                               data.add(value.trim());
+                               result = String.join(", ", data);
+                               res= result.replace("\"", "");
+                             
+                               
+                                break;
+                            case NUMERIC:
+                                if (DateUtil.isCellDateFormatted(cell)) {
+                                    System.out.println(cell.getDateCellValue());
+                                } else {
+                                    System.out.println(cell.getNumericCellValue());
+                                }
+                                break;
+                            case BOOLEAN:
+                                System.out.println(cell.getBooleanCellValue());
+                                break;
+                            case FORMULA:
+                                System.out.println(cell.getCellFormula());
+                                break;
+                            case BLANK:
+                                System.out.println("[BLANK]");
+                                break;
+                            default:
+                                System.out.println("Unsupported cell type");
+                                break;
+                        }
+                    } else {
+                        System.out.println("Cell is null at row " + rowIndex + " and column " + column);
+                    }
+                } else {
+                    System.out.println("Row is null at index " + rowIndex);
+                }
+            }
+           
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+		return res;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	
+	
+	
+	
+	 public static void main(String[] args) throws NlpException {
+   	  
+   	  String Sheet = "File_Paths"; 
+      int Rows =8;
+      String file = "C:/Users/User/Downloads/OrthoFX TestData.xlsx";
+      int column=1;
+         
+     	 
+   		NlpRequestModel nlp = new NlpRequestModel();
+   		Map<String, Object> attributes = nlp.getAttributes();
+   		
+   		attributes.put("sheet", Sheet);
+   		attributes.put("row", Rows);
+   		attributes.put("file", file);
+   		attributes.put("column", column);
+        
+   		Get_data_from_Map d=new Get_data_from_Map();
+   		d.execute(nlp);
+   		
+   	}
+}

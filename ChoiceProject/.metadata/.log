@@ -1,0 +1,725 @@
+!SESSION 2025-05-26 14:53:19.534 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-26 14:53:22.759
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-26 14:54:31.630
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\ChoiceProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-26 14:54:37.044
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:58:40.347
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:59:15.758
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:59:17.601
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:59:17.601
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:59:30.459
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:59:30.463
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 14:59:30.813
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:00.834
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:00.839
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.204
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.206
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.212
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.215
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.216
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.217
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.218
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:04.218
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven shade plugin
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:09.224
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:09.431
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:09.443
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Replacing default pom.xml contents with that on the server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:06:09.449
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:26.170
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:26.171
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:26.210
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:27.637
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:27.972
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:27.973
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:27.973
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:27.974
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:30.757
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:30.758
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:30.779
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:30.784
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice FinX/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:30.878
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for clickOnOptionChainLTP
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.014
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for stockPricePolling
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.099
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for convertStringToMap
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.205
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for elementIsSelected
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.309
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for selectUPIId
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.379
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for clickOnCornerElementWithinDuration
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.469
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for clickOnChoiceEmail
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.485
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for BypassFingerPrintToEmulator
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.517
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for FetchAttributevValueOrText
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.575
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for VerifyIfBestFiveAreInSortingOrder
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.616
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ValidatingStockFeed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.654
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for SwapPositionsOfStocksInWatchlist
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.752
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for sortingAndFilters
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.884
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for refreshTheScreen
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:31.893
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ApplyFilters
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.003
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for launchBrowserInDebugger
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.149
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for swipeElementFromLeftToRight
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.185
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.216
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for FetchPercentageValueAsSum
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.235
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ExcutionSpeed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.346
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice FinX/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.357
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.377
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.377
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.379
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.380
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.462
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.481
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:32.483
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY org.testng.eclipse 4 4 2025-05-26 15:12:32.918
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Choice FinX does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2425)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:627)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-05-26 15:12:32.919
+!MESSAGE Choice FinX does not exist
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:38.979
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC20369PJT1002 package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:38.981
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice FinX/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:40.450
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice FinX/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:40.595
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC20369PJT1002 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-26 15:12:43.405
+!MESSAGE COMPILATION WARNING :
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-26 15:12:43.405
+!MESSAGE location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.406
+!MESSAGE COMPILATION ERROR :
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.406
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[25,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.406
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[26,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.407
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/SwapPositionsOfStocksInWatchlist.java:[38,1] package org.slf4j does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.407
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ValidatingStockFeed.java:[12,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.407
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[14,34] package org.openqa.selenium.chrome does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.408
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[15,32] package org.openqa.selenium.edge does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.408
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[14,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.408
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[15,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.409
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[16,34] package org.openqa.selenium.chrome does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.409
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[17,32] package org.openqa.selenium.edge does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.410
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[18,35] package org.openqa.selenium.firefox does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.410
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[19,35] package org.openqa.selenium.firefox does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.411
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[34,1] package org.slf4j does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-26 15:12:43.414
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.415
+!MESSAGE Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mtyss-program-elements[m: [1;31mCompilation failure[m: Compilation failure:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.416
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[25,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.416
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[26,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.416
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/SwapPositionsOfStocksInWatchlist.java:[38,1] package org.slf4j does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.417
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ValidatingStockFeed.java:[12,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.417
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[14,34] package org.openqa.selenium.chrome does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.417
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[15,32] package org.openqa.selenium.edge does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.418
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[14,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.418
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[15,38] package org.openqa.selenium.support.ui does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.418
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[16,34] package org.openqa.selenium.chrome does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.418
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[17,32] package org.openqa.selenium.edge does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.418
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[18,35] package org.openqa.selenium.firefox does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.419
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[19,35] package org.openqa.selenium.firefox does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.419
+!MESSAGE /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[34,1] package org.slf4j does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.419
+!MESSAGE -> [1m[Help 1][m
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.420
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.420
+!MESSAGE To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.421
+!MESSAGE Re-run Maven using the [1m-X[m switch to enable full debug logging.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.421
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.421
+!MESSAGE For more information about the errors and possible solutions, please read the following articles:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-26 15:12:43.422
+!MESSAGE [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+!ENTRY com.flinko.plugin 4 0 2025-05-26 15:12:43.424
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build failed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:46.216
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC20369PJT1002
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:12:46.781
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:33.559
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:33.560
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:33.593
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:34.662
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:34.983
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:34.983
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:34.984
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:34.984
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:36.500
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:36.501
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:36.505
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml contents differ. Needs conflict resolution
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.526
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.529
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice FinX/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.607
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for clickOnOptionChainLTP
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.694
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for stockPricePolling
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.761
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for convertStringToMap
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.820
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for elementIsSelected
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.888
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for selectUPIId
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.932
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for clickOnCornerElementWithinDuration
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.977
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for clickOnChoiceEmail
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:39.990
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for BypassFingerPrintToEmulator
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.021
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for FetchAttributevValueOrText
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.068
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for VerifyIfBestFiveAreInSortingOrder
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.111
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ValidatingStockFeed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.157
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for SwapPositionsOfStocksInWatchlist
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.237
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for sortingAndFilters
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.315
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for refreshTheScreen
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.324
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ApplyFilters
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.403
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for launchBrowserInDebugger
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.495
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for swipeElementFromLeftToRight
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.521
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.545
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for FetchPercentageValueAsSum
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.561
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ExcutionSpeed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.657
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Choice FinX/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.667
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.687
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.687
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.689
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.689
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.826
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.853
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:40.855
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:47.050
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC20369PJT1002 package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:47.052
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice FinX/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:47.401
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Choice FinX/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:47.699
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC20369PJT1002 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-26 15:15:50.102
+!MESSAGE location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-26 15:15:51.631
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:51.656
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:51.660
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC20369PJT1002
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:52.099
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:52.100
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:52.467
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:52.468
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:52.468
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice FinX/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:53.355
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice FinX/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:53.356
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server ApplyFilters
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:54.693
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server BypassFingerPrintToEmulator
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:55.001
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server clickOnChoiceEmail
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:55.309
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server clickOnCornerElementWithinDuration
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:55.632
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server clickOnOptionChainLTP
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:55.969
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server convertStringToMap
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:56.594
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server elementIsSelected
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:56.887
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server ExcutionSpeed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:57.199
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server FetchAttributevValueOrText
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:57.524
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server FetchPercentageValueAsSum
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:57.825
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server launchBrowserInDebugger
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:58.363
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server MOB_elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:58.729
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server refreshTheScreen
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:59.022
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server selectUPIId
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:15:59.556
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server sortingAndFilters
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:00.705
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server stockPricePolling
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:01.045
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server SwapPositionsOfStocksInWatchlist
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:01.478
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server swipeElementFromLeftToRight
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:01.799
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server ValidatingStockFeed
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:02.363
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server VerifyIfBestFiveAreInSortingOrder
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:02.698
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server VideoMock
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:03.399
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Choice FinX/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:03.400
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server AddTwoNumbers
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:03.713
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:04.146
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:04.148
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:04.922
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:04.923
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.120
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.121
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.399
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.400
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.401
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.405
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:05.634
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:10.125
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2025-05-26 15:16:10.125
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+!SESSION 2025-05-27 12:35:28.641 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-27 12:35:35.993
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-27 12:35:51.216
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\ChoiceProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-27 12:36:03.646
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-05-28 13:17:35.663 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-28 13:17:41.369
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-28 13:18:27.988
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\ChoiceProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-28 13:18:43.961
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-06-02 12:09:43.203 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\ChoiceProject
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-02 12:09:49.295
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-02 12:09:53.590
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\ChoiceProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-02 12:10:16.154
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-06-09 17:50:47.237 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\ChoiceProject
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-09 17:50:49.116
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-09 17:50:50.417
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\ChoiceProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-09 17:50:57.221
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

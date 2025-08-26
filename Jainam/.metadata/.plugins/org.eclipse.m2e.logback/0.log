@@ -1,0 +1,509 @@
+2025-06-16 17:50:52,567 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-16 17:51:47,236 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 17:51:47,635 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 17:51:47,642 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 17:51:47,715 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 17:51:47,720 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 17:51:47,803 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 17:51:47,808 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 17:51:49,294 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/main/java
+2025-06-16 17:51:49,295 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/main/resources
+2025-06-16 17:51:49,296 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/test/java
+2025-06-16 17:51:49,297 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/test/resources
+2025-06-16 17:51:50,705 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:51:50,708 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:53:08,437 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:53:08,441 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:53:16,738 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:53:16,740 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:54:24,980 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 17:54:25,869 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:54:25,876 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:54:26,863 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 17:54:31,597 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-06-16 17:54:31,619 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:31,625 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-06-16 17:54:31,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-06-16 17:54:31,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-06-16 17:54:31,626 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-06-16 17:54:31,808 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:54:31,813 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:54:32,264 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:32,264 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:32,307 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target
+2025-06-16 17:54:32,321 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:32,321 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:32,390 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:54:32,391 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:32,391 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:32,513 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-06-16 17:54:32,521 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2025-06-16 17:54:33,580 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-06-16 17:54:33,581 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-06-16 17:54:33,581 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:33,581 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:33,584 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:54:33,584 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:33,584 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:33,588 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2025-06-16 17:54:33,588 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:33,588 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:33,822 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2025-06-16 17:54:33,828 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:33,829 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:34,055 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target\tyss-program-elements-1.0.jar
+2025-06-16 17:54:34,086 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:34,086 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.6 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2025-06-16 17:54:34,158 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2025-06-16 17:54:34,160 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2025-06-16 17:54:36,449 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\Jainam\SmartGreek\dependency-reduced-pom.xml
+2025-06-16 17:54:36,614 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-16 17:54:36,628 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-16 17:54:37,177 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-16 17:54:37,189 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-16 17:54:37,194 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-16 17:54:38,181 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-16 17:54:38,195 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2025-06-16 17:54:38,196 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2025-06-16 17:54:38,196 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2025-06-16 17:54:38,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2025-06-16 17:54:38,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2025-06-16 17:54:38,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2025-06-16 17:54:38,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2025-06-16 17:54:38,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2025-06-16 17:54:38,198 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-http-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2025-06-16 17:54:38,199 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2025-06-16 17:54:38,199 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2025-06-16 17:54:38,199 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2025-06-16 17:54:38,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2025-06-16 17:54:38,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2025-06-16 17:54:38,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2025-06-16 17:54:38,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2025-06-16 17:54:38,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2025-06-16 17:54:38,201 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2025-06-16 17:54:38,201 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2025-06-16 17:54:38,201 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2025-06-16 17:54:38,201 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2025-06-16 17:54:38,202 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2025-06-16 17:54:38,209 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 10584 -> 5331 (50%)
+2025-06-16 17:54:38,209 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2025-06-16 17:54:38,209 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target\tyss-program-elements-1.0-shaded.jar
+2025-06-16 17:54:38,210 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 17:54:38,210 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 17:54:38,239 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\Jainam\SmartGreek\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2025-06-16 17:54:38,243 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2025-06-16 17:54:38,273 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 17:54:38,273 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2025-06-16 17:54:38,273 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 17:54:38,273 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  6.678 s
+2025-06-16 17:54:38,273 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-06-16T17:54:38+05:30
+2025-06-16 17:54:38,273 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 17:54:38,274 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-06-16 17:54:38,606 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:54:38,608 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 17:54:39,648 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 17:54:39,649 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:04,594 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:04,596 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:11,093 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:35:11,761 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:11,765 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:17,262 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:35:17,705 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:17,708 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:18,103 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:35:20,354 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-06-16 18:35:20,361 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:35:20,361 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-06-16 18:35:20,361 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-06-16 18:35:20,361 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-06-16 18:35:20,361 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-06-16 18:35:20,550 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:20,553 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:20,803 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:35:20,804 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:35:20,827 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target
+2025-06-16 18:35:20,847 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:35:20,847 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:35:20,907 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:20,907 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:35:20,907 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:35:20,985 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-06-16 18:35:20,991 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2025-06-16 18:35:21,051 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-06-16 18:35:21,051 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:35:21,051 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - COMPILATION WARNING : 
+2025-06-16 18:35:21,052 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:35:21,052 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-06-16 18:35:21,053 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 1 warning
+2025-06-16 18:35:21,053 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:35:21,053 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:35:21,053 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+2025-06-16 18:35:21,053 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:35:21,053 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[18,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,054 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[22,12] class, interface, enum, or record expected
+2025-06-16 18:35:21,054 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[24,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,054 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[25,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,055 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[28,12] class, interface, enum, or record expected
+2025-06-16 18:35:21,055 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[30,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,055 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[31,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,056 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[34,12] class, interface, enum, or record expected
+2025-06-16 18:35:21,056 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[37,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,057 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[38,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,057 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[40,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,057 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[42,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,058 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[45,13] class, interface, enum, or record expected
+2025-06-16 18:35:21,058 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[46,13] class, interface, enum, or record expected
+2025-06-16 18:35:21,058 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[47,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,059 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[49,13] class, interface, enum, or record expected
+2025-06-16 18:35:21,059 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[50,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,059 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[53,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,060 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[54,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,060 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 19 errors 
+2025-06-16 18:35:21,060 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:35:21,061 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:35:21,061 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;31mBUILD FAILURE[m
+2025-06-16 18:35:21,061 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:35:21,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  0.708 s
+2025-06-16 18:35:21,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-06-16T18:35:21+05:30
+2025-06-16 18:35:21,062 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:35:21,062 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-06-16 18:35:21,064 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mtyss-program-elements[m: [1;31mCompilation failure[m: Compilation failure: 
+2025-06-16 18:35:21,065 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[18,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,065 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[22,12] class, interface, enum, or record expected
+2025-06-16 18:35:21,065 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[24,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,066 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[25,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,066 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[28,12] class, interface, enum, or record expected
+2025-06-16 18:35:21,066 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[30,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,067 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[31,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,067 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[34,12] class, interface, enum, or record expected
+2025-06-16 18:35:21,067 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[37,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,068 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[38,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,068 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[40,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,068 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[42,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,069 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[45,13] class, interface, enum, or record expected
+2025-06-16 18:35:21,069 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[46,13] class, interface, enum, or record expected
+2025-06-16 18:35:21,069 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[47,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,070 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[49,13] class, interface, enum, or record expected
+2025-06-16 18:35:21,070 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[50,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,071 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[53,9] class, interface, enum, or record expected
+2025-06-16 18:35:21,071 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[54,5] class, interface, enum, or record expected
+2025-06-16 18:35:21,071 [ModalContext] ERROR org.apache.maven.cli.MavenCli - -> [1m[Help 1][m
+2025-06-16 18:35:21,071 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-06-16 18:35:21,072 [ModalContext] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+2025-06-16 18:35:21,072 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the [1m-X[m switch to enable full debug logging.
+2025-06-16 18:35:21,072 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-06-16 18:35:21,073 [ModalContext] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+2025-06-16 18:35:21,073 [ModalContext] ERROR org.apache.maven.cli.MavenCli - [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2025-06-16 18:35:24,703 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:24,705 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:35,836 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-06-16 18:35:35,964 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:35:36,166 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 18:35:36,170 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 18:35:36,198 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 18:35:36,203 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 18:35:36,243 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 18:35:36,248 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 18:35:36,758 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/main/java
+2025-06-16 18:35:36,759 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/main/resources
+2025-06-16 18:35:36,759 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/test/java
+2025-06-16 18:35:36,760 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/test/resources
+2025-06-16 18:35:36,837 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-06-16 18:35:36,982 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:36,985 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:35:57,315 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-06-16 18:35:57,428 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:35:57,492 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 18:35:57,495 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 18:35:57,524 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 18:35:57,527 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 18:35:57,562 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 18:35:57,566 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 18:35:57,876 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/main/java
+2025-06-16 18:35:57,876 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/main/resources
+2025-06-16 18:35:57,877 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/test/java
+2025-06-16 18:35:57,877 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/test/resources
+2025-06-16 18:35:57,938 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-06-16 18:35:58,113 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:35:58,116 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:39:04,156 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:04,158 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:39:13,578 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:39:14,014 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:14,017 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:39:19,275 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:39:19,631 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:19,633 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:39:20,131 [Worker-27: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:39:22,375 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-06-16 18:39:22,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:39:22,381 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-06-16 18:39:22,381 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-06-16 18:39:22,381 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-06-16 18:39:22,381 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-06-16 18:39:22,541 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:22,545 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:39:22,746 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:39:22,746 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:39:22,764 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target
+2025-06-16 18:39:22,774 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:39:22,774 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:39:22,820 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:22,820 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:39:22,820 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:39:22,911 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-06-16 18:39:22,916 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2025-06-16 18:39:22,968 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-06-16 18:39:22,968 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:39:22,968 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - COMPILATION WARNING : 
+2025-06-16 18:39:22,968 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:39:22,968 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-06-16 18:39:22,969 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 1 warning
+2025-06-16 18:39:22,969 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:39:22,969 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:39:22,969 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+2025-06-16 18:39:22,969 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:39:22,969 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[18,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,969 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[22,12] class, interface, enum, or record expected
+2025-06-16 18:39:22,969 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[24,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,970 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[25,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,970 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[28,12] class, interface, enum, or record expected
+2025-06-16 18:39:22,970 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[30,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,970 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[31,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,971 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[34,12] class, interface, enum, or record expected
+2025-06-16 18:39:22,971 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[37,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,971 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[38,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,972 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[40,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,972 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[42,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,972 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[45,13] class, interface, enum, or record expected
+2025-06-16 18:39:22,972 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[46,13] class, interface, enum, or record expected
+2025-06-16 18:39:22,972 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[47,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,973 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[49,13] class, interface, enum, or record expected
+2025-06-16 18:39:22,973 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[50,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,973 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[53,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,973 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[54,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,973 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 19 errors 
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;31mBUILD FAILURE[m
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  0.600 s
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-06-16T18:39:22+05:30
+2025-06-16 18:39:22,974 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:39:22,974 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-06-16 18:39:22,975 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mtyss-program-elements[m: [1;31mCompilation failure[m: Compilation failure: 
+2025-06-16 18:39:22,975 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[18,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,975 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[22,12] class, interface, enum, or record expected
+2025-06-16 18:39:22,976 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[24,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,976 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[25,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,976 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[28,12] class, interface, enum, or record expected
+2025-06-16 18:39:22,976 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[30,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,976 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[31,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,977 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[34,12] class, interface, enum, or record expected
+2025-06-16 18:39:22,977 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[37,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,977 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[38,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,977 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[40,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,977 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[42,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,978 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[45,13] class, interface, enum, or record expected
+2025-06-16 18:39:22,978 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[46,13] class, interface, enum, or record expected
+2025-06-16 18:39:22,978 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[47,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,978 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[49,13] class, interface, enum, or record expected
+2025-06-16 18:39:22,978 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[50,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,979 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[53,9] class, interface, enum, or record expected
+2025-06-16 18:39:22,979 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[54,5] class, interface, enum, or record expected
+2025-06-16 18:39:22,979 [ModalContext] ERROR org.apache.maven.cli.MavenCli - -> [1m[Help 1][m
+2025-06-16 18:39:22,979 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-06-16 18:39:22,979 [ModalContext] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+2025-06-16 18:39:22,980 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the [1m-X[m switch to enable full debug logging.
+2025-06-16 18:39:22,980 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-06-16 18:39:22,980 [ModalContext] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+2025-06-16 18:39:22,981 [ModalContext] ERROR org.apache.maven.cli.MavenCli - [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2025-06-16 18:39:25,490 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:25,493 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:39:33,207 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:39:33,208 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:09,166 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:09,168 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:19,004 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:41:19,412 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:19,414 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:24,668 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:41:25,035 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:25,037 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:25,531 [Worker-31: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:41:27,693 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-06-16 18:41:27,698 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:41:27,698 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-06-16 18:41:27,698 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-06-16 18:41:27,698 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-06-16 18:41:27,698 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-06-16 18:41:27,885 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:27,888 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:28,027 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:41:28,027 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:41:28,051 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\Jainam\SmartGreek\target
+2025-06-16 18:41:28,065 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:41:28,066 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:41:28,131 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:28,131 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-16 18:41:28,132 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-16 18:41:28,202 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-06-16 18:41:28,208 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2025-06-16 18:41:28,253 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-06-16 18:41:28,253 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:41:28,253 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - COMPILATION WARNING : 
+2025-06-16 18:41:28,254 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:41:28,255 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-06-16 18:41:28,255 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 1 warning
+2025-06-16 18:41:28,255 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:41:28,255 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:41:28,255 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+2025-06-16 18:41:28,255 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:41:28,255 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[19,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,256 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[23,12] class, interface, enum, or record expected
+2025-06-16 18:41:28,256 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[25,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,257 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[26,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,257 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[29,12] class, interface, enum, or record expected
+2025-06-16 18:41:28,257 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[31,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,258 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[32,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,258 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[35,12] class, interface, enum, or record expected
+2025-06-16 18:41:28,258 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[38,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,258 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[39,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,259 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[41,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,259 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[43,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,259 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[46,13] class, interface, enum, or record expected
+2025-06-16 18:41:28,260 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[47,13] class, interface, enum, or record expected
+2025-06-16 18:41:28,260 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[48,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,260 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[50,13] class, interface, enum, or record expected
+2025-06-16 18:41:28,261 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[51,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,261 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[54,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,261 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[55,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,261 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 19 errors 
+2025-06-16 18:41:28,261 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-06-16 18:41:28,262 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:41:28,262 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;31mBUILD FAILURE[m
+2025-06-16 18:41:28,263 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:41:28,263 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  0.571 s
+2025-06-16 18:41:28,263 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-06-16T18:41:28+05:30
+2025-06-16 18:41:28,263 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-16 18:41:28,263 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-06-16 18:41:28,264 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mtyss-program-elements[m: [1;31mCompilation failure[m: Compilation failure: 
+2025-06-16 18:41:28,264 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[19,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,265 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[23,12] class, interface, enum, or record expected
+2025-06-16 18:41:28,265 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[25,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,265 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[26,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,266 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[29,12] class, interface, enum, or record expected
+2025-06-16 18:41:28,266 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[31,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,267 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[32,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,267 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[35,12] class, interface, enum, or record expected
+2025-06-16 18:41:28,267 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[38,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,267 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[39,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,268 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[41,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,268 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[43,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,268 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[46,13] class, interface, enum, or record expected
+2025-06-16 18:41:28,269 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[47,13] class, interface, enum, or record expected
+2025-06-16 18:41:28,269 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[48,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,269 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[50,13] class, interface, enum, or record expected
+2025-06-16 18:41:28,270 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[51,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,271 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[54,9] class, interface, enum, or record expected
+2025-06-16 18:41:28,272 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/Jainam/SmartGreek/src/main/java/com/tyss/optimize/programelement/LIC25632PJT1001/bussiness_Logics/Round_off_to_required_decimal_places.java:[55,5] class, interface, enum, or record expected
+2025-06-16 18:41:28,272 [ModalContext] ERROR org.apache.maven.cli.MavenCli - -> [1m[Help 1][m
+2025-06-16 18:41:28,273 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-06-16 18:41:28,274 [ModalContext] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+2025-06-16 18:41:28,274 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the [1m-X[m switch to enable full debug logging.
+2025-06-16 18:41:28,275 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-06-16 18:41:28,275 [ModalContext] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+2025-06-16 18:41:28,275 [ModalContext] ERROR org.apache.maven.cli.MavenCli - [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2025-06-16 18:41:30,408 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:30,410 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:31,497 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:31,499 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:41:39,024 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-06-16 18:41:39,111 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\Jainam\SmartGreek\pom.xml.
+2025-06-16 18:41:39,317 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 18:41:39,322 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-16 18:41:39,347 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 18:41:39,350 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-16 18:41:39,379 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 18:41:39,383 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-16 18:41:39,664 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/main/java
+2025-06-16 18:41:39,665 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/main/resources
+2025-06-16 18:41:39,665 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartGreek/src/test/java
+2025-06-16 18:41:39,665 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartGreek/src/test/resources
+2025-06-16 18:41:39,730 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-06-16 18:41:39,864 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:41:39,866 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources
+2025-06-16 18:42:16,908 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\main\resources
+2025-06-16 18:42:16,909 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\Jainam\SmartGreek\src\test\resources

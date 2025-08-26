@@ -1,0 +1,1338 @@
+!SESSION 2024-06-10 12:06:00.233 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\FinhaatProject -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-10 12:06:02.570
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-10 12:06:03.562
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-06-10 12:06:05.278
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-10 12:06:05.278
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-10 12:06:08.332
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:18.302
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:41.079
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:42.661
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:42.662
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:56.620
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:56.622
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:06:57.541
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:01.896
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:01.897
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.003
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.006
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.007
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.008
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.009
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.010
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.011
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding repository information to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.012
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:03.012
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven dependency plugin
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:11.186
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:13.066
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:13.089
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Replacing default pom.xml contents with that on the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:07:13.100
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:30.225
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:30.227
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:30.335
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:31.703
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:32.546
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:32.547
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:32.548
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:32.548
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.606
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.608
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.639
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.644
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Finhaat/src/main/java/bussiness_logic
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.695
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for waitTillElementIsNotVisibleInDOM
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.736
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Canvas
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:33.740
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Program element conflict detected
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.580
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.625
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for sumOfListELement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.658
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for VerifyTheDatesArePreviouslyClaimed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.696
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Verify_if_element_is_displayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.733
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for VerifyBarGraphandUI
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.757
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ApplyFiltersPE
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.792
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for GenerateRandomNumberWithinSpecifiedRange
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.853
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for HandlingDatePicker
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:41.883
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Json_map_using_path
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.062
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Finhaat/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.070
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.127
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.128
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.134
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.137
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.393
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.445
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:42.449
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:48.854
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC20128PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:08:48.855
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Finhaat/src/main/java/bussiness_logic
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:09:35.872
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /Finhaat/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:09:36.610
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC20128PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-10 12:09:50.156
+!MESSAGE system modules path not set in conjunction with -source 11
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-06-10 12:10:05.377
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:05.592
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:05.594
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC20128PJT1001
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:07.221
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:07.223
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:08.076
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:08.077
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:08.079
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Finhaat/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:09.219
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Finhaat/src/main/java/bussiness_logic
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:09.221
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server ApplyFiltersPE
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:10.433
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server Canvas
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:11.517
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:12.492
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server GenerateRandomNumberWithinSpecifiedRange
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:13.617
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server HandlingDatePicker
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:14.781
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server Json_map_using_path
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:15.961
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server sumOfListELement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:16.998
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server Verify_if_element_is_displayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:18.020
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server VerifyBarGraphandUI
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:19.369
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server VerifyTheDatesArePreviouslyClaimed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:20.547
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server waitTillElementIsNotVisibleInDOM
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:22.520
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /Finhaat/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:22.522
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:23.477
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:23.478
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:24.211
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:24.224
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:24.848
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:24.849
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:25.892
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:25.894
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:25.895
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:25.908
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:26.656
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:32.286
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-06-10 12:10:32.286
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+!SESSION 2024-06-14 12:31:01.855 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-14 12:31:04.032
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-14 12:32:13.870
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-06-14 12:32:15.341
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-14 12:32:15.341
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-14 12:32:18.100
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-06-25 17:40:15.798 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-25 17:40:21.276
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-25 17:40:36.663
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-06-25 17:40:40.995
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-25 17:40:40.995
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-25 17:40:51.471
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:10.623
+!MESSAGE com.flinko.plugin.command.handler.PullCommandHandler - User initiated a pull from fireflink server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:10.627
+!MESSAGE com.flinko.plugin.service.ProjectService - Pulling changes from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:10.732
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:11.706
+!MESSAGE com.flinko.plugin.util.PluginUtil - Access token has expired
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:30.940
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:31.752
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:31.753
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:31.753
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:31.754
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:32.669
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:32.673
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:32.780
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:32.788
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Finhaat/src/main/java/bussiness_logic
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:32.899
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for waitTillElementIsNotVisibleInDOM
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:33.943
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Canvas
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:33.977
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for elementIsDisplayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.004
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for sumOfListELement
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.019
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for VerifyTheDatesArePreviouslyClaimed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.050
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Verify_if_element_is_displayed
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.066
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for VerifyBarGraphandUI
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.079
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ApplyFiltersPE
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.111
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for GenerateRandomNumberWithinSpecifiedRange
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.195
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for HandlingDatePicker
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.226
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Json_map_using_path
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.262
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /Finhaat/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.269
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for DefaultNlp
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.283
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.284
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.285
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-06-25 18:14:34.287
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+!SESSION 2024-07-01 15:11:18.062 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-01 15:11:24.835
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-01 15:35:38.249
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-07-01 15:35:39.813
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-01 15:35:39.814
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-01 15:35:46.055
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-08-09 17:40:11.421 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-09 17:40:34.779
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-09 17:42:06.026
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-08-09 17:42:07.594
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-09 17:42:07.594
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-09 17:42:13.290
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-08-14 10:24:43.804 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-14 10:24:50.419
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-14 10:25:05.493
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-08-14 10:25:10.388
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-14 10:25:10.388
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-14 10:25:22.992
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-08-15 12:15:31.609 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-15 12:17:03.502
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-15 12:17:36.346
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-08-15 12:17:40.736
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-15 12:17:40.736
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-15 12:17:53.383
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:10.670
+!MESSAGE Could not transfer metadata com.testyantra.optimize:tyss-data-models:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:10.719
+!MESSAGE com.testyantra.optimize:tyss-data-models:1.0-SNAPSHOT/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata com.testyantra.optimize:tyss-data-models:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:14.669
+!MESSAGE Could not transfer metadata com.testyantra.optimize:tyss-common:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:14.695
+!MESSAGE com.testyantra.optimize:tyss-common:1.0-SNAPSHOT/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata com.testyantra.optimize:tyss-common:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:14.766
+!MESSAGE Could not transfer metadata com.testyantra.optimize:OPTIMIZE:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:25.381
+!MESSAGE Could not transfer metadata com.testyantra.optimize:tyss-config:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:25.400
+!MESSAGE com.testyantra.optimize:tyss-config:1.0-SNAPSHOT/maven-metadata.xml failed to transfer from https://s01.oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of ossrh has elapsed or updates are forced. Original error: Could not transfer metadata com.testyantra.optimize:tyss-config:1.0-SNAPSHOT/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:30.197
+!MESSAGE Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots/): s01.oss.sonatype.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:30.199
+!MESSAGE Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-15 12:18:30.201
+!MESSAGE Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to shibboleth-repo (https://build.shibboleth.net/nexus/content/repositories/releases/): build.shibboleth.net
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-08-15 12:26:23.743
+!MESSAGE Could not retrieve declared fields
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:237)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:240)
+	at org.eclipse.jdt.internal.core.ClassFile.existsUsingJarTypeCache(ClassFile.java:162)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1482)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1450)
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:996)
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:823)
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:742)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.find(SearchableEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findType(SearchableEnvironment.java:527)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:241)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:385)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:240)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:116)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:232)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypeFor(BinaryTypeBinding.java:1933)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.availableFields(BinaryTypeBinding.java:378)
+	at org.eclipse.jdt.core.dom.TypeBinding.getDeclaredFields(TypeBinding.java:249)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.hasMethodWithName(UnresolvedElementsSubProcessor.java:580)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarVariableProposals(UnresolvedElementsSubProcessor.java:530)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getVariableProposals(UnresolvedElementsSubProcessor.java:317)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:406)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:361)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-08-16 09:09:34.483 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-16 09:09:37.719
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-16 09:10:46.889
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-08-16 09:10:48.787
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-16 09:10:48.788
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-16 09:10:57.288
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.461
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\software\amazon\awssdk\netty-nio-client\2.15.0\netty-nio-client-2.15.0.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.464
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\io\netty\netty-codec\4.1.46.Final\netty-codec-4.1.46.Final.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.536
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.12.1\log4j-to-slf4j-2.12.1.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.543
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-actuator\2.2.6.RELEASE\spring-boot-actuator-2.2.6.RELEASE.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.589
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.632
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.663
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.712
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\org\keycloak\keycloak-adapter-spi\18.0.2\keycloak-adapter-spi-18.0.2.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.779
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\com\amazonaws\aws-java-sdk-cloudformation\1.11.163\aws-java-sdk-cloudformation-1.11.163.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.804
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\com\amazonaws\aws-java-sdk-efs\1.11.163\aws-java-sdk-efs-1.11.163.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.813
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\com\amazonaws\aws-java-sdk-inspector\1.11.163\aws-java-sdk-inspector-1.11.163.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2024-08-16 09:11:18.846
+!MESSAGE module-info.class [in <default> [in C:\Users\User\.m2\repository\io\projectreactor\reactor-core\3.3.22.RELEASE\reactor-core-3.3.22.RELEASE.jar]] does not exist
+!SESSION 2024-08-16 14:39:18.873 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-16 14:39:59.840
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-08-16 14:40:47.692
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-16 14:40:48.597
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-08-16 14:40:50.308
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-16 14:40:50.308
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-16 14:40:55.953
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-16 10:31:12.855 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-16 10:31:45.917
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-16 10:32:24.089
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-09-16 10:32:25.906
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-09-16 10:32:25.906
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-16 10:32:31.913
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-09-16 18:58:55.536
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:230)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:56)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:96)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:71)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:192)
+	at org.eclipse.jface.action.ActionContributionItem.updateImages(ActionContributionItem.java:1019)
+	at org.eclipse.jface.action.ActionContributionItem.updateToolItem(ActionContributionItem.java:776)
+	at org.eclipse.jface.action.ActionContributionItem.update(ActionContributionItem.java:739)
+	at org.eclipse.jface.action.ActionContributionItem.fill(ActionContributionItem.java:350)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:358)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.fillToolbar(AbstractAnnotationHover.java:278)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:286)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:190)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:140)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:116)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:103)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1268)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:794)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:297)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$1.lambda$0(AbstractHoverInformationControlManager.java:856)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-09-16 18:58:55.540
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:230)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:56)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:96)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:71)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:192)
+	at org.eclipse.jface.action.ActionContributionItem.updateImages(ActionContributionItem.java:1016)
+	at org.eclipse.jface.action.ActionContributionItem.updateToolItem(ActionContributionItem.java:776)
+	at org.eclipse.jface.action.ActionContributionItem.update(ActionContributionItem.java:739)
+	at org.eclipse.jface.action.ActionContributionItem.fill(ActionContributionItem.java:350)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:358)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.fillToolbar(AbstractAnnotationHover.java:278)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:286)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:190)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:140)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:116)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:103)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1268)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:794)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:297)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$1.lambda$0(AbstractHoverInformationControlManager.java:856)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-09-16 18:58:55.542
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:230)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:56)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:96)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:192)
+	at org.eclipse.ui.part.WorkbenchPart.lambda$1(WorkbenchPart.java:239)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.ui.part.WorkbenchPart.setInitializationData(WorkbenchPart.java:239)
+	at org.eclipse.ui.part.ViewPart.setInitializationData(ViewPart.java:143)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:254)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.registry.ViewDescriptor.createView(ViewDescriptor.java:61)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:104)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPart(CompatibilityPart.java:304)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:342)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:971)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:936)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:142)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:313)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.createElement(PartServiceImpl.java:1313)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1274)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:397)
+	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:89)
+	at org.eclipse.ui.internal.WorkbenchPage.findView(WorkbenchPage.java:1953)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarkers(MarkerViewUtil.java:128)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarker(MarkerViewUtil.java:96)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.updateMarkerViews(AbstractDecoratedTextEditor.java:2237)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateMarkerViews(JavaEditor.java:3161)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateStatusLine(JavaEditor.java:3618)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2265)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$EditorSelectionChangedListener.selectionChanged(JavaEditor.java:311)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2718)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2648)
+	at org.eclipse.jface.text.TextViewer$2.run(TextViewer.java:2627)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3290)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2024-09-20 11:12:34.292 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-20 11:12:39.426
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-20 11:12:57.519
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-20 11:13:12.178
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-27 17:44:30.250 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 17:44:34.564
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 17:59:40.035
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-27 17:59:57.002
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-18 14:34:16.165 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-18 14:34:18.907
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-18 14:34:30.434
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-18 14:34:37.288
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-11-28 10:53:07.706 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\FinhaatProject
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-28 10:53:09.540
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-28 10:53:10.775
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-28 10:53:16.926
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-11-28 17:03:12.899 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-28 17:03:18.536
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-28 17:09:43.280
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-28 17:09:57.751
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-03 16:23:44.190 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\FinhaatProject
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-03 16:23:48.929
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-03 16:23:52.042
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-03 16:24:08.609
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-10 13:08:26.519 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-10 13:08:32.893
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-10 13:08:56.607
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-10 13:09:13.399
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2024-12-10 13:25:03.683
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.internal.MavenPluginActivator.getMavenMarkerManager()" because the return value of "org.eclipse.m2e.core.internal.MavenPluginActivator.getDefault()" is null
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.processBuildResults(MavenBuilderImpl.java:367)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:200)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2024-12-10 13:25:03.687
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.m2e.core 4 75 2024-12-10 13:25:03.687
+!MESSAGE Errors running builder 'Maven Project Builder' on project 'Finhaat'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.internal.MavenPluginActivator.getMavenMarkerManager()" because the return value of "org.eclipse.m2e.core.internal.MavenPluginActivator.getDefault()" is null
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.processBuildResults(MavenBuilderImpl.java:367)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:200)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-12-12 18:44:46.563 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\FinhaatProject
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-12 18:44:52.587
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-12 18:44:56.301
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\FinhaatProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-12 18:45:18.247
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

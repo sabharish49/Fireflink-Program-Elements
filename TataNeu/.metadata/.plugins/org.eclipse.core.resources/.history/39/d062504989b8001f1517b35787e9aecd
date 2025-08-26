@@ -1,0 +1,98 @@
+package bussiness_logic;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.WebElement;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+
+public class VerifyAttributeValueOfElement implements Nlp {
+    @InputParams({
+        @InputParam(name = "element", type = "org.openqa.selenium.WebElement"),
+        @InputParam(name = "AndroidAttribute", type = "java.lang.String"),
+        @InputParam(name = "IosAttribute", type = "java.lang.String"),
+        @InputParam(name = "expectedValue", type = "java.lang.String")
+    })
+    @ReturnType(name = "VerificationResult", type = "java.lang.Boolean")
+
+    @Override
+    public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+    }
+    @Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+    @Override
+    public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+        NlpResponseModel nlpResponseModel = new NlpResponseModel();
+        Map<String, Object> attributes = nlpRequestModel.getAttributes();
+
+        WebElement element = (WebElement) attributes.get("element");
+        String AndroidAttribute = (String) attributes.get("AndroidAttribute");
+        String IosAttribute = (String) attributes.get("IosAttribute");
+        String expectedValue = (String) attributes.get("expectedValue");
+
+        AndroidDriver androidDriver = nlpRequestModel.getAndroidDriver();
+        IOSDriver iosDriver = nlpRequestModel.getIosDriver();
+
+        String actualValue = null;
+        boolean isVerified = false;
+
+        try {
+            if (androidDriver != null) {
+                if (AndroidAttribute.equalsIgnoreCase("text")) {
+                    actualValue = element.getText();
+                } else {
+                    actualValue = element.getAttribute(AndroidAttribute);
+                }
+            }
+            else {
+                if (IosAttribute.equalsIgnoreCase("label")) {
+                    actualValue = element.getText();
+                } 
+                else {
+                    actualValue = element.getAttribute(IosAttribute);
+                }
+            }
+
+          
+            isVerified = actualValue.contains(expectedValue);
+
+            if (isVerified) {
+                nlpResponseModel.setStatus(CommonConstants.pass);
+                nlpResponseModel.setMessage("Verification Passed: The attribute value matches the expected value.");
+            } else {
+                nlpResponseModel.setStatus(CommonConstants.fail);
+                nlpResponseModel.setMessage("Verification Failed: Expected value '" + expectedValue +
+                        "' but found '" + actualValue + "'.");
+            }
+
+        } catch (Exception e) {
+            nlpResponseModel.setStatus(CommonConstants.fail);
+            nlpResponseModel.setMessage("An error occurred during verification: " + e.getMessage());
+        }
+
+  
+        nlpResponseModel.getAttributes().put("VerificationResult", isVerified);
+      
+
+        return nlpResponseModel;
+    }
+}

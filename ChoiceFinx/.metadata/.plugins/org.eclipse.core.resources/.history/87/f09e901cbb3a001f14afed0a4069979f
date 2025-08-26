@@ -1,0 +1,409 @@
+
+package Business_Logics;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.springframework.stereotype.Component;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import io.appium.java_client.touch.offset.PointOption;
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
+
+@Component("LIC20369_PJT1002_PE_NLPc2e3ed48-9334-4abc-8b01-a1f8aac41598")
+public class SwapPositionsOfStocksInWatchlist implements Nlp {
+    @InputParams({@InputParam(name = "Stock1", type = "java.lang.String"), @InputParam(name = "Stock2", type = "java.lang.String")})
+    @ReturnType(name = "result", type = "java.lang.Boolean")
+
+      @Override
+      public List<String> getTestParameters() throws NlpException {
+        List<String> params = new ArrayList<>();
+        return params;
+      }
+
+      @Override
+      public StringBuilder getTestCode() throws NlpException {
+        StringBuilder sb = new StringBuilder();
+        return sb;
+      }
+      @Override
+      public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+        
+          NlpResponseModel nlpResponseModel = new NlpResponseModel();
+          Map<String, Object> attributes = nlpRequestModel.getAttributes();
+          String Stock1 = (String) attributes.get("Stock1");
+          String Stock2 = (String) attributes.get("Stock2");
+
+         AndroidDriver driver = nlpRequestModel.getAndroidDriver();
+         boolean res=false;
+         try {
+        	 String source = Stock1;
+     		String destination = Stock2;
+
+     		ArrayList<String> stockNamesList = new ArrayList<String>();
+     		List<WebElement> stockNames = null;
+     		List<WebElement> stockExchange = null;
+     		LinkedHashSet<String> listOfElementsSet = new LinkedHashSet();
+
+//     		WebElement lastElement = null;
+//     		WebElement lastExchange = null;
+
+     		
+     		
+     		String parentXpath=null;
+     		String delimiter = "-";
+     		String val=null;
+     		LinkedHashSet<String> set=new LinkedHashSet<String>();
+     	
+     		boolean flag=true;
+     		while (flag==true) {
+
+     			try {
+     				 parentXpath = "(//androidx.recyclerview.widget.RecyclerView[@resource-id='com.choiceequitybroking.jiffy:id/rvRearrangeWatchList']//android.view.ViewGroup)";
+     				
+     				List<WebElement> parentElements = driver.findElements(By.xpath(parentXpath));
+     				int sizeOfList = parentElements.size();
+     				for(int i=1;i<=parentElements.size();i++) {
+     					
+     					try {
+     						String currentStock = parentXpath+"["+i+"]//android.widget.TextView[@resource-id='com.choiceequitybroking.jiffy:id/tvTitle1']";
+     						String val1 = driver.findElement(By.xpath(currentStock)).getText();
+     						
+     						String currentExchange = parentXpath+"["+i+"]//android.widget.TextView[@resource-id='com.choiceequitybroking.jiffy:id/tvTitle2']";
+     						String val2 = driver.findElement(By.xpath(currentExchange)).getText();
+     						
+     						if(val1.length()!=0 && val2.length()!=0) {
+     							 val=val1+"-"+val2;
+     						}
+     						if(!(set.contains(val))){
+     							
+     								boolean res1=driver.findElement(By.xpath(currentStock)).isDisplayed() && driver.findElement(By.xpath(currentStock)).getText().length()!=0;
+     								
+     								boolean res2=driver.findElement(By.xpath(currentExchange)).isDisplayed() && driver.findElement(By.xpath(currentExchange)).getText().length()!=0;
+     								
+     								if(res1 && res2) {
+     									set.add(val);
+     									
+     								}
+     								else {
+     									continue;
+     								}
+     			
+     						}
+     					}
+     					catch (Exception e) {
+     						System.out.println("skipping "+e);
+     						log.info("================= element skipping due to not found==============" +e);
+     						continue;
+     					}	
+     					
+     				}
+     				
+     				
+     			//	log.info("==================== successfully added all values to set =====================");
+     				
+     			}catch (Exception e) {
+     				// TODO: handle exception
+     				
+					//	log.info("=================  skipping ==============" +e);
+
+     			}
+     			performSwipeUp(driver);
+     			
+     			try {
+     				String lastStock = parentXpath+"[last()]//android.widget.TextView[@resource-id='com.choiceequitybroking.jiffy:id/tvTitle1']";
+     				String val1 = driver.findElement(By.xpath(lastStock)).getText();
+     				
+     				String lastExchange = parentXpath+"[last()]//android.widget.TextView[@resource-id='com.choiceequitybroking.jiffy:id/tvTitle2']";
+     				String val2 = driver.findElement(By.xpath(lastExchange)).getText();
+     				
+     				String value=val1+"-"+val2;
+     				if((set.contains(value))){	
+     					flag=false;
+     					break;
+     				}
+     			}
+     			catch (Exception e) {
+     				System.out.println("skipping "+e);
+						//log.info("================= element skipping due to not found==============" +e.getMessage());
+						continue;
+     			}	
+     			
+     			
+     		}
+     		
+     		
+     	//	log.info("================= linked hash set ================="+set);
+     		LinkedHashMap<String, Integer> map = new LinkedHashMap<String, Integer>();
+     		int count = 0;
+     		for (String string : set) {
+     			System.out.println(string);
+     			map.put(string, count++);
+     		}
+     		
+     	//	log.info("====================== map ===================== "+map);
+     		
+     		
+     		System.out.println("=========== map =============");
+     		for (Entry<String, Integer> entry : map.entrySet()) {
+     			String key = entry.getKey();
+     			Integer value = entry.getValue();
+
+     			System.out.println(key + ":" + value);
+
+     		}
+
+     		Integer sourceIndex = map.get(source);
+     		Integer destIndex = map.get(destination);
+     		
+     		System.out.println("================");
+     		System.out.println("source -"+ sourceIndex);
+     		System.out.println("destination -"+destIndex);
+     		System.out.println("================");
+
+     		String[] sourceArray = source.split(delimiter);
+     		String sourceStockName = sourceArray[0];
+     		String sourceStockExchange = sourceArray[1];
+     		
+     		String[] destArray = destination.split(delimiter);
+     		String destStockName = destArray[0];
+     		String destStockExchange = destArray[1];
+     		
+     		
+     		Actions action = new Actions(driver);
+     		
+     		System.out.println("searching for source");
+     		
+     		boolean sourceFound=false;
+     		while (sourceFound==false) {
+     			try {
+     				WebElement sourceElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + sourceStockName+ "']/following-sibling::android.widget.TextView[@text='" + sourceStockExchange + "']/../preceding-sibling::android.widget.ImageView"));
+     				
+     				if (sourceElement.isDisplayed()) {
+     					System.out.println("source element is displayed");
+     					sourceFound=true;
+     					break;
+     				}
+     				else {
+     					
+     				}	
+     			} catch (Exception e) {
+     				System.out.println(e);
+     					log.info("XPath is"+"//android.widget.TextView[@text='" + sourceStockName+ "']/following-sibling::android.widget.TextView[@text='" + sourceStockExchange + "']/../preceding-sibling::android.widget.ImageView"+"this");
+						log.info("================= element skipping due to not found==============" +e);
+
+     				performSwipeDown(driver);
+     			}
+
+     		}
+     		
+     		boolean swap=false;
+     		if (destIndex < sourceIndex) {
+     			while (swap==false) {
+     				try {
+     					WebElement destElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + destStockName+ "']/following-sibling::android.widget.TextView[@text='" + destStockExchange + "']/../preceding-sibling::android.widget.ImageView"));
+     					WebElement sourceElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + sourceStockName+ "']/following-sibling::android.widget.TextView[@text='" + sourceStockExchange + "']/../preceding-sibling::android.widget.ImageView"));
+
+     					Point location1 = destElement.getLocation();
+     					int x1 = location1.getX();
+     					int y1 = location1.getY();
+     					
+     					
+     					if (destElement.isDisplayed()) {
+     						TouchAction touchAction = new TouchAction(driver);
+     				        touchAction.longPress(LongPressOptions.longPressOptions()
+     				                        .withElement(ElementOption.element(sourceElement))
+     				                        .withDuration(Duration.ofMillis(200))) // Adjust duration as needed
+     				                .moveTo(PointOption.point(x1, y1-50))
+     				                .release()
+     				                .perform();		
+     				        swap=true;
+     						break;
+     											
+     					}
+     				} catch (Exception e) {
+     					
+     					e.printStackTrace();
+     					
+     					WebElement sourceElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + sourceStockName+ "']/following-sibling::android.widget.TextView[@text='" + sourceStockExchange + "']/../preceding-sibling::android.widget.ImageView"));
+     					
+     					WebElement destinationElement = driver.findElement(By.xpath("(//android.widget.TextView[@resource-id='com.choiceequitybroking.jiffy:id/tvTitle1'])[2]/../preceding-sibling::android.widget.ImageView"));
+     								
+     					TouchAction touchAction = new TouchAction(driver);
+     			        touchAction.longPress(LongPressOptions.longPressOptions()
+     			                        .withElement(ElementOption.element(sourceElement))
+     			                        .withDuration(Duration.ofMillis(200))) // Adjust duration as needed
+     			                .moveTo(ElementOption.element(destinationElement))
+     			                .release()
+     			                .perform();
+     					
+     					performSwipeDown(driver);
+     				}
+
+     			}
+     		}
+     		
+     		
+     		
+     		if (destIndex > sourceIndex) {
+     			while (swap==false) {
+     				try {
+     					WebElement destElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + destStockName+ "']/following-sibling::android.widget.TextView[@text='" + destStockExchange + "']/../preceding-sibling::android.widget.ImageView"));
+     					WebElement sourceElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + sourceStockName+ "']/following-sibling::android.widget.TextView[@text='" + sourceStockExchange + "']/../preceding-sibling::android.widget.ImageView"));
+
+     					Point location1 = destElement.getLocation();
+     					int x1 = location1.getX();
+     					int y1 = location1.getY();
+     					
+     					if (destElement.isDisplayed()) {
+     						TouchAction touchAction = new TouchAction(driver);
+     				        touchAction.longPress(LongPressOptions.longPressOptions()
+     				                        .withElement(ElementOption.element(sourceElement))
+     				                        .withDuration(Duration.ofMillis(200))) // Adjust duration as needed
+     				                .moveTo(PointOption.point(x1, y1+100))
+     				                .release()
+     				                .perform();		
+     				        swap=true;
+     						break;
+     											
+     					}
+
+
+     				} catch (Exception e) {
+     					WebElement sourceElement = driver.findElement(By.xpath("//android.widget.TextView[@text='" + sourceStockName+ "']/following-sibling::android.widget.TextView[@text='" + sourceStockExchange + "']/../preceding-sibling::android.widget.ImageView"));				
+     					
+     					List<WebElement> scrollElements = driver.findElements(By.xpath("(//androidx.recyclerview.widget.RecyclerView[@resource-id='com.choiceequitybroking.jiffy:id/rvRearrangeWatchList']//android.view.ViewGroup)"));
+     					int scrollelementsSize = scrollElements.size();
+     					int bottomIndex = scrollelementsSize-1;
+     					
+     					WebElement destinationElement = driver.findElement(By.xpath("(//android.widget.TextView[@resource-id='com.choiceequitybroking.jiffy:id/tvTitle1'])["+bottomIndex+"]/../preceding-sibling::android.widget.ImageView"));
+     					
+     					TouchAction touchAction = new TouchAction(driver);
+     			        touchAction.longPress(LongPressOptions.longPressOptions()
+     			                        .withElement(ElementOption.element(sourceElement))
+     			                        .withDuration(Duration.ofMillis(200))) // Adjust duration as needed
+     			                .moveTo(ElementOption.element(destinationElement))
+     			                .release()
+     			                .perform();
+     									
+     					performSwipeUp(driver);
+     				}
+
+     			}
+     		}
+     		
+     		res=true;
+     		System.out.println("***********************");
+     		System.out.println("successfully swapped");
+     		System.out.println("***********************");
+     		
+     		//log.info("=============== swapped successfully==============");
+     		
+     		nlpResponseModel.setStatus(CommonConstants.pass);
+     		nlpResponseModel.setMessage("Successfully swapped "+Stock1+"with "+Stock2);
+
+         }	
+         catch (Exception e) {
+        	 
+        	 
+			//	log.info("================= main try catch ==============" +e);
+
+        	nlpResponseModel.setStatus(CommonConstants.fail);
+      		nlpResponseModel.setMessage("Failed to swap "+Stock1+"with "+Stock2 + e);
+		}
+         nlpResponseModel.getAttributes().put("result",res );
+         return nlpResponseModel;
+      }
+      
+
+     	public static void performSwipeUp(AndroidDriver driver) {
+
+     		boolean swipeUp = false;
+     		Dimension screenSize = driver.manage().window().getSize();
+     		int screenCenter = (int) (screenSize.getWidth() * 0.5);// Identify center point of screen for Y axis
+     		int startPoint = (int) (screenSize.getHeight() * 0.5);// Identify beginning point of scroll for X axis
+     		int endPoint = (int) (screenSize.getHeight() * 0.3);// Identify ending point of scroll
+     		int count = 0;
+     		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+     		while (swipeUp == false) {
+     			Sequence swipe = new Sequence(finger, 1);
+     			swipe.addAction(finger.createPointerMove(Duration.ofSeconds(0), PointerInput.Origin.viewport(),
+     					screenCenter, startPoint));
+     			swipe.addAction(finger.createPointerDown(0));
+     			swipe.addAction(finger.createPointerMove(Duration.ofMillis(700), PointerInput.Origin.viewport(),
+     					screenCenter, endPoint));
+     			swipe.addAction(finger.createPointerUp(0));
+     			((RemoteWebDriver) driver).perform(Arrays.asList(swipe));
+     			if (++count > 2) {
+     				break;
+     			}
+     			if (count >= 2) {
+     				swipeUp = true;
+     			} else {
+
+     			}
+
+     		}
+
+     	}
+
+     	public static void performSwipeDown(AndroidDriver driver) {
+
+     		boolean swipeUp = false;
+     		Dimension screenSize = driver.manage().window().getSize();
+     		int screenCenter = (int) (screenSize.getWidth() * 0.5);// Identify center point of screen for Y axis
+     		int endPoint = (int) (screenSize.getHeight() * 0.5);// Identify beginning point of scroll for X axis
+     		int startPoint = (int) (screenSize.getHeight() * 0.3);// Identify ending point of scroll
+     		int count = 0;
+     		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+     		while (swipeUp == false) {
+     			Sequence swipe = new Sequence(finger, 1);
+     			swipe.addAction(finger.createPointerMove(Duration.ofSeconds(0), PointerInput.Origin.viewport(),
+     					screenCenter, startPoint));
+     			swipe.addAction(finger.createPointerDown(0));
+     			swipe.addAction(finger.createPointerMove(Duration.ofMillis(700), PointerInput.Origin.viewport(),
+     					screenCenter, endPoint));
+     			swipe.addAction(finger.createPointerUp(0));
+     			((RemoteWebDriver) driver).perform(Arrays.asList(swipe));
+     			if (++count > 2) {
+     				break;
+     			}
+     			if (count >= 2) {
+     				swipeUp = true;
+     			} else {
+
+     			}
+
+     		}
+
+     	}
+     	
+
+} 

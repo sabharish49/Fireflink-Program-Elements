@@ -1,0 +1,127 @@
+2023-11-13 18:21:21,555 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-13 18:25:20,600 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\FireFlink\Freshwork\pom.xml.
+2023-11-13 18:25:23,214 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Freshwork/src/main/java
+2023-11-13 18:25:23,216 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Freshwork/src/main/resources
+2023-11-13 18:25:23,216 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Freshwork/src/test/java
+2023-11-13 18:25:23,217 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Freshwork/src/test/resources
+2023-11-13 18:25:24,655 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:25:24,656 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:25:24,661 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:25:24,661 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:25:26,274 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:25:26,274 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:25:26,278 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:25:26,279 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:26:34,195 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:26:34,196 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:26:34,199 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:26:34,200 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:26:58,834 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:26:58,835 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:26:58,838 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:26:58,839 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:27:24,489 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:27:24,489 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:27:24,491 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:27:24,492 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:28:08,463 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:28:08,464 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:28:08,467 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:28:08,468 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:28:28,101 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:28:28,102 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:28:28,104 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:28:28,105 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:28:52,712 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:28:52,713 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:28:52,717 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:28:52,718 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:29:07,754 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\FireFlink\Freshwork\pom.xml.
+2023-11-13 18:29:09,440 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:09,441 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:29:09,443 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:09,445 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:29:10,374 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\FireFlink\Freshwork\pom.xml.
+2023-11-13 18:29:11,525 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2023-11-13 18:29:11,546 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:11,551 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2023-11-13 18:29:11,551 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2023-11-13 18:29:11,551 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2023-11-13 18:29:11,551 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2023-11-13 18:29:11,914 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:11,915 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:29:11,919 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:11,920 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:29:12,858 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:12,858 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:12,893 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\FireFlink\Freshwork\target
+2023-11-13 18:29:12,904 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:12,904 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:12,948 [ModalContext] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:12,948 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:29:12,950 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:12,950 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:13,062 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Changes detected - recompiling the module! :input tree
+2023-11-13 18:29:13,064 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2023-11-13 18:29:13,067 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 2 source files with javac [debug target 11] to target\classes
+2023-11-13 18:29:14,723 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - system modules path not set in conjunction with -source 11
+2023-11-13 18:29:14,724 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:14,724 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:14,727 [ModalContext] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:14,728 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:29:14,728 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:14,728 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:14,731 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2023-11-13 18:29:14,732 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:14,732 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:14,872 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2023-11-13 18:29:14,878 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:14,878 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:15,260 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-data-models\1.0-SNAPSHOT\tyss-data-models-1.0-SNAPSHOT.jar to C:\Users\User\eclipse-workspace\FireFlink\Freshwork\target\classes with includes "**/*.class" and excludes "**/*.properties"
+2023-11-13 18:29:15,840 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:15,840 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:16,304 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\FireFlink\Freshwork\target\tyss-program-elements-1.0.jar
+2023-11-13 18:29:16,421 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2023-11-13 18:29:16,421 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.1:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2023-11-13 18:29:16,442 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\FireFlink\Freshwork\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2023-11-13 18:29:16,446 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\FireFlink\Freshwork\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2023-11-13 18:29:16,458 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2023-11-13 18:29:16,458 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2023-11-13 18:29:16,458 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2023-11-13 18:29:16,458 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  4.935 s
+2023-11-13 18:29:16,458 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2023-11-13T18:29:16+05:30
+2023-11-13 18:29:16,458 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2023-11-13 18:29:16,458 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2023-11-13 18:29:16,685 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:16,685 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:29:16,688 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:16,689 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:29:17,958 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:17,958 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:29:17,960 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:17,960 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-13 18:29:21,813 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:21,814 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2023-11-13 18:29:21,835 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-13 18:29:21,836 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources
+2023-11-16 15:08:20,194 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-08 12:44:54,033 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-04 10:08:25,335 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-04 17:54:51,841 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-28 10:48:24,191 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-28 10:48:29,610 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:29,926 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:34,176 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:34,546 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:35,180 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:35,653 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:47,486 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:47,770 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2024-06-28 10:48:53,786 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-06-28 10:48:53,791 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2024-06-28 10:48:53,900 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2024-06-28 10:48:54,583 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2024-06-28 10:49:06,650 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-28 10:49:06,652 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\main\resources
+2024-06-28 10:49:06,665 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-28 10:49:06,667 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\FireFlink\Freshwork\src\test\resources

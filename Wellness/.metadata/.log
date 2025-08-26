@@ -1,0 +1,384 @@
+!SESSION 2024-12-03 18:33:57.027 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\Wellness
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-03 18:34:00.217
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-03 18:34:01.702
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\Wellness\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-03 18:34:10.081
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:25.236
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Started the project import wizard
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:45.224
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - Authenticating the user credentials
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:46.877
+!MESSAGE com.flinko.plugin.page.SignInWizardPage - User authenticated successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:46.878
+!MESSAGE com.flinko.plugin.page.LicenseSelectionPage - Entered the license page
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:53.140
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Entered the project page
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:53.142
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Getting list of projects to which the user has been assigned
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:53.370
+!MESSAGE com.flinko.plugin.page.ProjectSelctionPage - Fetched user projects successfully from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:58.461
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Finish button clicked
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:58.462
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Getting package tree from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.185
+!MESSAGE com.flinko.plugin.wizard.ImportProjectWizard - Package tree successfully fetched from the server for the project
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.187
+!MESSAGE com.flinko.plugin.service.ProjectService - Creating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.190
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.193
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.194
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.195
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding dependencies to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.196
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding plugins to maven pom model
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:34:59.197
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Configuring maven shade plugin
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:35:03.072
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating packages and source files
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:35:03.131
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Adding fireflink nature to project
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:35:03.144
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Replacing default pom.xml contents with that on the server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:35:03.152
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully created maven project
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:30.532
+!MESSAGE com.flinko.plugin.command.handler.PushCommandHandler - User has initiated a push
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:30.533
+!MESSAGE com.flinko.plugin.service.ProjectService - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:30.578
+!MESSAGE com.flinko.plugin.util.PluginUtil - Checking user token
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:31.343
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:31.603
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now updating the project in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:31.604
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for project level changes
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:31.604
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting latest package tree from server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:31.605
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Saving all unsaved changes in the workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.308
+!MESSAGE com.flinko.plugin.util.PluginUtil - Constructing the packageId to program elements map from the package tree
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.308
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for pom.xml conflicts
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.327
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking changes at package level
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.329
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /WellnessForever/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.341
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for GetCount
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.364
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ScrollTillBuy
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.373
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for ElementisDispalyed_Or_Not
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.401
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking program element content conflict for Swipe_till_element_visiable
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.435
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Comparing program elements in package /WellnessForever/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.452
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new packages and program elements
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.453
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking for folders deleted on the server and deleting them from workspace
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.455
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Resetting meta data for program elements in folders that are present in workspace but not on server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.456
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pull from server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:32.978
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:33.144
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Building the project
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:33.150
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Checking project for errors
+
+!ENTRY org.testng.eclipse 4 4 2024-12-03 18:37:34.827
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): WellnessForever does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2425)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:627)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-12-03 18:37:34.828
+!MESSAGE WellnessForever does not exist
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:40.349
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving all the packages under com/tyss/optimize/programelements/LIC22590PJT1001 package
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:40.350
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /WellnessForever/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:45.622
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving package /WellnessForever/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:45.717
+!MESSAGE com.flinko.plugin.util.ProjectUtil - All the packages moved under com/tyss/optimize/programelements/LIC22590PJT1001 package
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:50.909
+!MESSAGE location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:55.977
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:56.000
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:56.648
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:56.661
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:56.668
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.713
+!MESSAGE Discovered module-info.class. Shading will break its strong encapsulation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.727
+!MESSAGE byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.727
+!MESSAGE - META-INF/LICENSE
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.728
+!MESSAGE checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.728
+!MESSAGE - META-INF/LICENSE.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.728
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.728
+!MESSAGE - META-INF/spring.handlers
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.729
+!MESSAGE - META-INF/spring.schemas
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.729
+!MESSAGE - META-INF/spring.tooling
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.729
+!MESSAGE auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-http-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.5.jar, tyss-program-elements-1.0.jar define 1 overlapping resource:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.729
+!MESSAGE - META-INF/MANIFEST.MF
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.730
+!MESSAGE byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.730
+!MESSAGE - META-INF.versions.9.module-info
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.730
+!MESSAGE spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources:
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.730
+!MESSAGE - META-INF/license.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.731
+!MESSAGE - META-INF/notice.txt
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.731
+!MESSAGE maven-shade-plugin has detected that some files are
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.731
+!MESSAGE present in two or more JARs. When this happens, only one
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.732
+!MESSAGE single version of the file is copied to the uber jar.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.732
+!MESSAGE Usually this is not harmful and you can skip these warnings,
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.732
+!MESSAGE otherwise try to manually exclude artifacts based on
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.733
+!MESSAGE mvn dependency:tree -Ddetail=true and the above output.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.733
+!MESSAGE See https://maven.apache.org/plugins/maven-shade-plugin/
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-03 18:37:57.813
+!MESSAGE Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:57.840
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Maven build successful
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:57.844
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moving packages out of com.tyss.optimize.programelement/LIC22590PJT1001
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.219
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Moved packages out of com.tyss.optimize.programelement
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.220
+!MESSAGE com.flinko.plugin.util.PluginUtil - Getting list of projects for the user
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.454
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes at project level
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.455
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing package level changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.456
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /WellnessForever/src/main/java
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.825
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /WellnessForever/src/main/java/Business_Logics
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:58.828
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server ElementisDispalyed_Or_Not
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:59.107
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server GetCount
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:59.386
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Creating new program element on server GetQuantity
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:37:59.666
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server ScrollTillBuy
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:00.016
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server Swipe_till_element_visiable
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:00.534
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing changes for package /WellnessForever/src/main/java/default_package
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:00.535
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Updating program element on server AddTwoNumbers
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:00.799
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting packages from server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:00.799
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleting all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.363
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Deleted all program elements in the package from the server 
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.364
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Now deleting the package from the server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.527
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to fireflink server completed successfully
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.528
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing pom file changes to server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.775
+!MESSAGE com.flinko.plugin.util.ProjectUtil - pom.xml succesfully updated on server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.775
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Pushing program elements jar to server
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.775
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Removing the version from jar file
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.797
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Getting folder id from server to upload the jar
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:38:01.962
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Successfully retrieved the folder id to upload the jar to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:43:56.457
+!MESSAGE com.flinko.plugin.util.ProjectUtil - program elements jar successfully pushed to S3
+
+!ENTRY com.flinko.plugin 1 0 2024-12-03 18:43:56.483
+!MESSAGE com.flinko.plugin.util.ProjectUtil - Push to server completed successfully
+!SESSION 2024-12-10 13:26:27.477 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\User\eclipse-workspace\Wellness
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-10 13:26:32.953
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-10 13:26:35.844
+!MESSAGE Logback config file: C:\Users\User\eclipse-workspace\Wellness\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-10 13:26:45.252
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

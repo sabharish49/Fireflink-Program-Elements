@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Card91.java&apos; to &apos;android.SimpleRandomNameGenerator.java&apos;&#x0D;&#x0A;- Original project: &apos;javaprograms&apos;&#x0D;&#x0A;- Destination element: &apos;android.SimpleRandomNameGenerator.java&apos;&#x0D;&#x0A;- Original element: &apos;LogicPractice.Card91.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;android{SimpleRandomNameGenerator.java" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;LogicPractice{Card91.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1704729616125" units="1" version="1.0"/>
+</session>

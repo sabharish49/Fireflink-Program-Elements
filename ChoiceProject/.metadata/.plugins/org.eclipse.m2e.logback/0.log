@@ -1,0 +1,291 @@
+2025-05-26 14:54:36,830 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-26 15:06:06,160 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:06:06,363 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-05-26 15:06:06,372 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-05-26 15:06:06,432 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-05-26 15:06:06,439 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-05-26 15:06:06,512 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.33.0/selenium-api-4.33.0.pom
+2025-05-26 15:06:06,517 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.33.0/selenium-api-4.33.0.pom
+2025-05-26 15:06:06,539 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-05-26 15:06:06,543 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-05-26 15:06:07,460 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.33.0/selenium-remote-driver-4.33.0.pom
+2025-05-26 15:06:07,464 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.33.0/selenium-remote-driver-4.33.0.pom
+2025-05-26 15:06:07,484 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.50.0/opentelemetry-api-1.50.0.pom
+2025-05-26 15:06:07,487 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.50.0/opentelemetry-api-1.50.0.pom
+2025-05-26 15:06:07,509 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.50.0/opentelemetry-context-1.50.0.pom
+2025-05-26 15:06:07,513 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.50.0/opentelemetry-context-1.50.0.pom
+2025-05-26 15:06:07,536 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.50.0/opentelemetry-exporter-logging-1.50.0.pom
+2025-05-26 15:06:07,541 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.50.0/opentelemetry-exporter-logging-1.50.0.pom
+2025-05-26 15:06:07,564 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.50.0/opentelemetry-sdk-1.50.0.pom
+2025-05-26 15:06:07,570 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.50.0/opentelemetry-sdk-1.50.0.pom
+2025-05-26 15:06:07,592 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.50.0/opentelemetry-sdk-common-1.50.0.pom
+2025-05-26 15:06:07,597 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.50.0/opentelemetry-sdk-common-1.50.0.pom
+2025-05-26 15:06:07,617 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.50.0/opentelemetry-sdk-trace-1.50.0.pom
+2025-05-26 15:06:07,622 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.50.0/opentelemetry-sdk-trace-1.50.0.pom
+2025-05-26 15:06:07,644 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.50.0/opentelemetry-sdk-metrics-1.50.0.pom
+2025-05-26 15:06:07,647 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.50.0/opentelemetry-sdk-metrics-1.50.0.pom
+2025-05-26 15:06:07,664 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.50.0/opentelemetry-sdk-logs-1.50.0.pom
+2025-05-26 15:06:07,669 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.50.0/opentelemetry-sdk-logs-1.50.0.pom
+2025-05-26 15:06:07,690 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.50.0/opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.pom
+2025-05-26 15:06:07,697 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.50.0/opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.pom
+2025-05-26 15:06:07,719 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.50.0/opentelemetry-sdk-extension-autoconfigure-1.50.0.pom
+2025-05-26 15:06:07,725 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.50.0/opentelemetry-sdk-extension-autoconfigure-1.50.0.pom
+2025-05-26 15:06:07,751 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.33.0/selenium-http-4.33.0.pom
+2025-05-26 15:06:07,757 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.33.0/selenium-http-4.33.0.pom
+2025-05-26 15:06:07,778 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.33.0/selenium-json-4.33.0.pom
+2025-05-26 15:06:07,783 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.33.0/selenium-json-4.33.0.pom
+2025-05-26 15:06:07,805 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.33.0/selenium-manager-4.33.0.pom
+2025-05-26 15:06:07,810 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.33.0/selenium-manager-4.33.0.pom
+2025-05-26 15:06:07,831 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.33.0/selenium-os-4.33.0.pom
+2025-05-26 15:06:07,835 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.33.0/selenium-os-4.33.0.pom
+2025-05-26 15:06:08,576 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/main/java
+2025-05-26 15:06:08,578 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/main/resources
+2025-05-26 15:06:08,579 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/test/java
+2025-05-26 15:06:08,580 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/test/resources
+2025-05-26 15:06:12,436 [Worker-14: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:06:13,017 [Worker-14: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:06:13,260 [Worker-14: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:06:14,515 [Worker-14: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:06:14,925 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:06:14,928 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:06:15,877 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:06:17,761 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:06:18,847 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:06:21,096 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:06:21,100 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:06:23,327 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:06:23,330 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:11:05,838 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:11:05,844 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:06,452 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-26 15:12:06,752 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:12:07,866 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-data-models/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:12:08,932 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-common/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:12:09,185 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/OPTIMIZE/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:12:10,439 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/testyantra/optimize/tyss-config/1.0-SNAPSHOT/maven-metadata.xml
+2025-05-26 15:12:10,859 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:12:10,864 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:12:11,016 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:12:11,783 [DefaultMetadataResolver-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://build.shibboleth.net/nexus/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+2025-05-26 15:12:13,502 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/main/java
+2025-05-26 15:12:13,544 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/main/resources
+2025-05-26 15:12:13,544 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/test/java
+2025-05-26 15:12:13,546 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/test/resources
+2025-05-26 15:12:14,278 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 6.00 sec, update config takes 0.00 sec 
+2025-05-26 15:12:15,040 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:15,045 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:36,279 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:12:37,089 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:37,092 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:38,117 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:12:39,608 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:39,614 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:40,749 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-05-26 15:12:40,768 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:12:40,772 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2025-05-26 15:12:40,773 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-05-26 15:12:40,773 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-05-26 15:12:40,773 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-05-26 15:12:41,220 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:41,223 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:41,332 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:12:41,332 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:12:41,365 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target
+2025-05-26 15:12:41,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:12:41,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:12:41,465 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:41,467 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:12:41,467 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:12:41,613 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-05-26 15:12:41,624 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 24 source files with javac [debug target 17] to target\classes
+2025-05-26 15:12:43,404 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-05-26 15:12:43,404 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-05-26 15:12:43,404 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - COMPILATION WARNING : 
+2025-05-26 15:12:43,405 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-05-26 15:12:43,405 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-05-26 15:12:43,405 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 1 warning
+2025-05-26 15:12:43,405 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-05-26 15:12:43,405 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-05-26 15:12:43,405 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+2025-05-26 15:12:43,406 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-05-26 15:12:43,406 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[25,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,406 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[26,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,407 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/SwapPositionsOfStocksInWatchlist.java:[38,1] package org.slf4j does not exist
+2025-05-26 15:12:43,407 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ValidatingStockFeed.java:[12,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,407 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[14,34] package org.openqa.selenium.chrome does not exist
+2025-05-26 15:12:43,407 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[15,32] package org.openqa.selenium.edge does not exist
+2025-05-26 15:12:43,408 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[14,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,408 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[15,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,408 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[16,34] package org.openqa.selenium.chrome does not exist
+2025-05-26 15:12:43,409 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[17,32] package org.openqa.selenium.edge does not exist
+2025-05-26 15:12:43,410 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[18,35] package org.openqa.selenium.firefox does not exist
+2025-05-26 15:12:43,410 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[19,35] package org.openqa.selenium.firefox does not exist
+2025-05-26 15:12:43,410 [ModalContext] ERROR o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[34,1] package org.slf4j does not exist
+2025-05-26 15:12:43,411 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - 13 errors 
+2025-05-26 15:12:43,411 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+2025-05-26 15:12:43,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-26 15:12:43,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;31mBUILD FAILURE[m
+2025-05-26 15:12:43,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-26 15:12:43,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  2.665 s
+2025-05-26 15:12:43,412 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-05-26T15:12:43+05:30
+2025-05-26 15:12:43,413 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-26 15:12:43,413 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-05-26 15:12:43,415 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mtyss-program-elements[m: [1;31mCompilation failure[m: Compilation failure: 
+2025-05-26 15:12:43,415 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[25,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,416 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/FetchAttributevValueOrText.java:[26,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,416 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/SwapPositionsOfStocksInWatchlist.java:[38,1] package org.slf4j does not exist
+2025-05-26 15:12:43,417 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ValidatingStockFeed.java:[12,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,417 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[14,34] package org.openqa.selenium.chrome does not exist
+2025-05-26 15:12:43,417 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/VideoMock.java:[15,32] package org.openqa.selenium.edge does not exist
+2025-05-26 15:12:43,417 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[14,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,418 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/clickOnChoiceEmail.java:[15,38] package org.openqa.selenium.support.ui does not exist
+2025-05-26 15:12:43,418 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[16,34] package org.openqa.selenium.chrome does not exist
+2025-05-26 15:12:43,418 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[17,32] package org.openqa.selenium.edge does not exist
+2025-05-26 15:12:43,418 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[18,35] package org.openqa.selenium.firefox does not exist
+2025-05-26 15:12:43,418 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[19,35] package org.openqa.selenium.firefox does not exist
+2025-05-26 15:12:43,419 [ModalContext] ERROR org.apache.maven.cli.MavenCli - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/launchBrowserInDebugger.java:[34,1] package org.slf4j does not exist
+2025-05-26 15:12:43,419 [ModalContext] ERROR org.apache.maven.cli.MavenCli - -> [1m[Help 1][m
+2025-05-26 15:12:43,419 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-05-26 15:12:43,420 [ModalContext] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+2025-05-26 15:12:43,420 [ModalContext] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the [1m-X[m switch to enable full debug logging.
+2025-05-26 15:12:43,421 [ModalContext] ERROR org.apache.maven.cli.MavenCli - 
+2025-05-26 15:12:43,421 [ModalContext] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+2025-05-26 15:12:43,422 [ModalContext] ERROR org.apache.maven.cli.MavenCli - [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2025-05-26 15:12:46,330 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:46,333 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:47,536 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:12:47,538 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:12:59,049 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-26 15:12:59,190 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:12:59,551 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-05-26 15:12:59,555 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-05-26 15:12:59,588 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-05-26 15:12:59,592 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-05-26 15:12:59,628 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-05-26 15:12:59,632 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-05-26 15:13:00,038 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/main/java
+2025-05-26 15:13:00,039 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/main/resources
+2025-05-26 15:13:00,039 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/test/java
+2025-05-26 15:13:00,039 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/test/resources
+2025-05-26 15:13:00,120 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-05-26 15:13:00,462 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:13:00,467 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:14:35,814 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:14:36,361 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:14:36,365 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:14:37,708 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:14:37,709 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:19,512 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:15:19,971 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:19,974 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:21,459 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:21,461 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:36,777 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:15:37,399 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:37,402 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:38,681 [ModalContext] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-26 15:15:38,819 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:15:39,428 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/main/java
+2025-05-26 15:15:39,429 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/main/resources
+2025-05-26 15:15:39,430 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Choice FinX/src/test/java
+2025-05-26 15:15:39,431 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Choice FinX/src/test/resources
+2025-05-26 15:15:39,525 [ModalContext] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-05-26 15:15:44,252 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:15:44,814 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:44,817 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:45,148 [Worker-27: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-26 15:15:47,784 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-05-26 15:15:47,793 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:47,794 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m-----------< [0;36mcom.testyantra.optimize:tyss-program-elements[0;1m >------------[m
+2025-05-26 15:15:47,794 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-05-26 15:15:47,794 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-05-26 15:15:47,794 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-05-26 15:15:47,926 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:47,930 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:48,399 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:48,399 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:48,433 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target
+2025-05-26 15:15:48,456 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:48,457 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:48,527 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:48,527 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:48,528 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:48,646 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-05-26 15:15:48,656 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 24 source files with javac [debug target 17] to target\classes
+2025-05-26 15:15:50,102 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-05-26 15:15:50,102 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-05-26 15:15:50,103 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ExcutionSpeed.java: Some input files use or override a deprecated API.
+2025-05-26 15:15:50,103 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ExcutionSpeed.java: Recompile with -Xlint:deprecation for details.
+2025-05-26 15:15:50,103 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ApplyFilters.java: Some input files use unchecked or unsafe operations.
+2025-05-26 15:15:50,103 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - /C:/Users/User/eclipse-workspace/ChoiceProject/Choice FinX/src/main/java/com/tyss/optimize/programelement/LIC20369PJT1002/Business_Logics/ApplyFilters.java: Recompile with -Xlint:unchecked for details.
+2025-05-26 15:15:50,103 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:50,103 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:50,106 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:50,107 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:50,107 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:50,110 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2025-05-26 15:15:50,110 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:50,110 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:50,274 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2025-05-26 15:15:50,281 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:50,281 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mdependency:2.5.1:unpack-dependencies[m [1m(copy-dependencies)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:50,884 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\com\fireflink\tyss-nlp-data-models\0.0.6\tyss-nlp-data-models-0.0.6.jar to C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target\classes with includes "" and excludes ""
+2025-05-26 15:15:50,936 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar to C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target\classes with includes "" and excludes ""
+2025-05-26 15:15:50,976 [ModalContext] INFO  o.a.m.p.d.UnpackDependenciesMojo - Unpacking C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar to C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target\classes with includes "" and excludes ""
+2025-05-26 15:15:50,980 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:50,980 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:51,287 [ModalContext] INFO  o.c.p.a.j.JarToolModularJarArchiver - Building jar: C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target\tyss-program-elements-1.0.jar
+2025-05-26 15:15:51,555 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-26 15:15:51,555 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-26 15:15:51,609 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2025-05-26 15:15:51,613 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\testyantra\optimize\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2025-05-26 15:15:51,630 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-26 15:15:51,630 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2025-05-26 15:15:51,630 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-26 15:15:51,630 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  3.847 s
+2025-05-26 15:15:51,630 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-05-26T15:15:51+05:30
+2025-05-26 15:15:51,630 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-26 15:15:51,630 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-05-26 15:15:51,775 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:51,777 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-26 15:15:53,019 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-26 15:15:53,021 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:36:02,929 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-27 12:36:58,808 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:36:58,827 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:37:31,229 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:37:31,238 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:37:38,167 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:37:38,177 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:38:31,160 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.testyantra.optimize:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\pom.xml.
+2025-05-27 12:38:35,427 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+2025-05-27 12:38:35,477 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+2025-05-27 12:38:35,693 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.33.0/selenium-support-4.33.0.pom
+2025-05-27 12:38:35,706 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.33.0/selenium-support-4.33.0.pom
+2025-05-27 12:38:36,677 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:38:36,684 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:38:41,095 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:38:41,101 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:52:34,451 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:52:34,459 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-27 12:53:00,669 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\main\resources
+2025-05-27 12:53:00,675 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\ChoiceProject\Choice FinX\src\test\resources
+2025-05-28 13:18:43,236 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-02 12:10:15,319 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-09 17:50:56,984 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

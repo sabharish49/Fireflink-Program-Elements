@@ -1,0 +1,495 @@
+2025-05-29 16:31:39,363 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-29 16:35:54,267 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\pom.xml.
+2025-05-29 16:35:54,507 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-05-29 16:35:54,517 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-05-29 16:35:54,592 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-05-29 16:35:54,597 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-05-29 16:35:54,685 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-05-29 16:35:54,692 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-05-29 16:35:56,605 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CustomerBased Scenarios/src/main/java
+2025-05-29 16:35:56,607 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CustomerBased Scenarios/src/main/resources
+2025-05-29 16:35:56,608 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CustomerBased Scenarios/src/test/java
+2025-05-29 16:35:56,609 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CustomerBased Scenarios/src/test/resources
+2025-05-29 16:35:58,297 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\pom.xml.
+2025-05-29 16:35:59,326 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:35:59,330 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-05-29 16:37:50,544 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:37:50,549 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-05-29 16:39:12,477 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\pom.xml.
+2025-05-29 16:39:13,596 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:39:13,602 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-05-29 16:39:14,335 [Worker-23: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\pom.xml.
+2025-05-29 16:39:20,332 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-05-29 16:39:20,360 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:20,368 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-05-29 16:39:20,368 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-05-29 16:39:20,369 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-05-29 16:39:20,369 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-05-29 16:39:20,634 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:39:20,639 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-05-29 16:39:21,178 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:21,178 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:21,220 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\target
+2025-05-29 16:39:21,232 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:21,232 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:21,305 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:39:21,308 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:21,309 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:21,456 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-05-29 16:39:21,464 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2025-05-29 16:39:22,731 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-05-29 16:39:22,732 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-05-29 16:39:22,732 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:22,732 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:22,735 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-05-29 16:39:22,735 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:22,735 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:22,738 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2025-05-29 16:39:22,738 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:22,738 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:22,960 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2025-05-29 16:39:22,968 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:22,968 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:23,226 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\target\tyss-program-elements-1.0.jar
+2025-05-29 16:39:23,279 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:23,279 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.6 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+2025-05-29 16:39:23,363 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2025-05-29 16:39:23,364 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2025-05-29 16:39:23,366 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2025-05-29 16:39:25,927 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\dependency-reduced-pom.xml
+2025-05-29 16:39:26,084 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-05-29 16:39:26,099 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-05-29 16:39:26,604 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-05-29 16:39:26,620 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-05-29 16:39:26,627 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-05-29 16:39:27,640 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-05-29 16:39:27,653 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2025-05-29 16:39:27,653 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2025-05-29 16:39:27,654 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2025-05-29 16:39:27,655 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2025-05-29 16:39:27,655 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2025-05-29 16:39:27,655 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2025-05-29 16:39:27,656 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2025-05-29 16:39:27,657 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2025-05-29 16:39:27,657 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2025-05-29 16:39:27,658 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2025-05-29 16:39:27,659 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-http-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2025-05-29 16:39:27,660 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2025-05-29 16:39:27,660 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2025-05-29 16:39:27,660 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2025-05-29 16:39:27,661 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2025-05-29 16:39:27,661 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2025-05-29 16:39:27,661 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2025-05-29 16:39:27,661 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2025-05-29 16:39:27,661 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2025-05-29 16:39:27,662 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2025-05-29 16:39:27,662 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2025-05-29 16:39:27,663 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2025-05-29 16:39:27,670 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 10584 -> 5331 (50%)
+2025-05-29 16:39:27,670 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2025-05-29 16:39:27,670 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\target\tyss-program-elements-1.0-shaded.jar
+2025-05-29 16:39:27,671 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-05-29 16:39:27,671 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-05-29 16:39:27,699 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2025-05-29 16:39:27,703 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2025-05-29 16:39:27,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-29 16:39:27,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2025-05-29 16:39:27,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-29 16:39:27,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  7.408 s
+2025-05-29 16:39:27,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-05-29T16:39:27+05:30
+2025-05-29 16:39:27,737 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-05-29 16:39:27,738 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-05-29 16:39:28,144 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:39:28,145 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-05-29 16:39:29,237 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\main\resources
+2025-05-29 16:39:29,239 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\CustomerBased Scenarios\src\test\resources
+2025-06-13 18:03:36,444 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-13 18:06:27,608 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\pom.xml.
+2025-06-13 18:06:27,850 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-13 18:06:27,861 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-13 18:06:27,920 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-13 18:06:27,928 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-13 18:06:28,012 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-13 18:06:28,017 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-13 18:06:30,700 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sachin Team/src/main/java
+2025-06-13 18:06:30,703 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sachin Team/src/main/resources
+2025-06-13 18:06:30,706 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sachin Team/src/test/java
+2025-06-13 18:06:30,707 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sachin Team/src/test/resources
+2025-06-13 18:06:31,613 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:06:31,628 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:09:00,637 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:09:00,661 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:09:54,381 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\pom.xml.
+2025-06-13 18:09:55,910 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:09:55,916 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:09:58,112 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:09:58,116 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:10:12,305 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:10:12,309 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:08,528 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:08,539 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:27,150 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\pom.xml.
+2025-06-13 18:11:28,500 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:28,506 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:33,102 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\pom.xml.
+2025-06-13 18:11:36,177 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:36,183 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:36,937 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-06-13 18:11:36,979 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:36,999 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-06-13 18:11:36,999 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-06-13 18:11:36,999 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-06-13 18:11:37,000 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-06-13 18:11:37,800 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:37,805 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:38,127 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:38,128 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:38,185 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\target
+2025-06-13 18:11:38,206 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:38,206 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:38,304 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:38,306 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:38,306 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:38,546 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-06-13 18:11:38,559 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 4 source files with javac [debug target 17] to target\classes
+2025-06-13 18:11:41,161 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-06-13 18:11:41,162 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-06-13 18:11:41,163 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:41,163 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:41,168 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:41,169 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:41,169 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:41,176 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2025-06-13 18:11:41,176 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:41,176 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:41,620 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2025-06-13 18:11:41,640 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:41,640 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:42,044 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\target\tyss-program-elements-1.0.jar
+2025-06-13 18:11:42,124 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:42,124 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:42,277 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.6 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2025-06-13 18:11:42,278 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2025-06-13 18:11:42,279 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-java:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chrome-driver:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-chromium-driver:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v127:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v128:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v129:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-devtools-v85:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-edge-driver:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-firefox-driver:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-ie-driver:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-safari-driver:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,280 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-support:jar:4.25.0 in the shaded jar.
+2025-06-13 18:11:42,286 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2025-06-13 18:11:48,333 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\dependency-reduced-pom.xml
+2025-06-13 18:11:48,624 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:48,654 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:49,496 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:49,517 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:49,531 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:50,929 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:50,934 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:50,934 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:50,937 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:50,942 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:50,999 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,051 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,107 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,140 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,142 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,149 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,152 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,155 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-13 18:11:51,183 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2025-06-13 18:11:51,184 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AdditionalHttpCommands
+2025-06-13 18:11:51,185 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2025-06-13 18:11:51,186 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2025-06-13 18:11:51,186 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar define 1 overlapping resource: 
+2025-06-13 18:11:51,187 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.AugmenterProvider
+2025-06-13 18:11:51,188 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2025-06-13 18:11:51,188 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2025-06-13 18:11:51,188 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2025-06-13 18:11:51,189 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2025-06-13 18:11:51,190 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2025-06-13 18:11:51,191 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2025-06-13 18:11:51,192 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2025-06-13 18:11:51,193 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2025-06-13 18:11:51,194 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-chrome-driver-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-ie-driver-4.25.0.jar, selenium-safari-driver-4.25.0.jar define 2 overlapping resources: 
+2025-06-13 18:11:51,194 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.WebDriverInfo
+2025-06-13 18:11:51,195 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.remote.service.DriverService$Builder
+2025-06-13 18:11:51,196 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2025-06-13 18:11:51,196 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2025-06-13 18:11:51,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2025-06-13 18:11:51,197 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-chrome-driver-4.25.0.jar, selenium-chromium-driver-4.25.0.jar, selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar, selenium-edge-driver-4.25.0.jar, selenium-firefox-driver-4.25.0.jar, selenium-http-4.19.1.jar, selenium-ie-driver-4.25.0.jar, selenium-java-4.25.0.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, selenium-safari-driver-4.25.0.jar, selenium-support-4.25.0.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2025-06-13 18:11:51,198 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2025-06-13 18:11:51,198 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - selenium-devtools-v127-4.25.0.jar, selenium-devtools-v128-4.25.0.jar, selenium-devtools-v129-4.25.0.jar, selenium-devtools-v85-4.25.0.jar define 1 overlapping resource: 
+2025-06-13 18:11:51,198 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/services/org.openqa.selenium.devtools.CdpInfo
+2025-06-13 18:11:51,199 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2025-06-13 18:11:51,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2025-06-13 18:11:51,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2025-06-13 18:11:51,200 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2025-06-13 18:11:51,201 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2025-06-13 18:11:51,202 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2025-06-13 18:11:51,202 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2025-06-13 18:11:51,220 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 13973 -> 6639 (47%)
+2025-06-13 18:11:51,220 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2025-06-13 18:11:51,220 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\target\tyss-program-elements-1.0-shaded.jar
+2025-06-13 18:11:51,223 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-13 18:11:51,223 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-13 18:11:51,275 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2025-06-13 18:11:51,278 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2025-06-13 18:11:51,335 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-13 18:11:51,335 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2025-06-13 18:11:51,335 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-13 18:11:51,335 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  14.403 s
+2025-06-13 18:11:51,336 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-06-13T18:11:51+05:30
+2025-06-13 18:11:51,336 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-13 18:11:51,336 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-06-13 18:11:51,495 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:51,501 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-13 18:11:52,690 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\main\resources
+2025-06-13 18:11:52,694 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Sachin Team\src\test\resources
+2025-06-28 14:56:42,336 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-28 15:10:51,458 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Testing\pom.xml.
+2025-06-28 15:10:51,807 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-28 15:10:51,817 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fireflink/tyss-nlp-data-models/maven-metadata.xml
+2025-06-28 15:10:51,878 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-28 15:10:51,883 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+2025-06-28 15:10:51,969 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-28 15:10:51,974 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/maven-metadata.xml
+2025-06-28 15:10:53,771 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Testing/src/main/java
+2025-06-28 15:10:53,773 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Testing/src/main/resources
+2025-06-28 15:10:53,774 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Testing/src/test/java
+2025-06-28 15:10:53,775 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Testing/src/test/resources
+2025-06-28 15:10:54,304 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 15:10:54,309 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources
+2025-06-28 16:23:00,620 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 16:23:00,630 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources
+2025-06-28 16:23:55,034 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Testing\pom.xml.
+2025-06-28 16:23:57,211 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 16:23:57,220 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources
+2025-06-28 16:24:02,478 [Worker-31: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fireflink:tyss-program-elements:1.0 @ C:\Users\User\eclipse-workspace\fireflinkV3\Testing\pom.xml.
+2025-06-28 16:24:05,464 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Scanning for projects...
+2025-06-28 16:24:05,517 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:05,543 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m----------------< [0;36mcom.fireflink:tyss-program-elements[0;1m >-----------------[m
+2025-06-28 16:24:05,543 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1mBuilding tyss-program-elements 1.0[m
+2025-06-28 16:24:05,543 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger -   from pom.xml
+2025-06-28 16:24:05,543 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--------------------------------[ jar ]---------------------------------[m
+2025-06-28 16:24:05,766 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 16:24:05,778 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources
+2025-06-28 16:24:07,101 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:07,102 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:07,224 [ModalContext] INFO  o.a.maven.plugins.clean.CleanMojo - Deleting C:\Users\User\eclipse-workspace\fireflinkV3\Testing\target
+2025-06-28 16:24:07,255 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:07,256 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:07,439 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 16:24:07,441 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:07,442 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:07,741 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Recompiling the module because of [1mchanged source code[m.
+2025-06-28 16:24:07,768 [ModalContext] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 3 source files with javac [debug target 17] to target\classes
+2025-06-28 16:24:10,378 [ModalContext] WARN  o.a.m.plugin.compiler.CompilerMojo - location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+2025-06-28 16:24:10,379 [ModalContext] INFO  o.a.m.plugin.compiler.CompilerMojo - Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+2025-06-28 16:24:10,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:10,380 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:10,386 [ModalContext] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources
+2025-06-28 16:24:10,386 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:10,386 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:10,393 [ModalContext] INFO  o.a.m.p.compiler.TestCompilerMojo - No sources to compile
+2025-06-28 16:24:10,393 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:10,393 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:10,863 [ModalContext] INFO  o.a.m.p.surefire.SurefirePlugin - No tests to run.
+2025-06-28 16:24:10,876 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:10,877 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:11,275 [ModalContext] INFO  o.c.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\User\eclipse-workspace\fireflinkV3\Testing\target\tyss-program-elements-1.0.jar
+2025-06-28 16:24:11,338 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:11,338 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32mshade:3.5.0:shade[m [1m(default)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:11,488 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.fireflink:tyss-nlp-data-models:jar:0.0.6 in the shaded jar.
+2025-06-28 16:24:11,488 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-context:jar:5.3.24 in the shaded jar.
+2025-06-28 16:24:11,488 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-aop:jar:5.3.24 in the shaded jar.
+2025-06-28 16:24:11,488 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-beans:jar:5.3.24 in the shaded jar.
+2025-06-28 16:24:11,488 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-core:jar:5.3.24 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-jcl:jar:5.3.24 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.springframework:spring-expression:jar:5.3.24 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.appium:java-client:jar:9.2.3 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:2.0.13 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-api:jar:4.19.1 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-remote-driver:jar:4.19.1 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.auto.service:auto-service-annotations:jar:1.1.1 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:33.1.0-jre in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+2025-06-28 16:24:11,489 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.checkerframework:checker-qual:jar:3.42.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-context:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-exporter-logging:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-common:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-api-events:jar:1.36.0-alpha in the shaded jar.
+2025-06-28 16:24:11,490 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-trace:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-extension-incubator:jar:1.36.0-alpha in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-metrics:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including io.opentelemetry:opentelemetry-sdk-logs:jar:1.36.0 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including net.bytebuddy:byte-buddy:jar:1.14.12 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-http:jar:4.19.1 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including dev.failsafe:failsafe:jar:3.3.2 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-json:jar:4.19.1 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-manager:jar:4.19.1 in the shaded jar.
+2025-06-28 16:24:11,491 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.seleniumhq.selenium:selenium-os:jar:4.19.1 in the shaded jar.
+2025-06-28 16:24:11,492 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-exec:jar:1.3 in the shaded jar.
+2025-06-28 16:24:11,496 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimizing jar com.fireflink:tyss-program-elements:jar:1.0
+2025-06-28 16:24:18,063 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: C:\Users\User\eclipse-workspace\fireflinkV3\Testing\dependency-reduced-pom.xml
+2025-06-28 16:24:18,431 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-28 16:24:18,472 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-28 16:24:19,695 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-28 16:24:19,729 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-28 16:24:19,748 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-28 16:24:21,940 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Discovered module-info.class. Shading will break its strong encapsulation.
+2025-06-28 16:24:21,981 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, guava-33.1.0-jre.jar define 1 overlapping resource: 
+2025-06-28 16:24:21,982 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE
+2025-06-28 16:24:21,982 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - auto-service-annotations-1.1.1.jar, byte-buddy-1.14.12.jar, checker-qual-3.42.0.jar, commons-exec-1.3.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, failureaccess-1.0.2.jar, gson-2.11.0.jar, guava-33.1.0-jre.jar, j2objc-annotations-3.0.0.jar, java-client-9.2.3.jar, jsr305-3.0.2.jar, listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, opentelemetry-api-1.36.0.jar, opentelemetry-api-events-1.36.0-alpha.jar, opentelemetry-context-1.36.0.jar, opentelemetry-exporter-logging-1.36.0.jar, opentelemetry-extension-incubator-1.36.0-alpha.jar, opentelemetry-sdk-1.36.0.jar, opentelemetry-sdk-common-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-1.36.0.jar, opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar, opentelemetry-sdk-logs-1.36.0.jar, opentelemetry-sdk-metrics-1.36.0.jar, opentelemetry-sdk-trace-1.36.0.jar, opentelemetry-semconv-1.23.1-alpha.jar, selenium-api-4.19.1.jar, selenium-http-4.19.1.jar, selenium-json-4.19.1.jar, selenium-manager-4.19.1.jar, selenium-os-4.19.1.jar, selenium-remote-driver-4.19.1.jar, slf4j-api-2.0.13.jar, spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar, tyss-nlp-data-models-0.0.6.jar, tyss-program-elements-1.0.jar define 1 overlapping resource: 
+2025-06-28 16:24:21,983 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/MANIFEST.MF
+2025-06-28 16:24:21,984 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - checker-qual-3.42.0.jar, commons-exec-1.3.jar, slf4j-api-2.0.13.jar define 1 overlapping resource: 
+2025-06-28 16:24:21,984 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/LICENSE.txt
+2025-06-28 16:24:21,985 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar define 3 overlapping resources: 
+2025-06-28 16:24:21,986 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.handlers
+2025-06-28 16:24:21,986 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.schemas
+2025-06-28 16:24:21,987 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/spring.tooling
+2025-06-28 16:24:21,988 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - byte-buddy-1.14.12.jar, error_prone_annotations-2.27.0.jar, failsafe-3.3.2.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, slf4j-api-2.0.13.jar define 1 overlapping classes: 
+2025-06-28 16:24:21,988 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF.versions.9.module-info
+2025-06-28 16:24:21,989 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - spring-aop-5.3.24.jar, spring-beans-5.3.24.jar, spring-context-5.3.24.jar, spring-core-5.3.24.jar, spring-expression-5.3.24.jar, spring-jcl-5.3.24.jar define 2 overlapping resources: 
+2025-06-28 16:24:21,989 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/license.txt
+2025-06-28 16:24:21,990 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader -   - META-INF/notice.txt
+2025-06-28 16:24:21,990 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - maven-shade-plugin has detected that some files are
+2025-06-28 16:24:21,991 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - present in two or more JARs. When this happens, only one
+2025-06-28 16:24:21,991 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - single version of the file is copied to the uber jar.
+2025-06-28 16:24:21,992 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - Usually this is not harmful and you can skip these warnings,
+2025-06-28 16:24:21,993 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - otherwise try to manually exclude artifacts based on
+2025-06-28 16:24:21,993 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - mvn dependency:tree -Ddetail=true and the above output.
+2025-06-28 16:24:21,993 [ModalContext] WARN  o.a.m.plugins.shade.DefaultShader - See https://maven.apache.org/plugins/maven-shade-plugin/
+2025-06-28 16:24:22,012 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Minimized 10584 -> 5331 (50%)
+2025-06-28 16:24:22,013 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+2025-06-28 16:24:22,013 [ModalContext] INFO  o.a.m.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\User\eclipse-workspace\fireflinkV3\Testing\target\tyss-program-elements-1.0.jar with C:\Users\User\eclipse-workspace\fireflinkV3\Testing\target\tyss-program-elements-1.0-shaded.jar
+2025-06-28 16:24:22,014 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - 
+2025-06-28 16:24:22,015 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36mtyss-program-elements[0;1m ---[m
+2025-06-28 16:24:22,107 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\fireflinkV3\Testing\dependency-reduced-pom.xml to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.pom
+2025-06-28 16:24:22,116 [ModalContext] INFO  o.codehaus.plexus.PlexusContainer - Installing C:\Users\User\eclipse-workspace\fireflinkV3\Testing\target\tyss-program-elements-1.0.jar to C:\Users\User\.m2\repository\com\fireflink\tyss-program-elements\1.0\tyss-program-elements-1.0.jar
+2025-06-28 16:24:22,183 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-28 16:24:22,183 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1;32mBUILD SUCCESS[m
+2025-06-28 16:24:22,183 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-28 16:24:22,183 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Total time:  16.724 s
+2025-06-28 16:24:22,184 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - Finished at: 2025-06-28T16:24:22+05:30
+2025-06-28 16:24:22,184 [ModalContext] INFO  o.a.m.c.event.ExecutionEventLogger - [1m------------------------------------------------------------------------[m
+2025-06-28 16:24:22,185 [ModalContext] WARN  o.a.m.e.internal.EventSpyDispatcher - Failed to close spy org.eclipse.m2e.internal.maven.listener.M2EMavenBuildDataBridge: Cannot invoke "java.nio.channels.SocketChannel.close()" because "this.writeChannel" is null
+2025-06-28 16:24:22,368 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 16:24:22,377 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources
+2025-06-28 16:24:23,630 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\main\resources
+2025-06-28 16:24:23,634 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\eclipse-workspace\fireflinkV3\Testing\src\test\resources

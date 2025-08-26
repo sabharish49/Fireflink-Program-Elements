@@ -1,0 +1,13 @@
+package default_package;
+
+public class kljhgfdr {
+
+	public static void main(String[] args) {
+		double value = 123.1223456789087654;
+		double roundedValue = Math.round(value * 100.0) / 100.0;
+		System.out.println(roundedValue); // Output: 123.46
+
+
+	}
+
+}

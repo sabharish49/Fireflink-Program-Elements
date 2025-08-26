@@ -1,0 +1,131 @@
+
+package com.tyss.optimize.programelement.LIC3320PJT1002.logics;
+
+import com.tyss.optimize.common.util.CommonConstants;
+import com.tyss.optimize.nlp.util.Nlp;
+import com.tyss.optimize.nlp.util.NlpException;
+import com.tyss.optimize.nlp.util.NlpRequestModel;
+import com.tyss.optimize.nlp.util.NlpResponseModel;
+import com.tyss.optimize.nlp.util.annotation.InputParam;
+import com.tyss.optimize.nlp.util.annotation.InputParams;
+import com.tyss.optimize.nlp.util.annotation.ReturnType;
+import java.util.Map;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.springframework.stereotype.Component;
+
+@Component("LIC3320_PJT1002_PE_NLP985bca2e-ea4d-459f-9144-5069f47d5d34")
+public class VerifyBarGraphandUI implements Nlp {
+	@InputParams({ @InputParam(name = "stringInput", type = "java.lang.String") })
+	@ReturnType(name = "Output", type = "java.lang.Boolean")
+
+	@Override
+	public List<String> getTestParameters() throws NlpException {
+		List<String> params = new ArrayList<>();
+		return params;
+	}
+
+	@Override
+	public StringBuilder getTestCode() throws NlpException {
+		StringBuilder sb = new StringBuilder();
+		return sb;
+	}
+
+	@Override
+	public NlpResponseModel execute(NlpRequestModel nlpRequestModel) throws NlpException {
+
+		NlpResponseModel nlpResponseModel = new NlpResponseModel();
+		Map<String, Object> attributes = nlpRequestModel.getAttributes();
+		String stringInput = (String) attributes.get("stringInput");
+
+		String first = "";
+		String second = "";
+		Boolean ans = false;
+		try {
+
+			WebDriver driver = nlpRequestModel.getWebDriver();
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+			String[] values = stringInput.split("vs");
+			first = values[0].replaceAll("Claims", "");
+			first = first.trim().toLowerCase();
+
+			second = values[1].replaceAll("Claims", "");
+			second = second.trim().toLowerCase();
+
+			List<WebElement> chart1 = driver.findElements(By.tagName("canvas"));
+
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].scrollIntoView()", chart1.get(0));
+
+			chart1.get(0).click();
+			Point point = chart1.get(0).getLocation();
+			int x = point.getX();
+			int y = point.getY();
+
+			System.out.println(x);
+			System.out.println(y);
+			Actions act = new Actions(driver);
+
+			int count1 = 0;
+			while (true) {
+				try {
+					x = x + 10;
+					act.moveToElement(chart1.get(0), x, y).doubleClick().build().perform();
+
+					String firstnum = driver.findElement(By.xpath("//div[@class='barchartTooltipData']//label[text()='"
+							+ first + "']/..//following-sibling::strong")).getText();
+					String secondnum = driver.findElement(By.xpath("//div[@class='barchartTooltipData']//label[text()='"
+							+ second + "']/..//following-sibling::strong")).getText();
+
+					String FirstUI = driver
+							.findElement(
+									By.xpath("//h4[text()='" + values[0].trim() + "']/..//div[@class=\"claimValue\"]"))
+							.getText();
+
+					String SecondUI = driver
+							.findElement(
+									By.xpath("//h4[text()='" + values[1].trim() + "']/..//div[@class=\"claimValue\"]"))
+							.getText();
+
+					if (firstnum.contains(FirstUI) && secondnum.contains(SecondUI)) {
+						ans = true;
+						nlpResponseModel.setMessage("Successfully validated Graph results and UI results");
+						nlpResponseModel.setStatus(CommonConstants.pass);
+						break;
+					}
+					if (firstnum.isEmpty() && secondnum.isEmpty()) {
+						count1++;
+						System.out.println("No values to validate");
+						if (count1 > 4) {
+							break;
+						}
+					}
+
+				} catch (Exception e) {
+					nlpResponseModel.setMessage("Couldn't validate and extract the Graph values " + e);
+					nlpResponseModel.setStatus(CommonConstants.fail);
+					break;
+				}
+
+			}
+
+		} catch (Exception e) {
+			nlpResponseModel.setMessage("The Graph result and UI results are not getting matched" + e.getMessage());
+			nlpResponseModel.setStatus(CommonConstants.fail);
+
+		}
+
+		nlpResponseModel.getAttributes().put("Output", ans);
+		return nlpResponseModel;
+	}
+}
